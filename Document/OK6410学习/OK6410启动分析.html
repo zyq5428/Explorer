@@ -1,0 +1,482 @@
+<!DOCTYPE html><html><head>
+      <title>OK6410&#x542F;&#x52A8;&#x5206;&#x6790;</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:///c:\Users\yqzh02\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.5.0\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+
+      <style>
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview  ">
+      <h1 class="mume-header" id="%E5%AD%98%E5%82%A8%E5%99%A8%E7%B3%BB%E7%BB%9F%E6%A1%86%E5%9B%BE">&#x5B58;&#x50A8;&#x5668;&#x7CFB;&#x7EDF;&#x6846;&#x56FE;</h1>
+
+<p><img src="./assets/OK6410%E5%9C%B0%E5%9D%80%E6%98%A0%E5%B0%84.png" alt="OK6410&#x5730;&#x5740;&#x6620;&#x5C04;"></p>
+<p><img src="./assets/OK6410%E8%AE%BE%E5%A4%87%E6%93%8D%E4%BD%9C%E6%A8%A1%E5%BC%8F%E5%90%AF%E5%8A%A8%E9%85%8D%E7%BD%AE.png" alt="OK6410&#x8BBE;&#x5907;&#x64CD;&#x4F5C;&#x6A21;&#x5F0F;&#x542F;&#x52A8;&#x914D;&#x7F6E;"></p>
+<h2 class="mume-header" id="ok6410%E5%90%AF%E5%8A%A8%E6%A8%A1%E5%BC%8F%E9%80%89%E6%8B%A9%E8%A1%A8">OK6410&#x542F;&#x52A8;&#x6A21;&#x5F0F;&#x9009;&#x62E9;&#x8868;</h2>
+
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x5F00;&#x5173;&#x6807;&#x8BC6;</th>
+<th style="text-align:center">1</th>
+<th style="text-align:center">2</th>
+<th style="text-align:center">3</th>
+<th style="text-align:center">4</th>
+<th style="text-align:center">5</th>
+<th style="text-align:center">6</th>
+<th style="text-align:center">7</th>
+<th style="text-align:center">8</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">&#x4FE1;&#x53F7;</td>
+<td style="text-align:center">XSELNAND</td>
+<td style="text-align:center">OM4</td>
+<td style="text-align:center">OM3</td>
+<td style="text-align:center">OM2</td>
+<td style="text-align:center">OM1</td>
+<td style="text-align:center">GPN15</td>
+<td style="text-align:center">GPN14</td>
+<td style="text-align:center">GPN13</td>
+</tr>
+<tr>
+<td style="text-align:center">NAND&#x542F;&#x52A8;</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">SD&#x542F;&#x52A8;</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+</tr>
+</tbody>
+</table>
+<h2 class="mume-header" id="%E6%A6%82%E8%BF%B0">&#x6982;&#x8FF0;</h2>
+
+<blockquote>
+<ul>
+<li>6410&#x652F;&#x6301;32&#x4F4D;&#x7269;&#x7406;&#x5730;&#x5740;&#x5B57;&#x6BB5;&#xFF0C;&#x8BE5;&#x5730;&#x5740;&#x5B57;&#x6BB5;&#x53EF;&#x4EE5;&#x5206;&#x4E3A;&#x4E24;&#x90E8;&#x5206;&#xFF0C;&#x4E00;&#x90E8;&#x5206;&#x7528;&#x4E8E;&#x5185;&#x5B58;&#xFF0C;&#x53E6;&#x4E00;&#x90E8;&#x5206;&#x7528;&#x4E8E;&#x5916;&#x56F4;&#x8BBE;&#x5907;&#x3002;</li>
+<li>&#x4E3B;&#x5B58;&#x50A8;&#x5668;&#x901A;&#x8FC7;SPINE&#x603B;&#x7EBF;&#x8BBF;&#x95EE;&#xFF0C;&#x5176;&#x5730;&#x5740;&#x8303;&#x56F4;&#x4E3A;0x0000_0000&#x81F3;0x6FFF_FFFF(1.5G)&#x3002; &#x8BE5;&#x4E3B;&#x5B58;&#x50A8;&#x90E8;&#x5206;&#x5206;&#x4E3A;&#x56DB;&#x4E2A;&#x533A;&#x57DF;&#xFF0C;&#x5373;&#x542F;&#x52A8;&#x6620;&#x50CF;&#x533A;&#x57DF;&#xFF0C;&#x5185;&#x90E8;&#x5B58;&#x50A8;&#x533A;&#x57DF;&#xFF0C;&#x9759;&#x6001;&#x5B58;&#x50A8;&#x533A;&#x57DF;&#x548C;&#x52A8;&#x6001;&#x5B58;&#x50A8;&#x533A;&#x57DF;&#x3002;</li>
+<li>&#x5F15;&#x5BFC;&#x6620;&#x50CF;&#x533A;&#x7684;&#x5730;&#x5740;&#x8303;&#x56F4;&#x662F;0x0000_0000&#x5230;0x07FF_FFFF(128M)&#xFF0C;&#x4F46;&#x662F;&#x6CA1;&#x6709;&#x5B9E;&#x9645;&#x7684;&#x6620;&#x5C04;&#x5185;&#x5B58;&#x3002;&#x5F15;&#x5BFC;&#x6620;&#x50CF;&#x533A;&#x5177;&#x6709;&#x955C;&#x50CF;&#x6620;&#x50CF;&#xFF0C;&#x8BE5;&#x6620;&#x50CF;&#x6307;&#x5411;&#x5185;&#x90E8;&#x5B58;&#x50A8;&#x533A;&#x6216;&#x9759;&#x6001;&#x5B58;&#x50A8;&#x533A;&#x7684;&#x90E8;&#x5206;&#x533A;&#x57DF;&#x3002;&#x5F15;&#x5BFC;&#x6620;&#x50CF;&#x7684;&#x8D77;&#x59CB;&#x5730;&#x5740;&#x56FA;&#x5B9A;&#x4E3A;0x0000_0000&#x3002;</li>
+<li>&#x5185;&#x90E8;&#x5B58;&#x50A8;&#x533A;&#x7528;&#x4E8E;&#x8BBF;&#x95EE;&#x5185;&#x90E8;ROM&#x548C;&#x5185;&#x90E8;SRAM&#xFF0C;&#x4EE5;&#x7528;&#x4E8E;&#x5F15;&#x5BFC;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#xFF0C;&#x4E5F;&#x79F0;&#x4E3A;<strong>Stepping Stone</strong>&#x3002;&#x6BCF;&#x4E2A;&#x5185;&#x90E8;&#x5B58;&#x50A8;&#x5668;&#x7684;&#x8D77;&#x59CB;&#x5730;&#x5740;&#x662F;&#x56FA;&#x5B9A;&#x7684;&#x3002;&#x5185;&#x90E8;ROM&#x7684;&#x5730;&#x5740;&#x8303;&#x56F4;&#x4ECE;0x0800_0000&#x5230;0x0BFF_FFFF&#xFF0C;&#x4F46;&#x5B9E;&#x9645;&#x5B58;&#x50A8;&#x7A7A;&#x95F4;&#x4EC5;&#x4E3A;<strong>32KB</strong>&#x3002;&#x8BE5;&#x533A;&#x57DF;&#x662F;<strong>&#x53EA;&#x8BFB;</strong>&#x7684;&#xFF0C;&#x5E76;&#x4E14;&#x5728;&#x9009;&#x62E9;&#x5185;&#x90E8;ROM&#x5F15;&#x5BFC;&#x65F6;&#x53EF;&#x4EE5;&#x6620;&#x5C04;&#x5230;&#x5F15;&#x5BFC;&#x6620;&#x50CF;&#x533A;&#x57DF;&#x3002;&#x5185;&#x90E8;SRAM&#x7684;&#x5730;&#x5740;&#x8303;&#x56F4;&#x4ECE;0x0C00_0000&#x5230;0x0FFF_FFFF&#xFF0C;&#x4F46;<strong>&#x5B9E;&#x9645;&#x5B58;&#x50A8;&#x7A7A;&#x95F4;&#x4EC5;&#x4E3A;<del>4KB</del><ins>8KB</ins></strong>&#x3002;</li>
+<li>&#x9759;&#x6001;&#x5B58;&#x50A8;&#x533A;&#x7684;&#x5730;&#x5740;&#x8303;&#x56F4;&#x4E3A;0x1000_0000&#x81F3;0x3FFF_FFFF(6*128M)&#x3002; &#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x8BE5;&#x5730;&#x5740;&#x533A;&#x8BBF;&#x95EE;SROM&#xFF0C;SRAM&#xFF0C;NOR&#x95EA;&#x5B58;&#xFF0C;&#x5F02;&#x6B65;NOR&#x63A5;&#x53E3;&#x8BBE;&#x5907;&#xFF0C;OneNAND&#x95EA;&#x5B58;&#x548C;Steppingstone&#x3002;&#x6BCF;&#x4E2A;&#x533A;&#x57DF;&#x4EE3;&#x8868;&#x7247;&#x9009;&#xFF0C;&#x4F8B;&#x5982;&#xFF0C;&#x4ECE;0x1000_0000&#x5230;0x17FF_FFFF&#x7684;&#x5730;&#x5740;&#x8303;&#x56F4;&#x4EE3;&#x8868;Xm0CSn[0]&#x3002;&#x6BCF;&#x4E2A;&#x82AF;&#x7247;&#x9009;&#x62E9;&#x7684;&#x8D77;&#x59CB;&#x5730;&#x5740;&#x662F;&#x56FA;&#x5B9A;&#x7684;&#x3002;&#x4E0D;&#x80FD;&#x901A;&#x8FC7;&#x9759;&#x6001;&#x5B58;&#x50A8;&#x533A;&#x8BBF;&#x95EE;NAND Flash&#x548C;CF/ATA&#xFF0C;&#x56E0;&#x6B64;&#xFF0C;&#x5982;&#x679C;Xm0CSn[5:2]&#x4E2D;&#x7684;&#x4EFB;&#x4F55;&#x4E00;&#x4E2A;&#x6620;&#x5C04;&#x5230;NFCON&#x6216;CFCON&#xFF0C;&#x5219;&#x4E0D;&#x5E94;&#x8BBF;&#x95EE;&#x76F8;&#x5173;&#x7684;&#x5730;&#x5740;&#x533A;&#x57DF;&#x3002; &#x4E00;&#x4E2A;&#x4F8B;&#x5916;&#x662F;&#xFF0C;&#x5982;&#x679C;Xm0CSn[2]&#x7528;&#x4E8E;NAND&#x95EA;&#x5B58;&#xFF0C;&#x5219;&#x57AB;&#x811A;&#x77F3;&#x955C;&#x50CF;&#x5230;&#x4ECE;0x2000_0000&#x5230;27FF_FFFF&#x7684;&#x5730;&#x5740;&#x533A;&#x57DF;&#x3002;</li>
+<li>&#x52A8;&#x6001;&#x5B58;&#x50A8;&#x533A;&#x7684;&#x5730;&#x5740;&#x8303;&#x56F4;&#x4E3A;0x4000_0000&#x81F3;0x6FFF_FFFF(3*256M)&#x3002;DMC1&#x6709;&#x6743;&#x4F7F;&#x7528;&#x4ECE;0x5000_0000&#x5230;0x6FFF_FFFF&#x7684;&#x5730;&#x5740;&#x8303;&#x56F4;&#x3002; &#x6BCF;&#x4E2A;&#x82AF;&#x7247;&#x9009;&#x62E9;&#x7684;&#x8D77;&#x59CB;&#x5730;&#x5740;&#x90FD;&#x662F;&#x53EF;&#x914D;&#x7F6E;&#x7684;&#x3002;</li>
+<li>&#x901A;&#x8FC7;PERI&#x603B;&#x7EBF;&#x8BBF;&#x95EE;&#x5916;&#x56F4;&#x8BBE;&#x5907;&#xFF0C;&#x5176;&#x5730;&#x5740;&#x8303;&#x56F4;&#x4ECE;0x7000_0000&#x5230;0x7FFF_FFFF&#x3002; &#x53EF;&#x4EE5;&#x5728;&#x8BE5;&#x5730;&#x5740;&#x8303;&#x56F4;&#x5185;&#x8BBF;&#x95EE;&#x6240;&#x6709;SFR&#x3002; &#x53E6;&#x5916;&#xFF0C;&#x5982;&#x679C;&#x9700;&#x8981;&#x6570;&#x636E;&#x4ECE;NFCON&#x6216;CFCON&#x4F20;&#x8F93;&#xFF0C;&#x5219;&#x8FD9;&#x4E9B;&#x6570;&#x636E;&#x5E94;&#x901A;&#x8FC7;PERI&#x603B;&#x7EBF;&#x4F20;&#x8F93;&#x3002;</li>
+</ul>
+</blockquote>
+<h2 class="mume-header" id="%E8%AE%BE%E5%A4%87%E7%89%B9%E5%AE%9A%E5%9C%B0%E5%9D%80%E7%A9%BA%E9%97%B4">&#x8BBE;&#x5907;&#x7279;&#x5B9A;&#x5730;&#x5740;&#x7A7A;&#x95F4;</h2>
+
+<p><img src="./assets/OK6410%E8%AE%BE%E5%A4%87%E7%89%B9%E5%AE%9A%E5%9C%B0%E5%9D%80%E7%A9%BA%E9%97%B4.png" alt="OK6410&#x8BBE;&#x5907;&#x7279;&#x5B9A;&#x5730;&#x5740;&#x7A7A;&#x95F4;"></p>
+<blockquote>
+<p><strong>&#x9996;&#x5148;&#x9009;&#x62E9;&#x542F;&#x52A8;&#x8BBE;&#x5907;&#xFF08;SD&#xFF0C;NAND&#x5728;OK6410&#x4E2D;&#x90FD;&#x5C5E;&#x4E8E;IROM&#xFF09;&#xFF0C;&#x5F53;&#x9009;&#x62E9;IROM&#x8BBE;&#x5907;&#x542F;&#x52A8;&#x65F6;&#xFF0C;IROM&#x4F1A;&#x955C;&#x50CF;&#x5230;0x0000_0000&#x5730;&#x5740;&#x533A;&#x57DF;&#xFF0C;&#x5F00;&#x59CB;&#x6267;&#x884C;IROM&#x91CC;&#x9762;&#x7684;&#x4EE3;&#x7801;&#xFF08;BL0&#xFF09;&#xFF0C;IROM&#x5927;&#x5C0F;&#x4E3A;32KB&#xFF0C;&#x4EE3;&#x7801;&#x64CD;&#x4F5C;&#x662F;&#x76F8;&#x5BF9;&#x5730;&#x5740;&#x3002;BL0&#x4F1A;&#x6839;&#x636E;&#x5B9E;&#x9645;&#x542F;&#x52A8;&#x8BBE;&#x5907;&#xFF08;SD&#x6216;&#x8005;NAND&#xFF09;&#x9009;&#x62E9;&#x5BF9;&#x5E94;&#x7A0B;&#x5E8F;&#x62F7;&#x8D1D;BL1&#x4EE3;&#x7801;&#x5230;Stepping Stone&#xFF0C;BL1&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x76F8;&#x5173;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x4F46;&#x6700;&#x91CD;&#x8981;&#x7684;&#x662F;&#x521D;&#x59CB;&#x5316;SDRAM&#x63A7;&#x5236;&#x5668;&#x5E76;&#x628A;&#x6700;&#x7EC8;&#x7684;U-Boot&#x590D;&#x5236;&#x5230;SDRAM&#x3002;</strong></p>
+</blockquote>
+<h1 class="mume-header" id="s3c6410-irom-booting">S3C6410 IROM Booting</h1>
+
+<h2 class="mume-header" id="%E6%93%8D%E4%BD%9C%E9%A1%BA%E5%BA%8F">&#x64CD;&#x4F5C;&#x987A;&#x5E8F;</h2>
+
+<p><img src="./assets/OK6410%E6%95%B4%E4%BD%93%E5%90%AF%E5%8A%A8%E5%9B%BE.png" alt="OK6410&#x6574;&#x4F53;&#x542F;&#x52A8;&#x56FE;"></p>
+<blockquote>
+<p>&#x2460;iROM&#x652F;&#x6301;&#x521D;&#x59CB;&#x542F;&#x52A8;&#xFF1A;&#x521D;&#x59CB;&#x5316;&#x7CFB;&#x7EDF;&#x65F6;&#x949F;&#xFF0C;D-TCM&#xFF0C;&#x8BBE;&#x5907;&#x4E13;&#x7528;&#x63A7;&#x5236;&#x5668;&#x548C;&#x542F;&#x52A8;&#x8BBE;&#x5907;&#x3002;<br>
+&#x2461;iROM&#x5F15;&#x5BFC;&#x4EE3;&#x7801;&#x53EF;&#x4EE5;&#x5C06;4KB&#x7684;&#x5F15;&#x5BFC;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#x52A0;&#x8F7D;&#x5230;&#x57AB;&#x811A;&#x77F3;&#x4E0A;&#x3002;  8KB&#x7684;&#x5F15;&#x200B;&#x200B;&#x5BFC;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#x79F0;&#x4E3A;BL1&#x3002;<br>
+&#x2462;BL1&#xFF1A;BL1&#x53EF;&#x4EE5;&#x4E3A;&#x7528;&#x6237;&#x521D;&#x59CB;&#x5316;&#x7CFB;&#x7EDF;&#x65F6;&#x949F;&#xFF0C;UART&#x548C;SDRAM&#x3002; &#x521D;&#x59CB;&#x5316;&#x540E;&#xFF0C;BL1&#x5C06;&#x5728;SDRAM&#x4E0A;&#x52A0;&#x8F7D;&#x5269;&#x4F59;&#x7684;&#x5F15;&#x5BFC;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#xFF0C;&#x79F0;&#x4E3A;BL2&#x3002;<br>
+&#x2463;&#x6700;&#x540E;&#xFF0C;&#x8DF3;&#x8F6C;&#x5230;BL2&#x7684;&#x8D77;&#x59CB;&#x5730;&#x5740;&#x3002; &#x90A3;&#x5C06;&#x4E3A;&#x4F7F;&#x7528;&#x7CFB;&#x7EDF;&#x521B;&#x9020;&#x826F;&#x597D;&#x7684;&#x73AF;&#x5883;&#x3002;</p>
+</blockquote>
+<h2 class="mume-header" id="irombl0%E7%9A%84%E5%90%AF%E5%8A%A8%E9%A1%BA%E5%BA%8F">iROM(BL0)&#x7684;&#x542F;&#x52A8;&#x987A;&#x5E8F;</h2>
+
+<blockquote>
+<p>&#x8BF7;&#x6267;&#x884C;&#x4EE5;&#x4E0B;&#x6B65;&#x9AA4;&#x8FDB;&#x884C;iROM&#xFF08;BL0&#xFF09;&#x7684;&#x542F;&#x52A8;&#xFF1A;<br>
+1.&#x7981;&#x7528;&#x770B;&#x95E8;&#x72D7;&#x5B9A;&#x65F6;&#x5668;<br>
+2.&#x521D;&#x59CB;&#x5316;TCM&#x3002;  &#xFF08;&#x8BF7;&#x53C2;&#x9605;&#x7B2C;2.4&#x7AE0;&#x7684;&#x201C;&#x5185;&#x5B58;&#x6620;&#x5C04;&#x201D;&#x90E8;&#x5206;&#x3002;&#xFF09;<br>
+3.&#x521D;&#x59CB;&#x5316;&#x5757;&#x8BBE;&#x5907;&#x590D;&#x5236;&#x529F;&#x80FD;&#x3002;  &#xFF08;&#x8BF7;&#x53C2;&#x8003;&#x7B2C;2.6&#x7AE0;&#x7684;&#x201C;&#x8BBE;&#x5907;&#x590D;&#x5236;&#x529F;&#x80FD;&#x201D;&#x90E8;&#x5206;&#xFF09;<br>
+4.&#x521D;&#x59CB;&#x5316;&#x5806;&#x6808;&#x533A;&#x57DF;&#xFF08;&#x8BF7;&#x53C2;&#x8003;&#x7B2C;2.4&#x7AE0;&#x7684;&#x201C;&#x5B58;&#x50A8;&#x5668;&#x6620;&#x5C04;&#x201D;&#x90E8;&#x5206;&#xFF09;<br>
+5.&#x521D;&#x59CB;&#x5316;PLL&#x3002;  &#xFF08;&#x8BF7;&#x53C2;&#x9605;&#x7B2C;2.7&#x7AE0;&#x7684;&#x201C;&#x65F6;&#x949F;&#x914D;&#x7F6E;&#x201D;&#x90E8;&#x5206;&#x3002;&#xFF09;<br>
+6.&#x521D;&#x59CB;&#x5316;&#x6307;&#x4EE4;&#x7F13;&#x5B58;&#x3002;<br>
+7.&#x521D;&#x59CB;&#x5316;&#x5806;&#x533A;&#x57DF;&#x3002;  &#xFF08;&#x8BF7;&#x53C2;&#x9605;&#x7B2C;2.4&#x7AE0;&#x7684;&#x201C;&#x5185;&#x5B58;&#x6620;&#x5C04;&#x201D;&#x90E8;&#x5206;&#x3002;&#xFF09;<br>
+8.&#x5C06;BL1&#x590D;&#x5236;&#x5230;&#x57AB;&#x811A;&#x77F3;&#x533A;&#x57DF;&#xFF08;&#x8BF7;&#x53C2;&#x9605;&#x7B2C;2.6&#x7AE0;&#x7684;&#x201C;&#x8BBE;&#x5907;&#x590D;&#x5236;&#x529F;&#x80FD;&#x201D;&#x90E8;&#x5206;&#xFF09;<br>
+9.&#x9A8C;&#x8BC1;BL1&#x7684;&#x5B8C;&#x6574;&#x6027;<br>
+10.&#x8DF3;&#x8F6C;&#x5230;&#x53F0;&#x9636;<br>
+<strong>&#x6CE8;&#x610F;</strong>&#xFF1A;ECC&#x9519;&#x8BEF;&#x548C;&#x5F15;&#x5BFC;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#x9A8C;&#x8BC1;&#x5931;&#x8D25;&#x8BF7;&#x53C2;&#x8003;&#x7B2C;4&#x7AE0;</p>
+</blockquote>
+<h2 class="mume-header" id="irombl0%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B%E6%A1%86%E5%9B%BE">iROM(BL0)&#x542F;&#x52A8;&#x6D41;&#x7A0B;&#x6846;&#x56FE;</h2>
+
+<p><img src="./assets/OK6410iROM(BL0)%E5%90%AF%E5%8A%A8%E6%B5%81%E7%A8%8B%E6%A1%86%E5%9B%BE.png" alt="OK6410iROM(BL0)&#x542F;&#x52A8;&#x6D41;&#x7A0B;&#x6846;&#x56FE;"></p>
+<h2 class="mume-header" id="irombl0%E5%90%AF%E5%8A%A8%E5%86%85%E5%AD%98%E5%88%86%E5%B8%83">iROM(BL0)&#x542F;&#x52A8;&#x5185;&#x5B58;&#x5206;&#x5E03;</h2>
+
+<p><img src="./assets/OK6410%E5%90%AF%E5%8A%A8%E5%86%85%E5%AD%98%E5%88%86%E5%B8%83.png" alt="OK6410&#x542F;&#x52A8;&#x5185;&#x5B58;&#x5206;&#x5E03;"></p>
+<blockquote>
+<p><strong>&#x6CE8;&#x610F;</strong>&#xFF1A;&#x542F;&#x52A8;&#x540E;&#xFF0C;D-TCM&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x53E6;&#x4E00;&#x79CD;&#x7528;&#x6CD5;&#x3002;</p>
+</blockquote>
+<h2 class="mume-header" id="%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F">&#x5168;&#x5C40;&#x53D8;&#x91CF;</h2>
+
+<blockquote>
+<p>&#x5982;&#x679C;&#x4F7F;&#x7528;MMC&#x8BBE;&#x5907;&#x8FDB;&#x884C;&#x542F;&#x52A8;&#xFF0C;&#x5219;MMC&#x5361;&#x7684;&#x4FE1;&#x606F;&#x5FC5;&#x987B;&#x4FDD;&#x5B58;&#x5728;&#x7279;&#x6B8A;&#x533A;&#x57DF;&#x4E2D;&#x3002;</p>
+</blockquote>
+<p><img src="./assets/OK6410MMC%E5%90%AF%E5%8A%A8%E6%A8%A1%E5%BC%8F%E7%89%B9%E6%AE%8A%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F.png" alt="OK6410MMC&#x542F;&#x52A8;&#x6A21;&#x5F0F;&#x7279;&#x6B8A;&#x5168;&#x5C40;&#x53D8;&#x91CF;"><br>
+<img src="./assets/OK6410MMC%E5%90%AF%E5%8A%A8%E6%A8%A1%E5%BC%8F%E5%8F%82%E8%80%83%E4%BB%A3%E7%A0%81.png" alt="OK6410MMC&#x542F;&#x52A8;&#x6A21;&#x5F0F;&#x53C2;&#x8003;&#x4EE3;&#x7801;"></p>
+<pre data-role="codeBlock" data-info="c {.line-numbers highlight=5}" class="language-c line-numbers" data-line="5"><span class="token comment">// MMC Card Block Size.</span>
+<span class="token macro property">#<span class="token directive keyword">define</span> globalBlockSizeHide *((volatile unsigned int*)(0x0C004000-0x4))</span>
+
+<span class="token comment">// O/S kernel loading</span>
+<span class="token function">CopyMMCtoMem</span><span class="token punctuation">(</span> <span class="token number">1</span><span class="token punctuation">,</span> globalBlockSizeHide <span class="token operator">-</span> <span class="token punctuation">(</span><span class="token number">0x5000</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">0x5000</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token keyword">unsigned</span> <span class="token keyword">int</span><span class="token operator">*</span><span class="token punctuation">)</span><span class="token number">0x50200000</span><span class="token punctuation">,</span> false<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span><div class="line-highlight-wrapper">
+
+
+
+<div aria-hidden="true" class="line-highlight" data-range="5" data-start="5">
+</div></div></pre><h2 class="mume-header" id="%E8%AE%BE%E5%A4%87%E5%A4%8D%E5%88%B6%E5%8A%9F%E8%83%BD">&#x8BBE;&#x5907;&#x590D;&#x5236;&#x529F;&#x80FD;</h2>
+
+<blockquote>
+<p>S3C6410&#x5185;&#x90E8;&#x5305;&#x542B;&#x7528;&#x4E8E;boot-u&#x8BBE;&#x5907;&#x7684;&#x5757;&#x590D;&#x5236;&#x529F;&#x80FD;&#x7684;ROM&#x4EE3;&#x7801;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x4E0D;&#x9700;&#x8981;&#x5B9E;&#x65BD;&#x8BBE;&#x5907;&#x590D;&#x5236;&#x529F;&#x80FD;&#x3002;&#x8FD9;&#x4E9B;&#x5185;&#x90E8;&#x529F;&#x80FD;&#x53EF;&#x4EE5;&#x5C06;&#x4EFB;&#x4F55;&#x6570;&#x636E;&#x4ECE;&#x5B58;&#x50A8;&#x8BBE;&#x5907;&#x590D;&#x5236;&#x5230;SDRAM&#x3002;&#x5185;&#x90E8;ROM&#x5F15;&#x5BFC;&#x8FC7;&#x7A0B;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x8FD9;&#x4E9B;&#x529F;&#x80FD;&#x3002;</p>
+</blockquote>
+<p><img src="./assets/OK6410iROM%E8%AE%BE%E5%A4%87%E6%8B%B7%E8%B4%9D%E4%BB%A3%E7%A0%81%E6%8C%87%E9%92%88.png" alt="OK6410iROM&#x8BBE;&#x5907;&#x62F7;&#x8D1D;&#x4EE3;&#x7801;&#x6307;&#x9488;"></p>
+<h2 class="mume-header" id="%E5%BC%95%E5%AF%BC%E5%9D%97%E5%88%86%E9%85%8D%E6%8C%87%E5%8D%97">&#x5F15;&#x5BFC;&#x5757;&#x5206;&#x914D;&#x6307;&#x5357;</h2>
+
+<blockquote>
+<p><strong>SD&#x5361;&#xFF0C;SDHC&#x5361;&#xFF0C;SDXC&#x5361;&#x533A;&#x522B;&#x5728;&#x4E8E;&#x89C4;&#x683C;&#x4E0D;&#x4E00;&#x6837;&#xFF0C;SD&#x5361;&#x6700;&#x5927;&#x652F;&#x6301;2GB&#x5BB9;&#x91CF;&#xFF0C;SDHC &#x6700;&#x5927;&#x652F;&#x6301;32GB&#x5BB9;&#x91CF;&#xFF0C;SDXC &#x6700;&#x5927;&#x652F;&#x6301;2TB(2048GB)&#x5BB9;&#x91CF;&#xFF0C;&#x652F;&#x6301;SDXC&#x5361;&#x7684;&#x6570;&#x7801;&#x8BBE;&#x5907;&#x662F;&#x517C;&#x5BB9;&#x652F;&#x6301;SD&#x5361;&#x4E0E;SDHC&#x5361;&#x7684;&#xFF0C;&#x5982;&#x679C;&#x8BBE;&#x5907;&#x53EA;&#x6709;&#x652F;&#x6301;SDHC&#x5361;&#xFF0C;&#x90A3;&#x4E48;&#x8FD9;&#x4E2A;&#x8BBE;&#x5907;&#x5C31;&#x4E0D;&#x80FD;&#x4F7F;&#x7528;SDXC&#x5361;&#xFF0C;&#x4F46;&#x517C;&#x5BB9;SD&#x5361;&#x3002;&#x5982;&#x679C;&#x8BBE;&#x5907;&#x53EA;&#x652F;&#x6301;SD&#x5361;&#xFF0C;&#x5219;&#x4E0D;&#x517C;&#x5BB9;SDXC&#xFF0C;SDHC&#x5361;&#x3002;</strong></p>
+</blockquote>
+<h3 class="mume-header" id="sdmmc%E5%BC%95%E5%AF%BC%E5%9D%97%E5%88%86%E9%85%8D%E6%8C%87%E5%8D%97">SD/MMC&#x5F15;&#x5BFC;&#x5757;&#x5206;&#x914D;&#x6307;&#x5357;</h3>
+
+<p><img src="./assets/OK6410SD_MMC%E5%BC%95%E5%AF%BC%E5%9D%97%E5%88%86%E9%85%8D%E6%8C%87%E5%8D%97.png" alt="OK6410SD_MMC&#x5F15;&#x5BFC;&#x5757;&#x5206;&#x914D;&#x6307;&#x5357;"></p>
+<blockquote>
+<p>&#x672C;&#x6307;&#x5357;&#x662F;&#x4E00;&#x4E2A;&#x793A;&#x4F8B;&#xFF0C;&#x4F46;&#x6709;3&#x6761;&#x5F3A;&#x5236;&#x6027;&#x89C4;&#x5219;&#x3002;</p>
+<ul>
+<li>&#x4E0D;&#x5E94;&#x4F7F;&#x7528;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x5757;.&#xFF08;&#x4FDD;&#x7559;&#xFF09;</li>
+<li>&#x5FC5;&#x987B;&#x4E3A;&#x504F;&#x79FB;&#x91CF;[LAST &#x2013; 2]&#x5206;&#x914D;&#x4E00;&#x4E2A;&#x5757;&#x7528;&#x4E8E;&#x7B7E;&#x540D;</li>
+<li>BL1&#xFF08;&#x7B2C;&#x4E00;&#x5F15;&#x5BFC;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#xFF09;&#x7684;&#x504F;&#x79FB;&#x91CF;[LAST &#x2013; 18]</li>
+</ul>
+</blockquote>
+<h3 class="mume-header" id="sdhc%E5%BC%95%E5%AF%BC%E5%9D%97%E5%88%86%E9%85%8D%E6%8C%87%E5%8D%97">SDHC&#x5F15;&#x5BFC;&#x5757;&#x5206;&#x914D;&#x6307;&#x5357;</h3>
+
+<p><img src="./assets/OK6410SDHC%E5%BC%95%E5%AF%BC%E5%9D%97%E5%88%86%E9%85%8D%E6%8C%87%E5%8D%97.png" alt="OK6410SDHC&#x5F15;&#x5BFC;&#x5757;&#x5206;&#x914D;&#x6307;&#x5357;"></p>
+<blockquote>
+<p>&#x672C;&#x6307;&#x5357;&#x662F;&#x4E00;&#x4E2A;&#x793A;&#x4F8B;&#xFF0C;&#x4F46;&#x6709;3&#x6761;&#x5F3A;&#x5236;&#x6027;&#x89C4;&#x5219;&#x3002;</p>
+<ul>
+<li>&#x4E0D;&#x5E94;&#x4F7F;&#x7528;&#x6700;&#x540E;&#x7684;1025&#x4E2A;&#x5757;&#x3002;&#xFF08;&#x5728;&#x4E0B;&#x9762;&#x7684;&#x5DF2;&#x77E5;&#x95EE;&#x9898;&#x4E2D;&#x63CF;&#x8FF0;&#xFF09;</li>
+<li>&#x5FC5;&#x987B;&#x4E3A;&#x4F4D;&#x4E8E;&#x504F;&#x79FB;[LAST &#x2013; 1026]&#x5904;&#x7684;&#x7B7E;&#x540D;&#x5206;&#x914D;&#x4E00;&#x4E2A;&#x5757;</li>
+<li>BL1&#xFF08;&#x7B2C;&#x4E00;&#x5F15;&#x5BFC;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#xFF09;&#x5E94;&#x4F4D;&#x4E8E;&#x504F;&#x79FB;[LAST &#x2013; 1042]&#x5904;</li>
+</ul>
+<p><strong>&#x5DF2;&#x77E5;&#x95EE;&#x9898;</strong><br>
+&#x5F53;iROM&#x4F7F;&#x7528;SDHC&#x5361;&#x5F15;&#x5BFC;&#x65F6;&#xFF0C;&#x8BA1;&#x7B97;&#x51FA;&#x7684;&#x5361;&#x5927;&#x5C0F;&#x5C0F;&#x4E8E;&#x539F;&#x59CB;&#x5361;&#x5927;&#x5C0F;&#xFF0C;&#x53D6;&#x6574;&#x4E3A;1024&#x4E2A;&#x5757;&#x3002; &#x56E0;&#x6B64;&#xFF0C;SDHC&#x5361;&#x5177;&#x6709;&#x989D;&#x5916;&#x7684;&#x4FDD;&#x7559;&#x5757;&#xFF08;512 KB&#xFF09;&#x3002;</p>
+</blockquote>
+<h3 class="mume-header" id="nand-device-boot-block-assignment-address-cycle-3-or-4-page-size-512-byte">NAND Device Boot Block Assignment (Address Cycle 3 or 4, Page Size = 512 Byte)</h3>
+
+<p><img src="./assets/OK6410%E5%B0%8F%E9%A1%B5NAND_DFLASH%E5%BC%95%E5%AF%BC%E5%9D%97%E5%88%86%E9%85%8D%E6%8C%87%E5%8D%97.png" alt="OK6410&#x5C0F;&#x9875;NAND_DFLASH&#x5F15;&#x5BFC;&#x5757;&#x5206;&#x914D;&#x6307;&#x5357;"></p>
+<blockquote>
+<p>&#x672C;&#x6307;&#x5357;&#x4EC5;&#x4F5C;&#x4E3A;&#x793A;&#x4F8B;&#xFF0C;&#x4F46;&#x6709;2&#x6761;&#x5F3A;&#x5236;&#x6027;&#x89C4;&#x5219;&#x3002;</p>
+<ul>
+<li>BL1&#xFF08;&#x7B2C;&#x4E00;&#x4E2A;&#x5F15;&#x5BFC;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#xFF09;&#x5E94;&#x4F4D;&#x4E8E;&#x7B2C;0&#x5757;&#x7684;&#x7B2C;0&#x9875;&#x3002;</li>
+<li>&#x4F4D;&#x4E8E;&#x7B2C;0&#x5757;&#x7684;&#x7B2C;16&#x9875;&#x7684;&#x9875;&#x9762;&#x5DF2;&#x5206;&#x914D;&#x7528;&#x4E8E;&#x7B7E;&#x540D;&#x3002;</li>
+</ul>
+</blockquote>
+<h3 class="mume-header" id="nand-device-boot-block-assignment-address-cycle-4-or-5-page-size-2048-byte">NAND Device Boot Block Assignment (Address Cycle 4 or 5, Page Size = 2048 Byte)</h3>
+
+<p><img src="./assets/OK6410%E4%B8%AD%E9%A1%B5NAND_DFLASH%E5%BC%95%E5%AF%BC%E5%9D%97%E5%88%86%E9%85%8D%E6%8C%87%E5%8D%97.png" alt="OK6410&#x4E2D;&#x9875;NAND_DFLASH&#x5F15;&#x5BFC;&#x5757;&#x5206;&#x914D;&#x6307;&#x5357;"></p>
+<blockquote>
+<p>&#x672C;&#x6307;&#x5357;&#x4EC5;&#x4F5C;&#x4E3A;&#x793A;&#x4F8B;&#xFF0C;&#x4F46;&#x6709;2&#x6761;&#x5F3A;&#x5236;&#x6027;&#x89C4;&#x5219;&#x3002;</p>
+<ul>
+<li>BL1&#xFF08;&#x7B2C;&#x4E00;&#x4E2A;&#x5F15;&#x5BFC;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#xFF09;&#x5E94;&#x4F4D;&#x4E8E;&#x5757;0&#x548C;&#x7B2C;0&#x9875;&#x3002;</li>
+<li>&#x4F4D;&#x4E8E;&#x7B2C;0&#x5757;&#x7684;&#x7B2C;4&#x9875;&#x7684;&#x9875;&#x9762;&#x5DF2;&#x5206;&#x914D;&#x7528;&#x4E8E;&#x7B7E;&#x540D;&#x3002;</li>
+</ul>
+</blockquote>
+<p><img src="./assets/OK6410%E5%A4%A7%E9%A1%B5NAND_DFLASH%E5%BC%95%E5%AF%BC%E5%9D%97%E5%88%86%E9%85%8D%E6%8C%87%E5%8D%97.png" alt="OK6410&#x5927;&#x9875;NAND_DFLASH&#x5F15;&#x5BFC;&#x5757;&#x5206;&#x914D;&#x6307;&#x5357;"></p>
+<blockquote>
+<p>&#x672C;&#x6307;&#x5357;&#x4EC5;&#x4F5C;&#x4E3A;&#x793A;&#x4F8B;&#xFF0C;&#x4F46;&#x6709;2&#x6761;&#x5F3A;&#x5236;&#x6027;&#x89C4;&#x5219;&#x3002;</p>
+<ul>
+<li>BL1&#xFF08;&#x7B2C;&#x4E00;&#x4E2A;&#x5F15;&#x5BFC;&#x52A0;&#x8F7D;&#x7A0B;&#x5E8F;&#xFF09;&#x5E94;&#x4F4D;&#x4E8E;&#x5757;0&#x548C;&#x7B2C;0&#x9875;&#x3002;</li>
+<li>&#x4F4D;&#x4E8E;&#x7B2C;0&#x5757;&#x7684;&#x7B2C;2&#x9875;&#x7684;&#x9875;&#x9762;&#x5DF2;&#x5206;&#x914D;&#x7528;&#x4E8E;&#x7B7E;&#x540D;&#x3002;</li>
+</ul>
+</blockquote>
+<h3 class="mume-header" id="ok6410%E9%85%8D%E7%BD%AE">OK6410&#x914D;&#x7F6E;</h3>
+
+<p><img src="./assets/OK6410%E9%85%8D%E7%BD%AE%E5%9B%BE.jpg" alt="OK6410&#x914D;&#x7F6E;&#x56FE;"></p>
+<blockquote>
+<p>&#x672C;&#x5F00;&#x53D1;&#x677F;&#x914D;&#x7F6E;&#xFF1A;<br>
+NAND FLASH&#x4E3A;MT29F8G08ABABAWP <strong>&#xFF08;8Gb&#xFF0C;&#x6BCF;&#x9875;4KB&#xFF09;</strong>&#x3002;<br>
+DDR &#x4E3A;V56C1601164MCJ5 <strong>&#xFF08;128MB * 2&#xFF09;</strong>&#x3002;</p>
+<ul>
+<li>&#x5F53;&#x7CFB;&#x7EDF;&#x4EE5;Nand&#x65B9;&#x5F0F;&#x542F;&#x52A8;&#x65F6;&#xFF0C;&#x786C;&#x4EF6;&#x5C06;Nand Flash&#x7684;&#x524D;8KB&#x62F7;&#x8D1D;&#x5230;Steppingstone&#xFF0C;&#x7136;&#x540E;&#x4ECE;0&#x5730;&#x5740;&#x5F00;&#x59CB;&#x8FD0;&#x884C;&#x7A0B;&#x5E8F;&#xFF0C;&#x5728;&#x8FD9;8KB&#x4EE5;&#x5185;&#x4EE3;&#x7801;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5B8C;&#x6210;&#x5FC5;&#x8981;&#x7684;&#x786C;&#x4EF6;&#x521D;&#x59CB;&#x5316;&#xFF0C;&#x5982;&#x679C;&#x4EE3;&#x7801;&#x8D85;&#x8FC7;8K&#xFF0C;&#x6211;&#x4EEC;&#x8FD8;&#x9700;&#x8981;&#x5C06;&#x5269;&#x4F59;&#x4EE3;&#x7801;&#x7684;&#x642C;&#x79FB;&#x5230;&#x94FE;&#x63A5;&#x5730;&#x5740;&#x5904;&#xFF0C;&#x4E00;&#x822C;&#x5728;SDRAM/DDR&#x4E2D;&#x3002;&#x5176;&#x4E2D;&#xFF0C;&#x786C;&#x4EF6;&#x90E8;&#x5206;&#x9700;&#x8981;&#x521D;&#x59CB;&#x5316;&#x7CFB;&#x7EDF;&#x65F6;&#x949F;&#x3001;DDR&#x548C;NAND Flash&#x4E09;&#x90E8;&#x5206;&#x3002;</li>
+<li>S3C6410&#x542F;&#x52A8;&#x65F6;&#x62F7;&#x8D1D;&#x7684;8K&#x4EE3;&#x7801;&#x4E0D;&#x662F;&#x5B58;&#x50A8;&#x5728;Nand flash&#x7684;&#x7B2C;&#x4E00;&#x9875;&#x4E0A;&#xFF0C;&#x800C;&#x662F;&#x5B58;&#x50A8;&#x5728;Nand flash&#x7684;&#x524D;4&#x9875;&#x4E0A;&#xFF0C;&#x6BCF;&#x9875;2K&#xFF0C;&#x603B;&#x5171;8K&#xFF0C;&#x8FD9;&#x662F;S3C6410&#x82AF;&#x7247;&#x7684;&#x786C;&#x4EF6;&#x7ED3;&#x6784;&#x51B3;&#x5B9A;&#x7684;&#xFF01;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C;&#x867D;&#x7136;&#x6211;&#x4EEC;&#x7684;Nand flash&#x7684;&#x9875;&#x5927;&#x5C0F;&#x662F;4K&#xFF0C;&#x4F46;&#x662F;S3C6410&#x4E3A;&#x4E86;&#x9002;&#x5E94;&#x5404;&#x79CD;&#x578B;&#x53F7;&#x7684;Nand flash&#x5E76;&#x4FDD;&#x8BC1;&#x786C;&#x4EF6;&#x80FD;&#x6B63;&#x786E;&#x7684;&#x62F7;&#x8D1D;Nand flash&#x4E2D;&#x7684;&#x524D;8K&#x5230;SRAM&#x4E2D;&#xFF0C;&#x786C;&#x6027;&#x7684;&#x52A0;&#x4E0A;&#x8FD9;&#x4E00;&#x89C4;&#x5B9A;&#x3002;</li>
+</ul>
+</blockquote>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
