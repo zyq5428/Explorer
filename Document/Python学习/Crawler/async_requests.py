@@ -14,6 +14,7 @@ CONCURRENCY = 20
 
 semaphore = asyncio.Semaphore(CONCURRENCY)
 session = None
+# timeout = aiohttp.ClientTimeout(total=60)
 
 async def scrape_api(url):
     async with semaphore:
@@ -23,8 +24,15 @@ async def scrape_api(url):
                 return await response.json()
         except aiohttp.ClientError:
             logging.error('error occured while scraping %s', url, exc_info=True)
+        except asyncio.CancelledError:
+            logging.error('CancelledError while scraping %s', url, exc_info=True)
+            return {'id': url, 'data': 'CancelledError'}
+        except asyncio.TimeoutError:
+            logging.error('TimeoutError while scraping %s', url, exc_info=True)
+            return {'id': url, 'data': 'TimeoutError'}
         except :
             logging.error('存在其他异常', exc_info=True)
+            return {'id': url, 'data': 'Other'}
             
 async def scrape_index(page):
     url = INDEX_URL.format(offset=PAGE_SIZE * (page - 1))
