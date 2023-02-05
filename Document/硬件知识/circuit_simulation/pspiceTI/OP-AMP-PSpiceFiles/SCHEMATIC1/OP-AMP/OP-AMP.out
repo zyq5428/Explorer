@@ -1,0 +1,302 @@
+
+**** 02/27/22 11:11:37 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-OP-AMP"  [ D:\Git\ishero\circuit_simulation\pspiceTI\OP-AMP-PSpiceFiles\SCHEMATIC1\OP-AMP.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "OP-AMP.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 5m 0 0.01 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source OP-AMP
+X_U1         0 N00297 N00334 N00434 OUT OPA2743
+R_R1         IN N00297  2k TC=0,0 
+R_R2         N00297 OUT  40k TC=0,0 
+R_R3         0 OUT  1k TC=0,0 
+V_V1         0 N00434 12
+V_V3         IN 0  AC 0
++SIN 0 100m 1000 0 0 0
+V_V2         0 N00334 -12
+
+**** RESUMING OP-AMP.cir ****
+.END
+
+WARNING(ORPSIM-15223): Library file C:\cds_spb_home\cdssetup\pspTILibDir\nom_pspti.lib has changed since index file nom_pspti.ind was created.
+
+WARNING(ORPSIM-15227): The timestamp changed from Thu Jan 14 13:55:20 2021 to Sun Feb 27 10:40:56 2022.
+
+INFO(ORPSIM-15422): Making new index file nom_pspti.ind for library file nom_pspti.lib.
+
+Index has 99944 entries from 4831 file(s).
+
+
+INFO(ORPSIM-15423): Unable to find index file nom.ind for library file nom.lib.
+
+INFO(ORPSIM-15422): Making new index file nom.ind for library file nom.lib.
+
+Index has 517 entries from 5 file(s).
+
+**** 02/27/22 11:11:37 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-OP-AMP"  [ D:\Git\ishero\circuit_simulation\pspiceTI\OP-AMP-PSpiceFiles\SCHEMATIC1\OP-AMP.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DD         X_U1.DVN        X_U1.DIN        
+          IS   10.000000E-15  100.000000E-18   10.000000E-15 
+          KF                  400.000000E-18                 
+
+
+**** 02/27/22 11:11:37 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-OP-AMP"  [ D:\Git\ishero\circuit_simulation\pspiceTI\OP-AMP-PSpiceFiles\SCHEMATIC1\OP-AMP.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.QN         X_U1.QP         
+               NPN             PNP             
+       LEVEL    1               1            
+          IS  100.000000E-18  100.000000E-18 
+          BF  100             100            
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+         ISS    0               0            
+          RE    0               0            
+          RC    0               0            
+         CJE    0               0            
+         VJE     .75             .75         
+         CJC    0               0            
+         VJC     .75             .75         
+         MJC     .33             .33         
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 02/27/22 11:11:37 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-OP-AMP"  [ D:\Git\ishero\circuit_simulation\pspiceTI\OP-AMP-PSpiceFiles\SCHEMATIC1\OP-AMP.sim ] 
+
+
+ ****     Junction FET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.JCL        
+               NJF             
+         VTO   -2            
+        BETA  100.000000E-06 
+          IS    1.000000E-18 
+
+
+**** 02/27/22 11:11:37 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-OP-AMP"  [ D:\Git\ishero\circuit_simulation\pspiceTI\OP-AMP-PSpiceFiles\SCHEMATIC1\OP-AMP.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.PIN        X_U1.NIN        X_U1.POUT       X_U1.NOUT       
+               PMOS            NMOS            PMOS            NMOS            
+       LEVEL    1               1               1               1            
+           L  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+           W  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+         VTO    -.7              .7             -.7              .7          
+          KP  200.000000E-06  200.000000E-06  200.000000E-06  200.000000E-06 
+       GAMMA    0               0               0               0            
+         PHI     .6              .6              .6              .6          
+      LAMBDA    0               0                .01             .01         
+          IS   10.000000E-15   10.000000E-15   10.000000E-15   10.000000E-15 
+          JS    0               0               0               0            
+          PB     .8              .8              .8              .8          
+        PBSW     .8              .8              .8              .8          
+          CJ    0               0               0               0            
+        CJSW    0               0               0               0            
+        CGSO    0               0               0               0            
+        CGDO    0               0               0               0            
+        CGBO    0               0               0               0            
+         TOX    0               0               0               0            
+          XJ    0               0               0               0            
+       UCRIT   10.000000E+03   10.000000E+03   10.000000E+03   10.000000E+03 
+      DIOMOD    1               1               1               1            
+         VFB    0               0               0               0            
+        LETA    0               0               0               0            
+        WETA    0               0               0               0            
+          U0    0               0               0               0            
+        TEMP    0               0               0               0            
+         VDD    5               5               5               5            
+       XPART    0               0               0               0            
+
+
+**** 02/27/22 11:11:37 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-OP-AMP"  [ D:\Git\ishero\circuit_simulation\pspiceTI\OP-AMP-PSpiceFiles\SCHEMATIC1\OP-AMP.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   IN)    0.0000  (  OUT)    -.0013  (N00297)-59.98E-06 (N00334)   12.0000     
+
+(N00434)  -12.0000 (X_U1.8)  -11.2180 (X_U1.9)  -11.9790 (X_U1.10)  -12.0000    
+
+(X_U1.11)     .8837                   (X_U1.12)     .8972                       
+
+(X_U1.13)     .8837                   (X_U1.14)  -11.9790                       
+
+(X_U1.15)   11.9790                   (X_U1.16)   11.9790                       
+
+(X_U1.17) 78.70E-06                   (X_U1.18) 78.70E-06                       
+
+(X_U1.19)   11.9840                   (X_U1.20)   12.0000                       
+
+(X_U1.21)  -11.9840                   (X_U1.22)     .5955                       
+
+(X_U1.23)     .5955                   (X_U1.24)     .5718                       
+
+(X_U1.25)     .5718                   (X_U1.26)-59.98E-06                       
+
+(X_U1.27)-120.0E-06                   (X_U1.28)   12.0000                       
+
+(X_U1.29)  -12.0000                   (X_U1.30)-89.98E-06                       
+
+(X_U1.31)-89.98E-06                   (X_U1.32)     .0012                       
+
+(X_U1.33)    -.0012                   (X_U1.34)-8.997E-09                       
+
+(X_U1.35) 449.9E-12                   (X_U1.36)-59.98E-06                       
+
+(X_U1.37)-120.0E-06                   (X_U1.38)-240.0E-06                       
+
+(X_U1.39)    0.0000                   (X_U1.40)    -.0226                       
+
+(X_U1.41)  -11.0900                   (X_U1.42)     .0030                       
+
+(X_U1.43)   11.0900                   (X_U1.44)   11.1120                       
+
+(X_U1.45)  -11.8650                   (X_U1.46)-59.99E-06                       
+
+(X_U1.47)  -11.8650                   (X_U1.48)  -11.1120                       
+
+(X_U1.49)   11.0900                   (X_U1.50)  -11.0900                       
+
+(X_U1.51)-15.74E-09                   (X_U1.52)    -.0013                       
+
+(X_U1.53)   11.2180                   (X_U1.54)   12.0000                       
+
+(X_U1.55) 190.0E-06                   (X_U1.56)     .1710                       
+
+(X_U1.57)     .1710                   (X_U1.58)   12.0000                       
+
+(X_U1.59)     .1710                   (X_U1.60)  -11.3000                       
+
+(X_U1.61)   10.2000                   (X_U1.62)     .8972                       
+
+(X_U1.63)   11.1730                   (X_U1.64)    0.0000                       
+
+(X_U1.65)   11.7000                   (X_U1.66)  -11.7000                       
+
+(X_U1.67)    0.0000                   (X_U1.68)-15.74E-09                       
+
+(X_U1.69)   10.5530                   (X_U1.70)  -10.5520                       
+
+(X_U1.71)  -11.0900                   (X_U1.72)   11.0900                       
+
+(X_U1.73)    -.0549                   (X_U1.74)     .6551                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.658E-03
+    V_V3        -2.999E-08
+    V_V2         1.657E-03
+    X_U1.V18     0.000E+00
+    X_U1.V19     0.000E+00
+    X_U1.V20     0.000E+00
+    X_U1.V23    -5.490E-08
+    X_U1.V24     4.680E-11
+    X_U1.V25     4.680E-11
+
+    TOTAL POWER DISSIPATION   3.98E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/27/22 11:11:37 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-OP-AMP"  [ D:\Git\ishero\circuit_simulation\pspiceTI\OP-AMP-PSpiceFiles\SCHEMATIC1\OP-AMP.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =       24.38
+

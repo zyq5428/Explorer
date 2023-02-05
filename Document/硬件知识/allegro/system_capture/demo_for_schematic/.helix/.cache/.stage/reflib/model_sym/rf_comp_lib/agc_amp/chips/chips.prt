@@ -1,0 +1,19 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' COMPILATION ON THU JUN 29 14:30:27 2006';
+PRIMITIVE 'agc_amp';
+  PIN
+  'rf_out':
+    PIN_NUMBER='(2)';
+  'vc':
+    PIN_NUMBER='(3)';
+  'rf_in':
+    PIN_NUMBER='(1)';
+  END_PIN;
+  BODY
+    PART_NAME='AGC_AMP';
+    BODY_NAME='AGC_AMP';
+    JEDEC_TYPE='AGC_AMP';
+    ISRFELEMENT='1';
+  END_BODY;
+END_PRIMITIVE;
+END.

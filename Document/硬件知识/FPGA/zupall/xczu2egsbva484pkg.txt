@@ -1,0 +1,557 @@
+--  (c) Copyright 2016 Xilinx, Inc. All rights reserved.
+-- 
+--  This file contains confidential and proprietary information
+--  of Xilinx, Inc. and is protected under U.S. and
+--  international copyright and other intellectual property
+--  laws.
+-- 
+--  DISCLAIMER
+--  This disclaimer is not a license and does not grant any
+--  rights to the materials distributed herewith. Except as
+--  otherwise provided in a valid license issued to you by
+--  Xilinx, and to the maximum extent permitted by applicable
+--  law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
+--  WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
+--  AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+--  BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
+--  INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
+--  (2) Xilinx shall not be liable (whether in contract or tort,
+--  including negligence, or under any other theory of
+--  liability) for any loss or damage of any kind or nature
+--  related to, arising under or in connection with these
+--  materials, including for any direct, or any indirect,
+--  special, incidental, or consequential loss or damage
+--  (including loss of data, profits, goodwill, or any type of
+--  loss or damage suffered as a result of any action brought
+--  by a third party) even if such damage or loss was
+--  reasonably foreseeable or Xilinx had been advised of the
+--  possibility of the same.
+-- 
+--  CRITICAL APPLICATIONS
+--  Xilinx products are not designed or intended to be fail-
+--  safe, or for use in any application requiring fail-safe
+--  performance, such as life-support or safety devices or
+--  systems, Class III medical devices, nuclear facilities,
+--  applications related to the deployment of airbags, or any
+--  other applications that could lead to death, personal
+--  injury, or severe property or environmental damage
+--  (individually and collectively, "Critical
+--  Applications"). Customer assumes the sole risk and
+--  liability of any use of Xilinx products in Critical
+--  Applications, subject only to applicable laws and
+--  regulations governing limitations on product liability.
+-- 
+--  THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS
+--  PART OF THIS FILE AT ALL TIMES.
+-- 
+------------------------------------------------------------------------
+--  ASCII Pinout File
+-- 
+--  Device   : xczu2egsbva484/xazu2egsbva484
+--  Date     : 3/6/2017 13:15:04
+--  Revision : 1.1
+--  Status   : Production
+-- 
+--  Production package specifications are released coincident
+--  with production release of a particular device.
+-- 
+------------------------------------------------------------------------
+--  Modification History
+--  | Date    : 10/6/2016
+--  | Revision: 1.0
+--  | Status  : Engineering Sample
+--  | Details : Initial creation.
+------------------------------------------------------------------------
+--  | Date    : 3/6/2017
+--  | Revision: 1.1
+--  | Status  : Production
+--  | Details : Updated from Engineering Sample to Production
+------------------------------------------------------------------------
+                                                                                                
+Pin   Pin Name                            Memory Byte Group  Bank  I/O Type  Super Logic Region 
+N9    DXN                                 NA                 NA    NA        NA                 
+K10   VCCADC                              NA                 NA    NA        NA                 
+K9    GNDADC                              NA                 NA    NA        NA                 
+N10   DXP                                 NA                 NA    NA        NA                 
+M10   VREFP                               NA                 NA    NA        NA                 
+L9    VREFN                               NA                 NA    NA        NA                 
+L10   VP                                  NA                 NA    NA        NA                 
+M9    VN                                  NA                 NA    NA        NA                 
+T8    PUDC_B                              NA                 0     CONFIG    NA                 
+T7    POR_OVERRIDE                        NA                 NA    NA        NA                 
+A6    IO_L12N_AD0N_26                     NA                 26    HD        NA                 
+B7    IO_L12P_AD0P_26                     NA                 26    HD        NA                 
+B5    IO_L11N_AD1N_26                     NA                 26    HD        NA                 
+B6    IO_L11P_AD1P_26                     NA                 26    HD        NA                 
+A7    IO_L10N_AD2N_26                     NA                 26    HD        NA                 
+A8    IO_L10P_AD2P_26                     NA                 26    HD        NA                 
+A9    IO_L9N_AD3N_26                      NA                 26    HD        NA                 
+B9    IO_L9P_AD3P_26                      NA                 26    HD        NA                 
+C7    IO_L8N_HDGC_AD4N_26                 NA                 26    HD        NA                 
+C8    IO_L8P_HDGC_AD4P_26                 NA                 26    HD        NA                 
+C5    IO_L7N_HDGC_AD5N_26                 NA                 26    HD        NA                 
+D5    IO_L7P_HDGC_AD5P_26                 NA                 26    HD        NA                 
+D8    IO_L6N_HDGC_AD6N_26                 NA                 26    HD        NA                 
+E8    IO_L6P_HDGC_AD6P_26                 NA                 26    HD        NA                 
+D6    IO_L5N_HDGC_AD7N_26                 NA                 26    HD        NA                 
+D7    IO_L5P_HDGC_AD7P_26                 NA                 26    HD        NA                 
+F7    IO_L4N_AD8N_26                      NA                 26    HD        NA                 
+F8    IO_L4P_AD8P_26                      NA                 26    HD        NA                 
+E5    IO_L3N_AD9N_26                      NA                 26    HD        NA                 
+E6    IO_L3P_AD9P_26                      NA                 26    HD        NA                 
+F6    IO_L2N_AD10N_26                     NA                 26    HD        NA                 
+G7    IO_L2P_AD10P_26                     NA                 26    HD        NA                 
+G5    IO_L1N_AD11N_26                     NA                 26    HD        NA                 
+G6    IO_L1P_AD11P_26                     NA                 26    HD        NA                 
+A2    IO_T3U_N12_66                       3U                 66    HP        NA                 
+A3    IO_L12N_T1U_N11_GC_66               1U                 66    HP        NA                 
+A4    IO_L12P_T1U_N10_GC_66               1U                 66    HP        NA                 
+B1    IO_L11N_T1U_N9_GC_66                1U                 66    HP        NA                 
+B2    IO_L11P_T1U_N8_GC_66                1U                 66    HP        NA                 
+B4    IO_T0U_N12_VRP_66                   0U                 66    HP        NA                 
+C4    VREF_66                             NA                 66    HP        NA                 
+C2    IO_L24N_T3U_N11_PERSTN0_65          3U                 65    HP        NA                 
+D2    IO_L24P_T3U_N10_PERSTN1_I2C_SDA_65  3U                 65    HP        NA                 
+F2    IO_L23N_T3U_N9_65                   3U                 65    HP        NA                 
+F3    IO_L23P_T3U_N8_I2C_SCLK_65          3U                 65    HP        NA                 
+C3    IO_L22N_T3U_N7_DBC_AD0N_65          3U                 65    HP        NA                 
+D3    IO_L22P_T3U_N6_DBC_AD0P_65          3U                 65    HP        NA                 
+D1    IO_L21N_T3L_N5_AD8N_65              3L                 65    HP        NA                 
+E1    IO_L21P_T3L_N4_AD8P_65              3L                 65    HP        NA                 
+E3    IO_L20N_T3L_N3_AD1N_65              3L                 65    HP        NA                 
+E4    IO_L20P_T3L_N2_AD1P_65              3L                 65    HP        NA                 
+F1    IO_L19N_T3L_N1_DBC_AD9N_65          3L                 65    HP        NA                 
+G1    IO_L19P_T3L_N0_DBC_AD9P_65          3L                 65    HP        NA                 
+F4    IO_T3U_N12_65                       3U                 65    HP        NA                 
+H3    IO_T2U_N12_65                       2U                 65    HP        NA                 
+G4    IO_L18N_T2U_N11_AD2N_65             2U                 65    HP        NA                 
+H4    IO_L18P_T2U_N10_AD2P_65             2U                 65    HP        NA                 
+G2    IO_L17N_T2U_N9_AD10N_65             2U                 65    HP        NA                 
+H2    IO_L17P_T2U_N8_AD10P_65             2U                 65    HP        NA                 
+H5    IO_L16N_T2U_N7_QBC_AD3N_65          2U                 65    HP        NA                 
+J5    IO_L16P_T2U_N6_QBC_AD3P_65          2U                 65    HP        NA                 
+J1    IO_L15N_T2L_N5_AD11N_65             2L                 65    HP        NA                 
+K1    IO_L15P_T2L_N4_AD11P_65             2L                 65    HP        NA                 
+K3    IO_L14N_T2L_N3_GC_65                2L                 65    HP        NA                 
+K4    IO_L14P_T2L_N2_GC_65                2L                 65    HP        NA                 
+J2    IO_L13N_T2L_N1_GC_QBC_65            2L                 65    HP        NA                 
+J3    IO_L13P_T2L_N0_GC_QBC_65            2L                 65    HP        NA                 
+L3    IO_L12N_T1U_N11_GC_65               1U                 65    HP        NA                 
+L4    IO_L12P_T1U_N10_GC_65               1U                 65    HP        NA                 
+L1    IO_L11N_T1U_N9_GC_65                1U                 65    HP        NA                 
+L2    IO_L11P_T1U_N8_GC_65                1U                 65    HP        NA                 
+M4    IO_L10N_T1U_N7_QBC_AD4N_65          1U                 65    HP        NA                 
+M5    IO_L10P_T1U_N6_QBC_AD4P_65          1U                 65    HP        NA                 
+M1    IO_L9N_T1L_N5_AD12N_65              1L                 65    HP        NA                 
+M2    IO_L9P_T1L_N4_AD12P_65              1L                 65    HP        NA                 
+N4    IO_L8N_T1L_N3_AD5N_65               1L                 65    HP        NA                 
+N5    IO_L8P_T1L_N2_AD5P_65               1L                 65    HP        NA                 
+P1    IO_L7N_T1L_N1_QBC_AD13N_65          1L                 65    HP        NA                 
+N2    IO_L7P_T1L_N0_QBC_AD13P_65          1L                 65    HP        NA                 
+N3    IO_T1U_N12_65                       1U                 65    HP        NA                 
+P2    IO_T0U_N12_VRP_65                   0U                 65    HP        NA                 
+R5    IO_L6N_T0U_N11_AD6N_65              0U                 65    HP        NA                 
+P5    IO_L6P_T0U_N10_AD6P_65              0U                 65    HP        NA                 
+T1    IO_L5N_T0U_N9_AD14N_65              0U                 65    HP        NA                 
+R1    IO_L5P_T0U_N8_AD14P_65              0U                 65    HP        NA                 
+T4    IO_L4N_T0U_N7_DBC_AD7N_65           0U                 65    HP        NA                 
+R4    IO_L4P_T0U_N6_DBC_AD7P_SMBALERT_65  0U                 65    HP        NA                 
+U1    IO_L3N_T0L_N5_AD15N_65              0L                 65    HP        NA                 
+U2    IO_L3P_T0L_N4_AD15P_65              0L                 65    HP        NA                 
+R3    IO_L2N_T0L_N3_65                    0L                 65    HP        NA                 
+P3    IO_L2P_T0L_N2_65                    0L                 65    HP        NA                 
+T2    IO_L1N_T0L_N1_DBC_65                0L                 65    HP        NA                 
+T3    IO_L1P_T0L_N0_DBC_65                0L                 65    HP        NA                 
+K5    VREF_65                             NA                 65    HP        NA                 
+U4    PS_MIO0                             NA                 500   PSMIO     NA                 
+W1    PS_MIO1                             NA                 500   PSMIO     NA                 
+AA2   PS_MIO10                            NA                 500   PSMIO     NA                 
+W2    PS_MIO11                            NA                 500   PSMIO     NA                 
+AB2   PS_MIO12                            NA                 500   PSMIO     NA                 
+W3    PS_MIO13                            NA                 500   PSMIO     NA                 
+W5    PS_MIO14                            NA                 500   PSMIO     NA                 
+Y4    PS_MIO15                            NA                 500   PSMIO     NA                 
+Y3    PS_MIO16                            NA                 500   PSMIO     NA                 
+AA3   PS_MIO17                            NA                 500   PSMIO     NA                 
+Y5    PS_MIO18                            NA                 500   PSMIO     NA                 
+AA4   PS_MIO19                            NA                 500   PSMIO     NA                 
+V2    PS_MIO2                             NA                 500   PSMIO     NA                 
+AB4   PS_MIO20                            NA                 500   PSMIO     NA                 
+W6    PS_MIO21                            NA                 500   PSMIO     NA                 
+AA6   PS_MIO22                            NA                 500   PSMIO     NA                 
+AB5   PS_MIO23                            NA                 500   PSMIO     NA                 
+AB6   PS_MIO24                            NA                 500   PSMIO     NA                 
+Y6    PS_MIO25                            NA                 500   PSMIO     NA                 
+U5    PS_MIO3                             NA                 500   PSMIO     NA                 
+U6    PS_MIO4                             NA                 500   PSMIO     NA                 
+AA1   PS_MIO5                             NA                 500   PSMIO     NA                 
+Y1    PS_MIO6                             NA                 500   PSMIO     NA                 
+V4    PS_MIO7                             NA                 500   PSMIO     NA                 
+V3    PS_MIO8                             NA                 500   PSMIO     NA                 
+V5    PS_MIO9                             NA                 500   PSMIO     NA                 
+G9    PS_MIO26                            NA                 501   PSMIO     NA                 
+G11   PS_MIO27                            NA                 501   PSMIO     NA                 
+G12   PS_MIO28                            NA                 501   PSMIO     NA                 
+F9    PS_MIO29                            NA                 501   PSMIO     NA                 
+G10   PS_MIO30                            NA                 501   PSMIO     NA                 
+F11   PS_MIO31                            NA                 501   PSMIO     NA                 
+F12   PS_MIO32                            NA                 501   PSMIO     NA                 
+E9    PS_MIO33                            NA                 501   PSMIO     NA                 
+F13   PS_MIO34                            NA                 501   PSMIO     NA                 
+E10   PS_MIO35                            NA                 501   PSMIO     NA                 
+D10   PS_MIO36                            NA                 501   PSMIO     NA                 
+E11   PS_MIO37                            NA                 501   PSMIO     NA                 
+C9    PS_MIO38                            NA                 501   PSMIO     NA                 
+C10   PS_MIO39                            NA                 501   PSMIO     NA                 
+D11   PS_MIO40                            NA                 501   PSMIO     NA                 
+B10   PS_MIO41                            NA                 501   PSMIO     NA                 
+D12   PS_MIO42                            NA                 501   PSMIO     NA                 
+E13   PS_MIO43                            NA                 501   PSMIO     NA                 
+B11   PS_MIO44                            NA                 501   PSMIO     NA                 
+A11   PS_MIO45                            NA                 501   PSMIO     NA                 
+C12   PS_MIO46                            NA                 501   PSMIO     NA                 
+B12   PS_MIO47                            NA                 501   PSMIO     NA                 
+A12   PS_MIO48                            NA                 501   PSMIO     NA                 
+D13   PS_MIO49                            NA                 501   PSMIO     NA                 
+A13   PS_MIO50                            NA                 501   PSMIO     NA                 
+C13   PS_MIO51                            NA                 501   PSMIO     NA                 
+G14   PS_MIO52                            NA                 502   PSMIO     NA                 
+F14   PS_MIO53                            NA                 502   PSMIO     NA                 
+G15   PS_MIO54                            NA                 502   PSMIO     NA                 
+C14   PS_MIO55                            NA                 502   PSMIO     NA                 
+E14   PS_MIO56                            NA                 502   PSMIO     NA                 
+B14   PS_MIO57                            NA                 502   PSMIO     NA                 
+A14   PS_MIO58                            NA                 502   PSMIO     NA                 
+E15   PS_MIO59                            NA                 502   PSMIO     NA                 
+D15   PS_MIO60                            NA                 502   PSMIO     NA                 
+G16   PS_MIO61                            NA                 502   PSMIO     NA                 
+C15   PS_MIO62                            NA                 502   PSMIO     NA                 
+F16   PS_MIO63                            NA                 502   PSMIO     NA                 
+E16   PS_MIO64                            NA                 502   PSMIO     NA                 
+B15   PS_MIO65                            NA                 502   PSMIO     NA                 
+D16   PS_MIO66                            NA                 502   PSMIO     NA                 
+G17   PS_MIO67                            NA                 502   PSMIO     NA                 
+B16   PS_MIO68                            NA                 502   PSMIO     NA                 
+A16   PS_MIO69                            NA                 502   PSMIO     NA                 
+A17   PS_MIO70                            NA                 502   PSMIO     NA                 
+F17   PS_MIO71                            NA                 502   PSMIO     NA                 
+C17   PS_MIO72                            NA                 502   PSMIO     NA                 
+D17   PS_MIO73                            NA                 502   PSMIO     NA                 
+D18   PS_MIO74                            NA                 502   PSMIO     NA                 
+B17   PS_MIO75                            NA                 502   PSMIO     NA                 
+F18   PS_MIO76                            NA                 502   PSMIO     NA                 
+B18   PS_MIO77                            NA                 502   PSMIO     NA                 
+L12   PS_DONE                             NA                 503   PSCONFIG  NA                 
+K16   PS_ERROR_OUT                        NA                 503   PSCONFIG  NA                 
+K18   PS_ERROR_STATUS                     NA                 503   PSCONFIG  NA                 
+K15   PS_INIT_B                           NA                 503   PSCONFIG  NA                 
+H13   PS_JTAG_TCK                         NA                 503   PSCONFIG  NA                 
+H12   PS_JTAG_TDI                         NA                 503   PSCONFIG  NA                 
+J13   PS_JTAG_TDO                         NA                 503   PSCONFIG  NA                 
+J12   PS_JTAG_TMS                         NA                 503   PSCONFIG  NA                 
+J16   PS_MODE0                            NA                 503   PSCONFIG  NA                 
+H15   PS_MODE1                            NA                 503   PSCONFIG  NA                 
+J15   PS_MODE2                            NA                 503   PSCONFIG  NA                 
+H18   PS_MODE3                            NA                 503   PSCONFIG  NA                 
+H17   PS_PADI                             NA                 503   PSCONFIG  NA                 
+J17   PS_PADO                             NA                 503   PSCONFIG  NA                 
+K12   PS_POR_B                            NA                 503   PSCONFIG  NA                 
+K14   PS_PROG_B                           NA                 503   PSCONFIG  NA                 
+H14   PS_REF_CLK                          NA                 503   PSCONFIG  NA                 
+K13   PS_SRST_B                           NA                 503   PSCONFIG  NA                 
+AA22  PS_DDR_A0                           NA                 504   PSDDR     NA                 
+AB20  PS_DDR_A1                           NA                 504   PSDDR     NA                 
+Y21   PS_DDR_A10                          NA                 504   PSDDR     NA                 
+AA21  PS_DDR_A11                          NA                 504   PSDDR     NA                 
+AA18  PS_DDR_A12                          NA                 504   PSDDR     NA                 
+AA19  PS_DDR_A13                          NA                 504   PSDDR     NA                 
+AA17  PS_DDR_A14                          NA                 504   PSDDR     NA                 
+AA16  PS_DDR_A15                          NA                 504   PSDDR     NA                 
+Y16   PS_DDR_A16                          NA                 504   PSDDR     NA                 
+W16   PS_DDR_A17                          NA                 504   PSDDR     NA                 
+AB17  PS_DDR_A2                           NA                 504   PSDDR     NA                 
+AB19  PS_DDR_A3                           NA                 504   PSDDR     NA                 
+AB21  PS_DDR_A4                           NA                 504   PSDDR     NA                 
+AB16  PS_DDR_A5                           NA                 504   PSDDR     NA                 
+Y20   PS_DDR_A6                           NA                 504   PSDDR     NA                 
+Y19   PS_DDR_A7                           NA                 504   PSDDR     NA                 
+W17   PS_DDR_A8                           NA                 504   PSDDR     NA                 
+Y18   PS_DDR_A9                           NA                 504   PSDDR     NA                 
+U15   PS_DDR_ACT_N                        NA                 504   PSDDR     NA                 
+T21   PS_DDR_ALERT_N                      NA                 504   PSDDR     NA                 
+U17   PS_DDR_BA0                          NA                 504   PSDDR     NA                 
+V17   PS_DDR_BA1                          NA                 504   PSDDR     NA                 
+U16   PS_DDR_BG0                          NA                 504   PSDDR     NA                 
+W18   PS_DDR_BG1                          NA                 504   PSDDR     NA                 
+V20   PS_DDR_CK0                          NA                 504   PSDDR     NA                 
+V18   PS_DDR_CK1                          NA                 504   PSDDR     NA                 
+U22   PS_DDR_CKE0                         NA                 504   PSDDR     NA                 
+U21   PS_DDR_CKE1                         NA                 504   PSDDR     NA                 
+W20   PS_DDR_CK_N0                        NA                 504   PSDDR     NA                 
+V19   PS_DDR_CK_N1                        NA                 504   PSDDR     NA                 
+V22   PS_DDR_CS_N0                        NA                 504   PSDDR     NA                 
+U20   PS_DDR_CS_N1                        NA                 504   PSDDR     NA                 
+AB9   PS_DDR_DM0                          NA                 504   PSDDR     NA                 
+AB14  PS_DDR_DM1                          NA                 504   PSDDR     NA                 
+U9    PS_DDR_DM2                          NA                 504   PSDDR     NA                 
+W13   PS_DDR_DM3                          NA                 504   PSDDR     NA                 
+R19   PS_DDR_DM8                          NA                 504   PSDDR     NA                 
+AB11  PS_DDR_DQ0                          NA                 504   PSDDR     NA                 
+Y10   PS_DDR_DQ1                          NA                 504   PSDDR     NA                 
+AA12  PS_DDR_DQ10                         NA                 504   PSDDR     NA                 
+AB12  PS_DDR_DQ11                         NA                 504   PSDDR     NA                 
+Y14   PS_DDR_DQ12                         NA                 504   PSDDR     NA                 
+AA14  PS_DDR_DQ13                         NA                 504   PSDDR     NA                 
+Y15   PS_DDR_DQ14                         NA                 504   PSDDR     NA                 
+AB15  PS_DDR_DQ15                         NA                 504   PSDDR     NA                 
+W8    PS_DDR_DQ16                         NA                 504   PSDDR     NA                 
+W7    PS_DDR_DQ17                         NA                 504   PSDDR     NA                 
+V7    PS_DDR_DQ18                         NA                 504   PSDDR     NA                 
+V10   PS_DDR_DQ19                         NA                 504   PSDDR     NA                 
+AB10  PS_DDR_DQ2                          NA                 504   PSDDR     NA                 
+U7    PS_DDR_DQ20                         NA                 504   PSDDR     NA                 
+T9    PS_DDR_DQ21                         NA                 504   PSDDR     NA                 
+U10   PS_DDR_DQ22                         NA                 504   PSDDR     NA                 
+T10   PS_DDR_DQ23                         NA                 504   PSDDR     NA                 
+U11   PS_DDR_DQ24                         NA                 504   PSDDR     NA                 
+U12   PS_DDR_DQ25                         NA                 504   PSDDR     NA                 
+W12   PS_DDR_DQ26                         NA                 504   PSDDR     NA                 
+W11   PS_DDR_DQ27                         NA                 504   PSDDR     NA                 
+V14   PS_DDR_DQ28                         NA                 504   PSDDR     NA                 
+U14   PS_DDR_DQ29                         NA                 504   PSDDR     NA                 
+W10   PS_DDR_DQ3                          NA                 504   PSDDR     NA                 
+W15   PS_DDR_DQ30                         NA                 504   PSDDR     NA                 
+V15   PS_DDR_DQ31                         NA                 504   PSDDR     NA                 
+AA8   PS_DDR_DQ4                          NA                 504   PSDDR     NA                 
+Y8    PS_DDR_DQ5                          NA                 504   PSDDR     NA                 
+AB7   PS_DDR_DQ6                          NA                 504   PSDDR     NA                 
+T22   PS_DDR_DQ64                         NA                 504   PSDDR     NA                 
+P22   PS_DDR_DQ65                         NA                 504   PSDDR     NA                 
+R21   PS_DDR_DQ66                         NA                 504   PSDDR     NA                 
+P21   PS_DDR_DQ67                         NA                 504   PSDDR     NA                 
+R18   PS_DDR_DQ68                         NA                 504   PSDDR     NA                 
+P18   PS_DDR_DQ69                         NA                 504   PSDDR     NA                 
+AA7   PS_DDR_DQ7                          NA                 504   PSDDR     NA                 
+N18   PS_DDR_DQ70                         NA                 504   PSDDR     NA                 
+N19   PS_DDR_DQ71                         NA                 504   PSDDR     NA                 
+AA11  PS_DDR_DQ8                          NA                 504   PSDDR     NA                 
+Y11   PS_DDR_DQ9                          NA                 504   PSDDR     NA                 
+AA9   PS_DDR_DQS_N0                       NA                 504   PSDDR     NA                 
+AA13  PS_DDR_DQS_N1                       NA                 504   PSDDR     NA                 
+V8    PS_DDR_DQS_N2                       NA                 504   PSDDR     NA                 
+V13   PS_DDR_DQS_N3                       NA                 504   PSDDR     NA                 
+R20   PS_DDR_DQS_N8                       NA                 504   PSDDR     NA                 
+Y9    PS_DDR_DQS_P0                       NA                 504   PSDDR     NA                 
+Y13   PS_DDR_DQS_P1                       NA                 504   PSDDR     NA                 
+V9    PS_DDR_DQS_P2                       NA                 504   PSDDR     NA                 
+V12   PS_DDR_DQS_P3                       NA                 504   PSDDR     NA                 
+P20   PS_DDR_DQS_P8                       NA                 504   PSDDR     NA                 
+W22   PS_DDR_ODT0                         NA                 504   PSDDR     NA                 
+W21   PS_DDR_ODT1                         NA                 504   PSDDR     NA                 
+U19   PS_DDR_PARITY                       NA                 504   PSDDR     NA                 
+T18   PS_DDR_RAM_RST_N                    NA                 504   PSDDR     NA                 
+T19   PS_DDR_ZQ                           NA                 504   PSDDR     NA                 
+M22   PS_MGTRRXN0_505                     NA                 505   PSGTR     NA                 
+H22   PS_MGTRRXN1_505                     NA                 505   PSGTR     NA                 
+D22   PS_MGTRRXN2_505                     NA                 505   PSGTR     NA                 
+B22   PS_MGTRRXN3_505                     NA                 505   PSGTR     NA                 
+M21   PS_MGTRRXP0_505                     NA                 505   PSGTR     NA                 
+H21   PS_MGTRRXP1_505                     NA                 505   PSGTR     NA                 
+D21   PS_MGTRRXP2_505                     NA                 505   PSGTR     NA                 
+B21   PS_MGTRRXP3_505                     NA                 505   PSGTR     NA                 
+K22   PS_MGTRTXN0_505                     NA                 505   PSGTR     NA                 
+F22   PS_MGTRTXN1_505                     NA                 505   PSGTR     NA                 
+C20   PS_MGTRTXN2_505                     NA                 505   PSGTR     NA                 
+A20   PS_MGTRTXN3_505                     NA                 505   PSGTR     NA                 
+K21   PS_MGTRTXP0_505                     NA                 505   PSGTR     NA                 
+F21   PS_MGTRTXP1_505                     NA                 505   PSGTR     NA                 
+C19   PS_MGTRTXP2_505                     NA                 505   PSGTR     NA                 
+A19   PS_MGTRTXP3_505                     NA                 505   PSGTR     NA                 
+L20   PS_MGTREFCLK0N_505                  NA                 505   PSGTR     NA                 
+L19   PS_MGTREFCLK0P_505                  NA                 505   PSGTR     NA                 
+J20   PS_MGTREFCLK1N_505                  NA                 505   PSGTR     NA                 
+J19   PS_MGTREFCLK1P_505                  NA                 505   PSGTR     NA                 
+G20   PS_MGTREFCLK2N_505                  NA                 505   PSGTR     NA                 
+G19   PS_MGTREFCLK2P_505                  NA                 505   PSGTR     NA                 
+E20   PS_MGTREFCLK3N_505                  NA                 505   PSGTR     NA                 
+E19   PS_MGTREFCLK3P_505                  NA                 505   PSGTR     NA                 
+M20   PS_MGTRREF_505                      NA                 NA    NA        NA                 
+AA5   VCCO_PSIO0_500                      NA                 500   NA        NA                 
+V6    VCCO_PSIO0_500                      NA                 500   NA        NA                 
+C11   VCCO_PSIO1_501                      NA                 501   NA        NA                 
+F10   VCCO_PSIO1_501                      NA                 501   NA        NA                 
+C16   VCCO_PSIO2_502                      NA                 502   NA        NA                 
+D14   VCCO_PSIO2_502                      NA                 502   NA        NA                 
+G13   VCCO_PSIO3_503                      NA                 503   NA        NA                 
+H16   VCCO_PSIO3_503                      NA                 503   NA        NA                 
+AB18  VCCO_PSDDR_504                      NA                 504   NA        NA                 
+P19   VCCO_PSDDR_504                      NA                 504   NA        NA                 
+T20   VCCO_PSDDR_504                      NA                 504   NA        NA                 
+V16   VCCO_PSDDR_504                      NA                 504   NA        NA                 
+V21   VCCO_PSDDR_504                      NA                 504   NA        NA                 
+Y17   VCCO_PSDDR_504                      NA                 504   NA        NA                 
+Y22   VCCO_PSDDR_504                      NA                 504   NA        NA                 
+B8    VCCO_26                             NA                 26    NA        NA                 
+E7    VCCO_26                             NA                 26    NA        NA                 
+B3    VCCO_65                             NA                 65    NA        NA                 
+G3    VCCO_65                             NA                 65    NA        NA                 
+K2    VCCO_65                             NA                 65    NA        NA                 
+P4    VCCO_65                             NA                 65    NA        NA                 
+A1    GND                                 NA                 NA    NA        NA                 
+A10   GND                                 NA                 NA    NA        NA                 
+A15   GND                                 NA                 NA    NA        NA                 
+A18   GND                                 NA                 NA    NA        NA                 
+A22   GND                                 NA                 NA    NA        NA                 
+A5    GND                                 NA                 NA    NA        NA                 
+AA10  GND                                 NA                 NA    NA        NA                 
+AA15  GND                                 NA                 NA    NA        NA                 
+AA20  GND                                 NA                 NA    NA        NA                 
+AB1   GND                                 NA                 NA    NA        NA                 
+AB13  GND                                 NA                 NA    NA        NA                 
+AB22  GND                                 NA                 NA    NA        NA                 
+AB3   GND                                 NA                 NA    NA        NA                 
+AB8   GND                                 NA                 NA    NA        NA                 
+B13   GND                                 NA                 NA    NA        NA                 
+B20   GND                                 NA                 NA    NA        NA                 
+C1    GND                                 NA                 NA    NA        NA                 
+C18   GND                                 NA                 NA    NA        NA                 
+C21   GND                                 NA                 NA    NA        NA                 
+C22   GND                                 NA                 NA    NA        NA                 
+C6    GND                                 NA                 NA    NA        NA                 
+D20   GND                                 NA                 NA    NA        NA                 
+D4    GND                                 NA                 NA    NA        NA                 
+D9    GND                                 NA                 NA    NA        NA                 
+E12   GND                                 NA                 NA    NA        NA                 
+E17   GND                                 NA                 NA    NA        NA                 
+E18   GND                                 NA                 NA    NA        NA                 
+E2    GND                                 NA                 NA    NA        NA                 
+E21   GND                                 NA                 NA    NA        NA                 
+E22   GND                                 NA                 NA    NA        NA                 
+F15   GND                                 NA                 NA    NA        NA                 
+F20   GND                                 NA                 NA    NA        NA                 
+F5    GND                                 NA                 NA    NA        NA                 
+G18   GND                                 NA                 NA    NA        NA                 
+G21   GND                                 NA                 NA    NA        NA                 
+G22   GND                                 NA                 NA    NA        NA                 
+G8    GND                                 NA                 NA    NA        NA                 
+H1    GND                                 NA                 NA    NA        NA                 
+H11   GND                                 NA                 NA    NA        NA                 
+H20   GND                                 NA                 NA    NA        NA                 
+H6    GND                                 NA                 NA    NA        NA                 
+H9    GND                                 NA                 NA    NA        NA                 
+J10   GND                                 NA                 NA    NA        NA                 
+J14   GND                                 NA                 NA    NA        NA                 
+J18   GND                                 NA                 NA    NA        NA                 
+J21   GND                                 NA                 NA    NA        NA                 
+J22   GND                                 NA                 NA    NA        NA                 
+J4    GND                                 NA                 NA    NA        NA                 
+J8    GND                                 NA                 NA    NA        NA                 
+K11   GND                                 NA                 NA    NA        NA                 
+K17   GND                                 NA                 NA    NA        NA                 
+K20   GND                                 NA                 NA    NA        NA                 
+K7    GND                                 NA                 NA    NA        NA                 
+L15   GND                                 NA                 NA    NA        NA                 
+L18   GND                                 NA                 NA    NA        NA                 
+L21   GND                                 NA                 NA    NA        NA                 
+L22   GND                                 NA                 NA    NA        NA                 
+L5    GND                                 NA                 NA    NA        NA                 
+L8    GND                                 NA                 NA    NA        NA                 
+M11   GND                                 NA                 NA    NA        NA                 
+M13   GND                                 NA                 NA    NA        NA                 
+M18   GND                                 NA                 NA    NA        NA                 
+M19   GND                                 NA                 NA    NA        NA                 
+M3    GND                                 NA                 NA    NA        NA                 
+N1    GND                                 NA                 NA    NA        NA                 
+N16   GND                                 NA                 NA    NA        NA                 
+N20   GND                                 NA                 NA    NA        NA                 
+N21   GND                                 NA                 NA    NA        NA                 
+N22   GND                                 NA                 NA    NA        NA                 
+N6    GND                                 NA                 NA    NA        NA                 
+N8    GND                                 NA                 NA    NA        NA                 
+P11   GND                                 NA                 NA    NA        NA                 
+P14   GND                                 NA                 NA    NA        NA                 
+P7    GND                                 NA                 NA    NA        NA                 
+P9    GND                                 NA                 NA    NA        NA                 
+R10   GND                                 NA                 NA    NA        NA                 
+R12   GND                                 NA                 NA    NA        NA                 
+R17   GND                                 NA                 NA    NA        NA                 
+R2    GND                                 NA                 NA    NA        NA                 
+R22   GND                                 NA                 NA    NA        NA                 
+R8    GND                                 NA                 NA    NA        NA                 
+T11   GND                                 NA                 NA    NA        NA                 
+T15   GND                                 NA                 NA    NA        NA                 
+T5    GND                                 NA                 NA    NA        NA                 
+U13   GND                                 NA                 NA    NA        NA                 
+U18   GND                                 NA                 NA    NA        NA                 
+U3    GND                                 NA                 NA    NA        NA                 
+U8    GND                                 NA                 NA    NA        NA                 
+V1    GND                                 NA                 NA    NA        NA                 
+V11   GND                                 NA                 NA    NA        NA                 
+W14   GND                                 NA                 NA    NA        NA                 
+W19   GND                                 NA                 NA    NA        NA                 
+W4    GND                                 NA                 NA    NA        NA                 
+W9    GND                                 NA                 NA    NA        NA                 
+Y12   GND                                 NA                 NA    NA        NA                 
+Y2    GND                                 NA                 NA    NA        NA                 
+Y7    GND                                 NA                 NA    NA        NA                 
+P16   GND_PSADC                           NA                 NA    NA        NA                 
+F19   PS_MGTRAVCC                         NA                 NA    NA        NA                 
+H19   PS_MGTRAVCC                         NA                 NA    NA        NA                 
+K19   PS_MGTRAVCC                         NA                 NA    NA        NA                 
+A21   PS_MGTRAVTT                         NA                 NA    NA        NA                 
+B19   PS_MGTRAVTT                         NA                 NA    NA        NA                 
+D19   PS_MGTRAVTT                         NA                 NA    NA        NA                 
+M6    VCCAUX                              NA                 NA    NA        NA                 
+P6    VCCAUX                              NA                 NA    NA        NA                 
+J6    VCCAUX_IO                           NA                 NA    NA        NA                 
+K6    VCCAUX_IO                           NA                 NA    NA        NA                 
+L6    VCCAUX_IO                           NA                 NA    NA        NA                 
+N7    VCCBRAM                             NA                 NA    NA        NA                 
+R6    VCCBRAM                             NA                 NA    NA        NA                 
+R7    VCCBRAM                             NA                 NA    NA        NA                 
+T6    VCCBRAM                             NA                 NA    NA        NA                 
+H10   VCCINT                              NA                 NA    NA        NA                 
+H8    VCCINT                              NA                 NA    NA        NA                 
+J11   VCCINT                              NA                 NA    NA        NA                 
+J9    VCCINT                              NA                 NA    NA        NA                 
+K8    VCCINT                              NA                 NA    NA        NA                 
+L11   VCCINT                              NA                 NA    NA        NA                 
+M8    VCCINT                              NA                 NA    NA        NA                 
+N11   VCCINT                              NA                 NA    NA        NA                 
+P10   VCCINT                              NA                 NA    NA        NA                 
+P8    VCCINT                              NA                 NA    NA        NA                 
+R11   VCCINT                              NA                 NA    NA        NA                 
+R9    VCCINT                              NA                 NA    NA        NA                 
+H7    VCCINT_IO                           NA                 NA    NA        NA                 
+J7    VCCINT_IO                           NA                 NA    NA        NA                 
+L7    VCCINT_IO                           NA                 NA    NA        NA                 
+M7    VCCINT_IO                           NA                 NA    NA        NA                 
+P15   VCC_PSADC                           NA                 NA    NA        NA                 
+L16   VCC_PSAUX                           NA                 NA    NA        NA                 
+L17   VCC_PSAUX                           NA                 NA    NA        NA                 
+M16   VCC_PSAUX                           NA                 NA    NA        NA                 
+M17   VCC_PSAUX                           NA                 NA    NA        NA                 
+N15   VCC_PSBATT                          NA                 NA    NA        NA                 
+M14   VCC_PSDDR_PLL                       NA                 NA    NA        NA                 
+M15   VCC_PSDDR_PLL                       NA                 NA    NA        NA                 
+N14   VCC_PSINTFP                         NA                 NA    NA        NA                 
+R15   VCC_PSINTFP                         NA                 NA    NA        NA                 
+R16   VCC_PSINTFP                         NA                 NA    NA        NA                 
+T12   VCC_PSINTFP                         NA                 NA    NA        NA                 
+T13   VCC_PSINTFP                         NA                 NA    NA        NA                 
+T14   VCC_PSINTFP                         NA                 NA    NA        NA                 
+T16   VCC_PSINTFP                         NA                 NA    NA        NA                 
+N17   VCC_PSINTFP_DDR                     NA                 NA    NA        NA                 
+P17   VCC_PSINTFP_DDR                     NA                 NA    NA        NA                 
+T17   VCC_PSINTFP_DDR                     NA                 NA    NA        NA                 
+N12   VCC_PSINTLP                         NA                 NA    NA        NA                 
+N13   VCC_PSINTLP                         NA                 NA    NA        NA                 
+P12   VCC_PSINTLP                         NA                 NA    NA        NA                 
+P13   VCC_PSINTLP                         NA                 NA    NA        NA                 
+R13   VCC_PSINTLP                         NA                 NA    NA        NA                 
+R14   VCC_PSINTLP                         NA                 NA    NA        NA                 
+L13   VCC_PSPLL                           NA                 NA    NA        NA                 
+L14   VCC_PSPLL                           NA                 NA    NA        NA                 
+M12   VCC_PSPLL                           NA                 NA    NA        NA                 
+                                                                                                
+Total Number of Pins 484                                                                                           

@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE; 
+PART 'SATA' 
+
+
+{========================================================================================}
+:PART_NUMBER    | PACK_TYPE = JEDEC_TYPE	  | HEIGHT   | ROHS        | STATUS      | MANUFACTURER  | MPN       | DESCRIPTION   ;
+{========================================================================================}
+ 'CDN-CON-0014a' | 'TH'(!) = 'SATA_VERT1P27'  | '8.4MM'  | 'COMPLIANT' | 'Compliant' | 'Molex'       | '67800' | 'SATA SMD Vertical Connector'
+ 'CDN-CON-0015' | 'TH'(!) = 'SATA_VERT1P27A'  | '8.4MM'  | 'COMPLIANT' | 'compliant' | 'molex'       | '67801' | 'SATA SMD Vertical Connector '
+
+END_PART 
+END. 
+

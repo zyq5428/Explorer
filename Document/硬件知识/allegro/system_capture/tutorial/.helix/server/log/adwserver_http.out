@@ -1,0 +1,1 @@
+[2022-05-22T21:57:51.608+0800] [17516] [qtp712410124-72] [26acacb9-4748-4885-a8eb-bc58ae3a65b8] [] [] [EDMServer] [127.0.0.1] [192.168.56.1] [JettyHttpRequestLogger] [DEBUG] [] [GET] [http://127.0.0.1:38773/api/v1/manager/shutdown] [] - . 200 0 46

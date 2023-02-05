@@ -1,0 +1,103 @@
+{
+resolve : { mode : 'mode_cache_wins'},
+process : {mode: 'add'}
+}{
+    "objects": [
+        {
+            "id": "6BAD0F68-1718-42D2-99AC-8960D7CEB06E",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "VIPER_ASIC"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "DCA92893-FAF1-4E8C-9E64-C6D3565D7377",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "1AC3B3A7-18A5-411F-9ABE-6599280AD57E",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "DCA92893-FAF1-4E8C-9E64-C6D3565D7377",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "viper_asic"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "1AC3B3A7-18A5-411F-9ABE-6599280AD57E",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1AC3B3A7-18A5-411F-9ABE-6599280AD57E",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "custom_library"
+            }
+        },
+        {
+            "id": "359DEEA5-1705-4F80-8A4B-73CDFA2F9777",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "FCBGA",
+                "PART_NUMBER": "CDN-MPU-000009"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "DCA92893-FAF1-4E8C-9E64-C6D3565D7377",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "6BAD0F68-1718-42D2-99AC-8960D7CEB06E",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+\t (00:00:35) sigxp 17.4 S028 Windows SPB 64-bit Edition
+\t (00:00:35)     Journal start - Mon Apr  4 23:09:43 2022
+\t (00:00:35)         Host=HEROZHOU User=59427 Pid=11476 CPUs=12
+\t (00:00:35) CmdLine= D:\Cadence\Cadence\SPB_17.4\tools\bin\sigxp.exe
+\t (00:00:35) 
+\t (00:00:35) Starting new design...
+\i (00:00:35) trapsize 4344
+\i (00:00:35) trapsize 4344
+\i (00:00:35) trapsize 4344
+   (00:00:36) Already Placed Circuit
+\i (00:00:36) trapsize 12
+\i (00:00:36) sigxp background 
+\i (00:00:37) zoom out 1 
+\i (00:00:37) setwindow sigxp
+\i (00:00:37) zoom out 5490.85 4270.15
+\i (00:00:37) trapsize 24
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow sigxp
+\i (00:00:38) zoom in 5489.37 4254.71
+\i (00:00:38) trapsize 12
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow sigxp
+\i (00:00:38) zoom in 5489.37 4254.71
+\i (00:00:38) trapsize 6
+\i (00:00:38) prepopup 5488.58 4260.39
+\i (00:00:39) pick grid 5488.05 4260.51
+\t (00:00:39) last pick:  5488.00 4260.50
+\i (00:00:39) prepopup 5488.05 4260.51
+\i (00:00:40) pop dyn_option_select '@:@View CDSDefaultOutput_1p8v...' 
+\i (00:00:55) pick grid 5498.71 4260.50
+\t (00:00:55) last pick:  5498.50 4260.50
+\i (00:00:57) prepopup 5498.62 4260.48
+\i (00:00:58) pop dyn_option_select @:@Parameters 
+\i (00:00:59) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.TL1.propDelay VALUE
+\i (00:01:00) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.TL1.propDelay VALUE
+\i (00:01:04) exit 
+\t (00:01:04)     Journal end - Mon Apr  4 23:10:12 2022

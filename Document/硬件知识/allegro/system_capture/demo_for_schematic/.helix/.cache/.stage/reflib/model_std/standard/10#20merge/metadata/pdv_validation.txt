@@ -1,0 +1,2 @@
+pdv_140,Symbol 'sym_4':Pin Y is not on Standard Grid,Error
+pdv_140,Symbol 'sym_3':Pin Y is not on Standard Grid,Error

@@ -1,0 +1,1125 @@
+(Cell	lmz14203
+
+	(RevisionInfoBlock	
+
+		(Baselined	1)
+
+		(Revision	1.0.0)
+
+		(ModificationStatus	NULL)
+
+		(Status	Baselined)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/07/12,06:57:13)
+
+			(User	chimike)
+
+			(Path	ic.lmz14203)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/05/12,11:46:18)
+
+			(User	agoswami)
+
+			(Path	new_parts.lmz14203)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	1)
+
+				(Revision	1.0.0)
+
+				(ModificationStatus	NULL)
+
+				(Status	Baselined)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	12/07/12,06:57:13)
+
+					(User	chimike)
+
+					(Path	ic.lmz14203)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000009bfdb28e)
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/12,06:57:13)
+
+							(User	chimike)
+
+							(Path	ic.lmz14203)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e910417)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000004982e824)
+
+			(Primitives	1
+
+				(Primitive	LMZ14203
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/12,06:57:13)
+
+							(User	chimike)
+
+							(Path	ic.lmz14203)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LMZ14203
+
+							(PackType	LMZ14203)
+
+							(PackType	LMZ14203_TO-PMOD-7)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	to-pmod-7)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001bb203b0)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-p001 (v16-6-112A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c99039d)
+
+)
+
+
+(Cell	lmz14203
+
+	(RevisionInfoBlock	
+
+		(Baselined	1)
+
+		(Revision	1.1.0)
+
+		(ModificationStatus	NULL)
+
+		(Status	Baselined)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/07/12,06:57:13)
+
+			(User	chimike)
+
+			(Path	ic.lmz14203)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/07/12,07:00:30)
+
+			(User	chimike)
+
+			(Path	ic.lmz14203)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	1)
+
+				(Revision	1.1.0)
+
+				(ModificationStatus	NULL)
+
+				(Status	Baselined)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	12/07/12,06:57:13)
+
+					(User	chimike)
+
+					(Path	ic.lmz14203)
+
+				)
+
+				(LastModifyInfo	
+
+					(Time	12/07/12,07:00:30)
+
+					(User	chimike)
+
+					(Path	ic.lmz14203)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000007ac8baeb)
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	1.1.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/12,06:57:13)
+
+							(User	chimike)
+
+							(Path	ic.lmz14203)
+
+						)
+
+						(LastModifyInfo	
+
+							(Time	12/07/12,07:00:30)
+
+							(User	chimike)
+
+							(Path	ic.lmz14203)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e70043e)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000004982e824)
+
+			(Primitives	1
+
+				(Primitive	LMZ14203
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/12,06:57:13)
+
+							(User	chimike)
+
+							(Path	ic.lmz14203)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LMZ14203
+
+							(PackType	LMZ14203)
+
+							(PackType	LMZ14203_TO-PMOD-7)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	to-pmod-7)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001cba03b6)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-p001 (v16-6-112A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001d9103d3)
+
+)
+
+
+(Cell	lmz14203
+
+	(RevisionInfoBlock	
+
+		(Baselined	1)
+
+		(Revision	1.1.0)
+
+		(ModificationStatus	NULL)
+
+		(Status	Baselined)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/07/12,06:57:13)
+
+			(User	chimike)
+
+			(Path	ic.lmz14203)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/07/12,07:00:30)
+
+			(User	chimike)
+
+			(Path	ic.lmz14203)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	1)
+
+				(Revision	1.1.0)
+
+				(ModificationStatus	NULL)
+
+				(Status	Baselined)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	12/07/12,06:57:13)
+
+					(User	chimike)
+
+					(Path	ic.lmz14203)
+
+				)
+
+				(LastModifyInfo	
+
+					(Time	12/07/12,07:00:30)
+
+					(User	chimike)
+
+					(Path	ic.lmz14203)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000007ac8baeb)
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	1.1.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/12,06:57:13)
+
+							(User	chimike)
+
+							(Path	ic.lmz14203)
+
+						)
+
+						(LastModifyInfo	
+
+							(Time	12/07/12,07:00:30)
+
+							(User	chimike)
+
+							(Path	ic.lmz14203)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001e70043e)
+
+		)
+
+		(View	Chips
+
+			(Checksum	000000004982e824)
+
+			(Primitives	1
+
+				(Primitive	LMZ14203
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/12,06:57:13)
+
+							(User	chimike)
+
+							(Path	ic.lmz14203)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LMZ14203
+
+							(PackType	LMZ14203)
+
+							(PackType	LMZ14203_TO-PMOD-7)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	to-pmod-7)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001cba03b6)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-p001 (v16-6-112A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001d9103d3)
+
+)
+
+
+(Cell	lmz14203
+
+	(RevisionInfoBlock	
+
+		(Baselined	1)
+
+		(Revision	2.0.0)
+
+		(ModificationStatus	NULL)
+
+		(Status	Baselined)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/07/12,06:57:13)
+
+			(User	chimike)
+
+			(Path	ic.lmz14203)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/21/12,10:11:56)
+
+			(User	wtadlock)
+
+			(Path	ic.lmz14203)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	1)
+
+				(Revision	2.0.0)
+
+				(ModificationStatus	NULL)
+
+				(Status	Baselined)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	12/07/12,06:57:13)
+
+					(User	chimike)
+
+					(Path	ic.lmz14203)
+
+				)
+
+				(LastModifyInfo	
+
+					(Time	12/21/12,10:11:56)
+
+					(User	wtadlock)
+
+					(Path	ic.lmz14203)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000c926e152)
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	2.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/12,06:57:13)
+
+							(User	chimike)
+
+							(Path	ic.lmz14203)
+
+						)
+
+						(LastModifyInfo	
+
+							(Time	12/21/12,10:11:56)
+
+							(User	wtadlock)
+
+							(Path	ic.lmz14203)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c740382)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000002553207)
+
+			(Primitives	1
+
+				(Primitive	LMZ14203
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	2.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/12,06:57:13)
+
+							(User	chimike)
+
+							(Path	ic.lmz14203)
+
+						)
+
+						(LastModifyInfo	
+
+							(Time	12/21/12,10:11:56)
+
+							(User	wtadlock)
+
+							(Path	ic.lmz14203)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LMZ14203
+
+							(PackType	LMZ14203)
+
+							(PackType	LMZ14203_TO-PMOD-7)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	to-pmod-7)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c9e038c)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-p001 (v16-6-112A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c8803b1)
+
+)
+
+
+(Cell	lmz14203
+
+	(RevisionInfoBlock	
+
+		(Baselined	1)
+
+		(Revision	2.0.0)
+
+		(ModificationStatus	NULL)
+
+		(Status	Baselined)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	12/07/12,06:57:13)
+
+			(User	chimike)
+
+			(Path	ic.lmz14203)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/21/12,10:11:56)
+
+			(User	wtadlock)
+
+			(Path	ic.lmz14203)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	1)
+
+				(Revision	2.0.0)
+
+				(ModificationStatus	NULL)
+
+				(Status	Baselined)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	12/07/12,06:57:13)
+
+					(User	chimike)
+
+					(Path	ic.lmz14203)
+
+				)
+
+				(LastModifyInfo	
+
+					(Time	12/21/12,10:11:56)
+
+					(User	wtadlock)
+
+					(Path	ic.lmz14203)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000001569e0f8)
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	2.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/12,06:57:13)
+
+							(User	chimike)
+
+							(Path	ic.lmz14203)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001b540389)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000002553207)
+
+			(Primitives	1
+
+				(Primitive	LMZ14203
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	2.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	12/07/12,06:57:13)
+
+							(User	chimike)
+
+							(Path	ic.lmz14203)
+
+						)
+
+						(LastModifyInfo	
+
+							(Time	12/21/12,10:11:56)
+
+							(User	wtadlock)
+
+							(Path	ic.lmz14203)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	LMZ14203
+
+							(PackType	LMZ14203)
+
+							(PackType	LMZ14203_TO-PMOD-7)
+
+						)
+
+					)
+
+					(Packages	2
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+						(Linkages	
+
+							(DefaultFootPrint	
+
+								(Name	to-pmod-7)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001c840381)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-p001 (v16-6-112A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001b5b034d)
+
+)
+
+

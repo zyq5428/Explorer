@@ -1,0 +1,7 @@
+* source BANDPASS-FILTER
+C_C1         IN N00191  0.047u  TC=0,0 
+C_C2         0 OUT  150p  TC=0,0 
+R_R1         N00191 OUT  10k TC=0,0 
+R_R2         0 N00191  10k TC=0,0 
+V_V1         IN 0  AC 0.1
++SIN 0 1 0 0 0 0

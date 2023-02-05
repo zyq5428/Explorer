@@ -1,0 +1,88 @@
+\t (00:00:23) sigxp 17.4 S028 Windows SPB 64-bit Edition
+\t (00:00:23)     Journal start - Mon Apr  4 23:04:57 2022
+\t (00:00:23)         Host=HEROZHOU User=59427 Pid=2820 CPUs=12
+\t (00:00:23) CmdLine= D:\Cadence\Cadence\SPB_17.4\tools\bin\sigxp.exe
+\t (00:00:23) 
+\t (00:00:23) Starting new design...
+\i (00:00:24) trapsize 4344
+\i (00:00:24) trapsize 4344
+\i (00:00:24) trapsize 4344
+   (00:00:24) Already Placed Circuit
+\i (00:00:24) trapsize 12
+\i (00:00:24) sigxp background 
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow sigxp
+\i (00:00:26) zoom out 5503.10 4269.99
+\i (00:00:26) trapsize 24
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow sigxp
+\i (00:00:26) zoom out 5503.10 4270.27
+\i (00:00:26) trapsize 47
+\i (00:00:26) zoom out 1 
+\i (00:00:26) setwindow sigxp
+\i (00:00:26) zoom out 5502.91 4270.94
+\i (00:00:26) trapsize 95
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow sigxp
+\i (00:00:27) zoom in 5516.19 4244.97
+\i (00:00:27) trapsize 47
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow sigxp
+\i (00:00:27) zoom in 5516.19 4244.98
+\i (00:00:27) trapsize 24
+\i (00:00:27) zoom in 1 
+\i (00:00:27) setwindow sigxp
+\i (00:00:27) zoom in 5498.80 4256.98
+\i (00:00:27) trapsize 12
+\i (00:00:28) zoom out 1 
+\i (00:00:28) setwindow sigxp
+\i (00:00:28) zoom out 5499.68 4256.57
+\i (00:00:28) trapsize 24
+\i (00:00:54) pick grid 5500.30 4256.20
+\t (00:00:54) last pick:  5500.50 4256.00
+\i (00:00:55) signal simulate 
+\i (00:00:57) sigxp background 
+\i (00:01:09) pick grid 5488.73 4260.32
+\t (00:01:09) last pick:  5488.50 4260.50
+\i (00:01:09) prepopup 5488.73 4260.32
+\i (00:01:11) pop dyn_option_select '@:@View CDSDefaultOutput_1p8v...' 
+\i (00:01:17) prepopup 5488.64 4260.61
+\i (00:01:22) pop dyn_option_select '@:@View CDSDefaultOutput_1p8v...' 
+\i (00:02:07) signal library 
+   (00:02:07) Loading sigallegro.cxt 
+\i (00:02:07) sigxp background 
+\i (00:02:11) setwindow form.sigModelBrowser
+\i (00:02:11) FORM sigModelBrowser close  
+\i (00:02:19) setwindow sigxp
+\i (00:02:19) pick grid 5492.43 4255.54
+\t (00:02:19) last pick:  5492.50 4255.50
+\i (00:02:19) pick grid 5487.59 4259.66
+\t (00:02:19) last pick:  5487.50 4259.50
+\i (00:02:20) prepopup 5487.64 4259.66
+\i (00:02:21) pick grid 5482.57 4253.02
+\t (00:02:21) last pick:  5482.50 4253.00
+\i (00:02:22) pick grid 5487.36 4260.70
+\t (00:02:22) last pick:  5487.50 4260.50
+\i (00:02:23) prepopup 5487.74 4260.75
+\i (00:02:24) pop dyn_option_select '@:@Change Buffer Model' 
+\i (00:02:54) setwindow form.sxbuffparam
+\i (00:02:54) FORM sxbuffparam cancel  
+\i (00:02:55) setwindow sigxp
+\i (00:02:55) pick grid 5495.37 4255.39
+\t (00:02:55) last pick:  5495.50 4255.50
+\i (00:02:57) pick grid 5488.02 4260.32
+\t (00:02:57) last pick:  5488.00 4260.50
+\i (00:02:57) prepopup 5488.02 4260.32
+\i (00:02:59) pop dyn_option_select '@:@View CDSDefaultOutput_1p8v...' 
+\i (00:03:06) pick grid 5508.55 4260.80
+\t (00:03:06) last pick:  5508.50 4261.00
+\i (00:03:06) prepopup 5508.55 4260.80
+\i (00:03:08) pop dyn_option_select '@:@View CDSDefaultInput_1p8v...' 
+\i (00:03:22) pick grid 5499.35 4260.47
+\t (00:03:22) last pick:  5499.50 4260.50
+\i (00:03:23) prepopup 5499.02 4260.47
+\i (00:03:24) pop dyn_option_select @:@Parameters 
+\i (00:03:26) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.TL1.propDelay VALUE
+\i (00:03:27) spreadsheet Parameters LBUTTONCLICKED CIRCUIT.DESIGN.TL1.propDelay VALUE
+\i (00:03:45) exit 
+\t (00:03:45)     Journal end - Mon Apr  4 23:08:18 2022

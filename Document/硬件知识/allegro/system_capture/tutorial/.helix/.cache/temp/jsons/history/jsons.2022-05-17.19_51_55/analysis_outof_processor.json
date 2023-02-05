@@ -1,0 +1,379 @@
+{
+  "objects": [
+    {
+      "id": "D7BE4FF2-07FB-4ED0-AFC3-A252198F5A5C",
+      "type": "schematic_model",
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "0FA3466F-7D1C-41AE-AD80-76592E0972AC",
+              "type": "library",
+              "vault": "design"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "53B1A5EA-4995-404B-B31D-408A84CB4765",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "SATA"
+      }
+    },
+    {
+      "id": "53B1A5EA-4995-404B-B31D-408A84CB4765",
+      "type": "cell_model",
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "0FA3466F-7D1C-41AE-AD80-76592E0972AC",
+              "type": "library",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "sata"
+      }
+    },
+    {
+      "id": "0FA3466F-7D1C-41AE-AD80-76592E0972AC",
+      "type": "library",
+      "relations": {},
+      "vault": "design",
+      "properties": {
+        "Library Name": "connector"
+      }
+    },
+    {
+      "id": "9231AA6A-DA29-46DD-B5C7-D38721FB0998",
+      "type": "part",
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "D7BE4FF2-07FB-4ED0-AFC3-A252198F5A5C",
+              "type": "schematic_model",
+              "vault": "design"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "53B1A5EA-4995-404B-B31D-408A84CB4765",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "PACK_TYPE": "TH",
+        "PART_NUMBER": "CDN-CON-0014"
+      },
+      "meta": [
+        {
+          "name": "cpath",
+          "value": "",
+          "data": [
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "differences": {
+        "relations": [
+          "different",
+          "not_applicable",
+          "not_applicable"
+        ],
+        "properties": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "update_design_from_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "update_design_from_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "3b67b47d-a167-456a-9564-588c54d1fbf4",
+      "tag": [
+        "ref_partid_ed2f9eca-57b1-41f8-aa08-3b326e87d8de",
+        "ref_schematic_model_SATA"
+      ],
+      "type": "part",
+      "objectid": "9231AA6A-DA29-46DD-B5C7-D38721FB0998",
+      "referenceid": "ed2f9eca-57b1-41f8-aa08-3b326e87d8de",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {
+        "relations": [
+          "different",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "update_design_from_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "update_design_from_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "58e7ed0e-a51f-4d57-98a4-a4fd8869ac97",
+      "tag": [
+        "ref_schematic_model_SATA"
+      ],
+      "type": "schematic_model",
+      "objectid": "D7BE4FF2-07FB-4ED0-AFC3-A252198F5A5C",
+      "referenceid": "448e11b3-ced3-485d-8fc1-51b86ad6f36a",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {
+        "relations": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "0706a43e-67e5-4351-bbb2-10b368a97297",
+      "tag": [],
+      "type": "cell_model",
+      "objectid": "53B1A5EA-4995-404B-B31D-408A84CB4765",
+      "referenceid": "f7da3a87-cf9b-4a30-aabb-74d379ac5747",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {},
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "98580d2a-c023-417f-a2f4-6217295baee4",
+      "tag": [],
+      "type": "library",
+      "objectid": "0FA3466F-7D1C-41AE-AD80-76592E0972AC",
+      "referenceid": "440dca4e-ad09-42ba-9682-c8b5dadd5292",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "id": "ed2f9eca-57b1-41f8-aa08-3b326e87d8de",
+      "type": "part",
+      "vault": "server",
+      "attributes": {
+        "Part Number": "CDN-CON-0014"
+      },
+      "properties": {
+        "DESCRIPTION": "SATA SMD Vertical Connector",
+        "HEIGHT": "8.4MM",
+        "JEDEC_TYPE": "SATA_VERT1P27",
+        "MANUFACTURER": "Molex",
+        "MPN": "67800",
+        "PACK_TYPE": "TH",
+        "PART_NUMBER": "CDN-CON-0014",
+        "PTF_SUBTYPE": "!",
+        "ROHS": "COMPLIANT",
+        "STATUS": "Compliant"
+      },
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "448e11b3-ced3-485d-8fc1-51b86ad6f36a",
+              "type": "schematic_model",
+              "vault": "server"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "f7da3a87-cf9b-4a30-aabb-74d379ac5747",
+              "type": "cell_model",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "448e11b3-ced3-485d-8fc1-51b86ad6f36a",
+      "type": "schematic_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "SATA"
+      },
+      "header": [
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PART_NUMBER",
+          "type": "Key",
+          "order": "1"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "STATUS",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "JEDEC_TYPE",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "DESCRIPTION",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MPN",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "PTF_SUBTYPE",
+          "type": "Subtype"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "HEIGHT",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MANUFACTURER",
+          "type": "Injected"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PACK_TYPE",
+          "type": "Key",
+          "order": "2"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "ROHS",
+          "type": "Injected"
+        }
+      ],
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "440dca4e-ad09-42ba-9682-c8b5dadd5292",
+              "type": "library",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "f7da3a87-cf9b-4a30-aabb-74d379ac5747",
+      "type": "cell_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "sata"
+      },
+      "symbols": {
+        "sym_1": "L -200 50 -150 50 -1 0\nL -200 0 -150 0 -1 0\nL -200 -50 -150 -50 -1 0\nL -200 -100 -150 -100 -1 0\nL -50 -250 -50 -200 -1 0\nL 0 -250 0 -200 -1 0\nL 50 -250 50 -200 -1 0\nL -150 200 150 200 -1 0\nL -150 -200 150 -200 -1 0\nL -150 200 -150 -200 -1 0\nL 150 200 150 -200 -1 0\nT -125 125 0.00 0.00 48 0 0 0 0 4 82\nSATA\nC -200 50 \"DP_AP\" -225 50 0 1 32 0 R\nX \"PIN_TEXT\" \"DP_A+\" -140 50 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -170 50 0.00 0.00 32 0 0 2 0 0 1 0 0\nC -200 0 \"DP_AN\" -225 0 0 1 32 0 R\nX \"PIN_TEXT\" \"DP_A-\" -140 0 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -170 0 0.00 0.00 32 0 0 2 0 0 1 0 0\nC -200 -50 \"DP_BP\" -225 -50 0 1 32 0 R\nX \"PIN_TEXT\" \"DP_B+\" -140 -50 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -170 -49 0.00 0.00 32 0 0 2 0 0 1 0 0\nC -200 -100 \"DP_BN\" -225 -100 0 1 32 0 R\nX \"PIN_TEXT\" \"DP_B-\" -140 -99 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -170 -99 0.00 0.00 32 0 0 2 0 0 1 0 0\nC -50 -250 \"G1\" -50 -275 0 1 32 1 R\nX \"PIN_TEXT\" \"G1\" -50 -190 90.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -50 -219 90.00 0.00 32 0 0 2 0 0 1 0 0\nC 0 -250 \"G2\" 0 -275 0 1 32 1 R\nX \"PIN_TEXT\" \"G2\" 0 -190 90.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" 0 -219 90.00 0.00 32 0 0 2 0 0 1 0 0\nC 50 -250 \"G3\" 50 -275 0 1 32 1 R\nX \"PIN_TEXT\" \"G3\" 49 -190 90.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" 50 -219 90.00 0.00 32 0 0 2 0 0 1 0 0\nP \"CDS_LMAN_SYM_OUTLINE\" \"-150,200,150,-200\" 0 0 0.00 0.00 22 0 0 0 0 0 0 0 0\nP \"$LOCATION\" \"?\" 0 220 0.00 0.00 48 0 0 1 0 0 1 0 8\n"
+      },
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "9f67c2bb-d7cb-4e02-91b4-0c31a1a78039",
+              "type": "library",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "440dca4e-ad09-42ba-9682-c8b5dadd5292",
+      "type": "library",
+      "vault": "server",
+      "attributes": {
+        "Library Name": "connector"
+      }
+    },
+    {
+      "id": "9f67c2bb-d7cb-4e02-91b4-0c31a1a78039",
+      "type": "library",
+      "vault": "server",
+      "attributes": {
+        "Library Name": "connector"
+      }
+    }
+  ],
+  "cache": [],
+  "finalanalysis": {
+    "conflictMessage": "",
+    "conflict": "valid"
+  }
+}

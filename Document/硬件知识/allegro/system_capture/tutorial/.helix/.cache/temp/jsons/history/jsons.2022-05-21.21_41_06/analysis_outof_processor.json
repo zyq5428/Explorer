@@ -1,0 +1,1020 @@
+{
+  "objects": [
+    {
+      "id": "5E1A3D47-E367-4257-98D3-A3AEC5EEA4CA",
+      "type": "part",
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "0C5EE9F4-B599-4585-9866-CC0F8A4A9CC4",
+              "type": "schematic_model",
+              "vault": "design"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "B39769BA-F64C-4CB0-9963-3C10F99FE9A2",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "PACK_TYPE": "TH",
+        "PART_NUMBER": "CDN-CON-0016"
+      },
+      "meta": [
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I1\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J0100"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I2\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J0101"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I3\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J0102"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I4\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J0103"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I5\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J0104"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I6\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J0105"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I7\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J0106"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I8\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J0107"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0C5EE9F4-B599-4585-9866-CC0F8A4A9CC4",
+      "type": "schematic_model",
+      "relations": {
+        "cell": [
+          {
+            "related": {
+              "id": "B39769BA-F64C-4CB0-9963-3C10F99FE9A2",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "USB_30VA"
+      }
+    },
+    {
+      "id": "B39769BA-F64C-4CB0-9963-3C10F99FE9A2",
+      "type": "cell_model",
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "34D1D3EA-FF5C-43B2-B795-3CC5551B5F39",
+              "type": "library",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "usb_30"
+      }
+    },
+    {
+      "id": "34D1D3EA-FF5C-43B2-B795-3CC5551B5F39",
+      "type": "library",
+      "relations": {},
+      "vault": "design",
+      "properties": {
+        "Library Name": "connector"
+      }
+    },
+    {
+      "id": "14333588-7237-47E9-80E3-6A07468D6F92",
+      "type": "part",
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "EA71DBE5-6460-401A-8BEE-F5E6D06569AF",
+              "type": "schematic_model",
+              "vault": "design"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "020CE674-5384-4671-BBDE-6DD82E8D8466",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "PACK_TYPE": "SMD",
+        "PART_NUMBER": "CDN-IC-USB01"
+      },
+      "meta": [
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I9\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "U0100"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I10\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "U0101"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I11\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "U0102"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I12\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "U0103"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I13\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "U0104"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I14\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "U0105"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I15\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "U0106"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.usb3(tbl_1):\\I16\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "U0107"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            },
+            {
+              "name": "readonly",
+              "value": "true"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "EA71DBE5-6460-401A-8BEE-F5E6D06569AF",
+      "type": "schematic_model",
+      "relations": {
+        "cell": [
+          {
+            "related": {
+              "id": "020CE674-5384-4671-BBDE-6DD82E8D8466",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "TPD4EUSB30"
+      }
+    },
+    {
+      "id": "020CE674-5384-4671-BBDE-6DD82E8D8466",
+      "type": "cell_model",
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "54C95DEB-BD80-4CB6-B41B-2354DDD657D2",
+              "type": "library",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "tpd4eusb30"
+      }
+    },
+    {
+      "id": "54C95DEB-BD80-4CB6-B41B-2354DDD657D2",
+      "type": "library",
+      "relations": {},
+      "vault": "design",
+      "properties": {
+        "Library Name": "ic"
+      }
+    }
+  ],
+  "resolutions": [
+    {
+      "differences": {
+        "relations": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ],
+        "properties": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "add2fcae-3db9-40b5-b701-37ef73e41ec1",
+      "tag": [
+        "ref_partid_09a71b12-94c2-416b-bd23-e540af815f6f"
+      ],
+      "type": "part",
+      "objectid": "5E1A3D47-E367-4257-98D3-A3AEC5EEA4CA",
+      "referenceid": "09a71b12-94c2-416b-bd23-e540af815f6f",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {
+        "relations": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ],
+        "properties": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "4ab7fad2-495f-48be-98ad-27e963b73a67",
+      "tag": [
+        "ref_partid_85d75045-62bc-4f44-bef3-08ea8dbc3680"
+      ],
+      "type": "part",
+      "objectid": "14333588-7237-47E9-80E3-6A07468D6F92",
+      "referenceid": "85d75045-62bc-4f44-bef3-08ea8dbc3680",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {
+        "relations": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "cf029ec4-ddf1-4ab9-ba84-609a540db1c4",
+      "tag": [],
+      "type": "schematic_model",
+      "objectid": "0C5EE9F4-B599-4585-9866-CC0F8A4A9CC4",
+      "referenceid": "a8de9e78-485c-4eca-8320-088cec783799",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {
+        "relations": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "0c26223c-8a5a-4607-8c75-b7469a346417",
+      "tag": [],
+      "type": "schematic_model",
+      "objectid": "EA71DBE5-6460-401A-8BEE-F5E6D06569AF",
+      "referenceid": "93955703-1438-4410-84c4-e748e74fbbac",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {
+        "relations": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "af7246b5-7dc6-48ea-853a-ef8df6c50ac7",
+      "tag": [],
+      "type": "cell_model",
+      "objectid": "B39769BA-F64C-4CB0-9963-3C10F99FE9A2",
+      "referenceid": "1d484d24-36de-48f0-9e39-6ceb0aa1b4c2",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {
+        "relations": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "135a11b1-c420-4e5f-a90c-cfb1d2ac9e41",
+      "tag": [],
+      "type": "cell_model",
+      "objectid": "020CE674-5384-4671-BBDE-6DD82E8D8466",
+      "referenceid": "19a14843-4950-4797-9c08-e93b20d0fdf0",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {},
+      "action": [
+        "identical_design_ref",
+        "identical_cache_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "identical_cache_ref"
+      ],
+      "id": "b03c7040-d089-41cf-a90a-0c298003b37d",
+      "tag": [],
+      "type": "library",
+      "objectid": "34D1D3EA-FF5C-43B2-B795-3CC5551B5F39",
+      "referenceid": "9f67c2bb-d7cb-4e02-91b4-0c31a1a78039",
+      "cacheid": "42db349a-ae51-4b5d-b3d5-2b7868332a0a",
+      "status": []
+    },
+    {
+      "differences": {},
+      "action": [
+        "identical_design_ref",
+        "identical_cache_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "identical_cache_ref"
+      ],
+      "id": "aa97ea09-97fa-4ccf-864e-c093de878626",
+      "tag": [],
+      "type": "library",
+      "objectid": "54C95DEB-BD80-4CB6-B41B-2354DDD657D2",
+      "referenceid": "7bb9f752-0c5b-4a2a-a1a2-6d69aa81f42f",
+      "cacheid": "b1df1a66-acde-4136-b39d-5ce46ffdb617",
+      "status": []
+    }
+  ],
+  "reference": [
+    {
+      "id": "09a71b12-94c2-416b-bd23-e540af815f6f",
+      "type": "part",
+      "vault": "server",
+      "attributes": {
+        "Part Number": "CDN-CON-0016"
+      },
+      "properties": {
+        "DESCRIPTION": "USB3.0 Vertical Connector",
+        "HEIGHT": "12.5MM",
+        "JEDEC_TYPE": "USB_30VERTA",
+        "MANUFACTURER": "GCT",
+        "MPN": "67800",
+        "PACK_TYPE": "TH",
+        "PART_NUMBER": "CDN-CON-0016",
+        "PTF_SUBTYPE": "!",
+        "ROHS": "COMPLIANT",
+        "STATUS": "Compliant"
+      },
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "a8de9e78-485c-4eca-8320-088cec783799",
+              "type": "schematic_model",
+              "vault": "server"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "1d484d24-36de-48f0-9e39-6ceb0aa1b4c2",
+              "type": "cell_model",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "85d75045-62bc-4f44-bef3-08ea8dbc3680",
+      "type": "part",
+      "vault": "server",
+      "attributes": {
+        "Part Number": "CDN-IC-USB01"
+      },
+      "properties": {
+        "DESCRIPTION": "4 Channel Protection USB 3.0",
+        "HEIGHT": ".55MM",
+        "JEDEC_TYPE": "SOIC10",
+        "MANUFACTURER": "TI",
+        "MPN": "TPD4EUSB30DQAR",
+        "PACK_TYPE": "SMD",
+        "PART_NUMBER": "CDN-IC-USB01",
+        "PTF_SUBTYPE": "!",
+        "ROHS": "COMPLIANT",
+        "STATUS": "Compliant"
+      },
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "93955703-1438-4410-84c4-e748e74fbbac",
+              "type": "schematic_model",
+              "vault": "server"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "19a14843-4950-4797-9c08-e93b20d0fdf0",
+              "type": "cell_model",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "a8de9e78-485c-4eca-8320-088cec783799",
+      "type": "schematic_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "USB_30VA"
+      },
+      "header": [
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PART_NUMBER",
+          "type": "Key",
+          "order": "1"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "STATUS",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "JEDEC_TYPE",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "DESCRIPTION",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MPN",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "PTF_SUBTYPE",
+          "type": "Subtype"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "HEIGHT",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MANUFACTURER",
+          "type": "Injected"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PACK_TYPE",
+          "type": "Key",
+          "order": "2"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "ROHS",
+          "type": "Injected"
+        }
+      ],
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "440dca4e-ad09-42ba-9682-c8b5dadd5292",
+              "type": "library",
+              "vault": "server"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "1d484d24-36de-48f0-9e39-6ceb0aa1b4c2",
+              "type": "cell_model",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "93955703-1438-4410-84c4-e748e74fbbac",
+      "type": "schematic_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "TPD4EUSB30"
+      },
+      "header": [
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PART_NUMBER",
+          "type": "Key",
+          "order": "1"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "STATUS",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "JEDEC_TYPE",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "DESCRIPTION",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MPN",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "PTF_SUBTYPE",
+          "type": "Subtype"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "HEIGHT",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MANUFACTURER",
+          "type": "Injected"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PACK_TYPE",
+          "type": "Key",
+          "order": "2"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "ROHS",
+          "type": "Injected"
+        }
+      ],
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "a34ae0d9-6137-42df-a5ff-d36ed88bd442",
+              "type": "library",
+              "vault": "server"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "19a14843-4950-4797-9c08-e93b20d0fdf0",
+              "type": "cell_model",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "1d484d24-36de-48f0-9e39-6ceb0aa1b4c2",
+      "type": "cell_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "usb_30"
+      },
+      "symbols": {
+        "sym_1": "L 125 -150 125 -200 -1 0\nL 75 -150 75 -200 -1 0\nL -25 -150 -25 -200 -1 0\nL -75 -150 -75 -200 -1 0\nL 300 150 250 150 -1 0\nL 300 25 250 25 -1 0\nL -300 0 -250 0 -1 0\nL -300 50 -250 50 -1 0\nL -300 200 -250 200 -1 0\nL -300 150 -250 150 -1 0\nL 150 400 150 350 -1 0\nL -250 350 250 350 -1 0\nL -250 350 -250 -150 -1 0\nL 250 350 250 -150 -1 0\nL 250 -150 -250 -150 -1 0\nT -125 300 0.00 0.00 32 0 0 1 0 6 0\nUSB_30\nC 125 -200 \"SHLD2\" 125 -225 0 1 35 1 R\nX \"PIN_TEXT\" \"SHLD2\" 125 -137 90.00 0.00 21 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" 125 -175 90.00 0.00 21 0 0 2 0 0 1 0 0\nC 75 -200 \"SHLD1\" 75 -225 0 1 35 1 R\nX \"PIN_TEXT\" \"SHLD1\" 75 -137 90.00 0.00 21 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" 75 -175 90.00 0.00 21 0 0 2 0 0 1 0 0\nC -25 -200 \"GND_DRN\" -25 -225 0 1 35 1 R\nX \"PIN_TEXT\" \"GND_DRN\" -25 -137 90.00 0.00 21 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -25 -175 90.00 0.00 21 0 0 2 0 0 1 0 0\nC -75 -200 \"GND\" -75 -225 0 1 35 1 R\nX \"PIN_TEXT\" \"GND\" -75 -137 90.00 0.00 21 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -75 -175 90.00 0.00 21 0 0 2 0 0 1 0 0\nC 300 150 \"D_AP\" 312 150 0 1 32 0 L\nX \"PIN_TEXT\" \"D_AP\" 240 150 0.00 0.00 24 0 0 2 0 0 1 0 0\nX \"$PN\" \"?\" 262 150 0.00 0.00 21 0 0 0 0 0 1 0 0\nC 300 25 \"D_AM\" 312 25 0 1 32 0 L\nX \"PIN_TEXT\" \"D_AM\" 240 25 0.00 0.00 24 0 0 2 0 0 1 0 0\nX \"$PN\" \"?\" 262 25 0.00 0.00 21 0 0 0 0 0 1 0 0\nC -300 0 \"STDA_SSTX_M\" -312 0 0 1 32 0 R\nX \"PIN_TEXT\" \"STDA_SSTX_M\" -237 0 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -275 0 0.00 0.00 21 0 0 0 0 0 1 0 0\nC -300 50 \"STDA_SSTX_P\" -312 50 0 1 32 0 R\nX \"PIN_TEXT\" \"STDA_SSTX_P\" -237 50 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -275 50 0.00 0.00 21 0 0 0 0 0 1 0 0\nC -300 200 \"STDA_SSRX_P\" -312 200 0 1 32 0 R\nX \"PIN_TEXT\" \"STDA_SSRX_P\" -237 200 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -275 200 0.00 0.00 21 0 0 0 0 0 1 0 0\nC -300 150 \"STDA_SSRX_M\" -312 150 0 1 32 0 R\nX \"PIN_TEXT\" \"STDA_SSRX_M\" -237 150 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -275 150 0.00 0.00 21 0 0 0 0 0 1 0 0\nC 150 400 \"VBUS\" 150 475 0 1 32 1 R\nX \"PIN_TEXT\" \"VBUS\" 150 340 90.00 0.00 24 0 0 2 0 0 1 0 0\nX \"$PN\" \"?\" 150 362 90.00 0.00 21 0 0 0 0 0 1 0 0\nP \"CDS_LMAN_SYM_OUTLINE\" \"-250,325,250,-125\" 0 0 0.00 0.00 22 0 0 0 0 0 0 0 0\n"
+      },
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "9f67c2bb-d7cb-4e02-91b4-0c31a1a78039",
+              "type": "library",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "19a14843-4950-4797-9c08-e93b20d0fdf0",
+      "type": "cell_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "tpd4eusb30"
+      },
+      "symbols": {
+        "sym_1": "L -50 -200 -50 -150 -1 0\nL 0 -200 0 -150 -1 0\nL 200 -50 150 -50 -1 0\nL 200 100 150 100 -1 0\nL -125 200 -125 -150 -1 0\nL -125 200 150 200 -1 0\nL -125 -150 150 -150 -1 0\nL 150 -150 150 200 -1 0\nA 175 50 25 0.00 359.91 0\nA 175 -100 25 0.00 359.91 0\nT 0 150 0.00 0.00 32 0 0 1 0 10 0\ntpd4eusb30\nC -50 -200 \"GND1\" -50 -212 0 1 32 1 R\nX \"PIN_TEXT\" \"GND1\" -50 -140 90.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -50 -175 90.00 0.00 21 0 0 0 0 0 1 0 0\nC 0 -200 \"GND\" 0 -212 0 1 32 1 R\nX \"PIN_TEXT\" \"GND\" 0 -140 90.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" 0 -175 90.00 0.00 21 0 0 0 0 0 1 0 0\nC 200 50 \"D1*\" 212 50 0 1 32 0 L\nX \"PIN_TEXT\" \"D1_N\" 140 50 0.00 0.00 24 0 0 2 0 0 1 0 0\nX \"$PN\" \"?\" 162 50 0.00 0.00 21 0 0 0 0 0 1 0 0\nC 200 -50 \"D2_P\" 212 -50 0 1 32 0 L\nX \"PIN_TEXT\" \"D2_P\" 140 -50 0.00 0.00 24 0 0 2 0 0 1 0 0\nX \"$PN\" \"?\" 162 -50 0.00 0.00 21 0 0 0 0 0 1 0 0\nC 200 100 \"D1_P\" 212 100 0 1 32 0 L\nX \"PIN_TEXT\" \"D1_P\" 140 100 0.00 0.00 24 0 0 2 0 0 1 0 0\nX \"$PN\" \"?\" 162 100 0.00 0.00 21 0 0 0 0 0 1 0 0\nC 200 -100 \"D2*\" 212 -100 0 1 32 0 L\nX \"PIN_TEXT\" \"D2_N\" 140 -100 0.00 0.00 24 0 0 2 0 0 1 0 0\nX \"$PN\" \"?\" 162 -100 0.00 0.00 21 0 0 0 0 0 1 0 0\nP \"CDS_LMAN_SYM_OUTLINE\" \"-125,150,125,-150\" 0 0 0.00 0.00 22 0 0 0 0 0 0 0 0\n"
+      },
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "7bb9f752-0c5b-4a2a-a1a2-6d69aa81f42f",
+              "type": "library",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "9f67c2bb-d7cb-4e02-91b4-0c31a1a78039",
+      "type": "library",
+      "vault": "server",
+      "attributes": {
+        "Library Name": "connector"
+      }
+    },
+    {
+      "id": "7bb9f752-0c5b-4a2a-a1a2-6d69aa81f42f",
+      "type": "library",
+      "vault": "server",
+      "attributes": {
+        "Library Name": "ic"
+      }
+    },
+    {
+      "id": "440dca4e-ad09-42ba-9682-c8b5dadd5292",
+      "type": "library",
+      "vault": "server",
+      "attributes": {
+        "Library Name": "connector"
+      }
+    },
+    {
+      "id": "a34ae0d9-6137-42df-a5ff-d36ed88bd442",
+      "type": "library",
+      "vault": "server",
+      "attributes": {
+        "Library Name": "ic"
+      }
+    }
+  ],
+  "cache": [
+    {
+      "id": "42db349a-ae51-4b5d-b3d5-2b7868332a0a",
+      "type": "library",
+      "vault": "cache",
+      "attributes": {
+        "Library Name": "connector"
+      }
+    },
+    {
+      "id": "b1df1a66-acde-4136-b39d-5ce46ffdb617",
+      "type": "library",
+      "vault": "cache",
+      "attributes": {
+        "Library Name": "ic"
+      }
+    }
+  ],
+  "finalanalysis": {
+    "conflictMessage": "",
+    "conflict": ""
+  }
+}

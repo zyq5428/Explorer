@@ -1,0 +1,29 @@
+FILE_TYPE=LIBRARY_PARTS;
+TIME=' COMPILATION ON WED JUN 28 16:37:05 2006';
+PRIMITIVE 'z4p_eqn';
+  PIN
+  'P1':
+    PIN_NUMBER='(1)';
+  'P8':
+    PIN_NUMBER='(8)';
+  'P7':
+    PIN_NUMBER='(7)';
+  'P6':
+    PIN_NUMBER='(6)';
+  'P5':
+    PIN_NUMBER='(5)';
+  'P4':
+    PIN_NUMBER='(4)';
+  'P3':
+    PIN_NUMBER='(3)';
+  'P2':
+    PIN_NUMBER='(2)';
+  END_PIN;
+  BODY
+    PART_NAME='Z4P_EQN';
+    BODY_NAME='Z4P_EQN';
+    JEDEC_TYPE='Z4P_EQN';
+    ISRFELEMENT='1';
+  END_BODY;
+END_PRIMITIVE;
+END.

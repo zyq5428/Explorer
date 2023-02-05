@@ -1,0 +1,22 @@
+	(Comment
+		(Time 07/26/13,06:52:32)
+		(User horner)
+		(MsgId ECO_081)
+		(Text "Symbol sym_2 added to cell")
+		(Param1 "sym_2")
+	)
+	(Comment
+		(Time 07/26/13,06:55:11)
+		(User horner)
+		(MsgId ECO_082)
+		(Text "Symbol sym_1 deleted from cell")
+		(Param1 "sym_1")
+	)
+	(Comment
+		(Time 07/26/13,06:55:23)
+		(User horner)
+		(MsgId ECO_083)
+		(Text "Symbol sym_2 renamed to sym_1")
+		(Param1 "sym_2")
+		(Param2 "sym_1")
+	)

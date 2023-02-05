@@ -1,0 +1,103 @@
+{
+resolve : { mode : 'mode_cache_wins'},
+process : {mode: 'add'}
+}{
+    "objects": [
+        {
+            "id": "D7BE4FF2-07FB-4ED0-AFC3-A252198F5A5C",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "SATA"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "53B1A5EA-4995-404B-B31D-408A84CB4765",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "0FA3466F-7D1C-41AE-AD80-76592E0972AC",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "53B1A5EA-4995-404B-B31D-408A84CB4765",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "sata"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "0FA3466F-7D1C-41AE-AD80-76592E0972AC",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "0FA3466F-7D1C-41AE-AD80-76592E0972AC",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "connector"
+            }
+        },
+        {
+            "id": "9231AA6A-DA29-46DD-B5C7-D38721FB0998",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "TH",
+                "PART_NUMBER": "CDN-CON-0014"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "53B1A5EA-4995-404B-B31D-408A84CB4765",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "D7BE4FF2-07FB-4ED0-AFC3-A252198F5A5C",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

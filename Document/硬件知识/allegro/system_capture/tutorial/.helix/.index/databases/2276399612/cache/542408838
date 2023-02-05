@@ -1,0 +1,12 @@
+FILE_TYPE = MULTI_PHYS_TABLE; 
+PART 'TPD4EUSB30' 
+
+
+{========================================================================================}
+:PART_NUMBER    | PACK_TYPE = JEDEC_TYPE	  | HEIGHT   | ROHS        | STATUS      | MANUFACTURER   | MPN         	| DESCRIPTION    ;
+{========================================================================================}
+ 'CDN-IC-USB01' | 'SMD'(!) = 'SOIC10' | '.55MM'  | 'COMPLIANT' | 'Compliant' | 'TI'        | 'TPD4EUSB30DQAR'    	| '4 Channel Protection USB 3.0'
+
+END_PART 
+END. 
+

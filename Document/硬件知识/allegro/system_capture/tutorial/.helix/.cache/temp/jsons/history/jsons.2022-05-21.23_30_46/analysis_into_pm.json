@@ -1,0 +1,608 @@
+{
+resolve : { mode : 'mode_cache_wins_conditional'}
+}{
+    "objects": [
+        {
+            "id": "A84778FE-A8A1-4FDB-9F44-193F67E657E4",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "TH",
+                "PART_NUMBER": "CDN-CON-0016"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "0826271A-0D89-4F95-A977-A909216FF97F",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "1F79E7D7-F52B-4187-9073-424A1EEB9911",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I1\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0100"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I2\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0101"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I3\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0102"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I4\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0103"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I5\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0104"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I6\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0105"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I7\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0106"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I8\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0107"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I17\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0200"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I18\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0215"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I19\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0217"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I20\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0219"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I21\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0221"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I22\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0223"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I23\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0225"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I24\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "J0227"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "1F79E7D7-F52B-4187-9073-424A1EEB9911",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "USB_30VA"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "0826271A-0D89-4F95-A977-A909216FF97F",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "0826271A-0D89-4F95-A977-A909216FF97F",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "usb_30"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "B8968652-5ABD-48DF-BB69-9B4C97868F78",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "B8968652-5ABD-48DF-BB69-9B4C97868F78",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "connector"
+            }
+        },
+        {
+            "id": "C7CB1A97-C639-48F9-8C30-E1A2FEBC760D",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "SMD",
+                "PART_NUMBER": "CDN-IC-USB01"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "E5F5F478-1DFC-4A2E-9223-E894C9066467",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "A58F33FC-F85E-4084-BCBC-1E6FB910D9C8",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I9\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0100"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I10\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0101"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I11\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0102"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I12\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0103"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I13\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0104"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I14\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0105"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I15\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0106"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I16\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0107"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I25\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0200"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I26\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0216"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I27\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0218"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I28\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0220"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I29\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0222"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I30\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0224"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I31\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0226"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                },
+                {
+                    "name": "cpath",
+                    "value": "@worklib.usb3(tbl_1):\\I32\\",
+                    "data": [
+                        {
+                            "name": "refdes",
+                            "value": "U0228"
+                        },
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "A58F33FC-F85E-4084-BCBC-1E6FB910D9C8",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "TPD4EUSB30"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "E5F5F478-1DFC-4A2E-9223-E894C9066467",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "E5F5F478-1DFC-4A2E-9223-E894C9066467",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "tpd4eusb30"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "C592A4B8-0552-46FD-97AC-191DFA0F10D1",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "C592A4B8-0552-46FD-97AC-191DFA0F10D1",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "ic"
+            }
+        }
+    ]
+}

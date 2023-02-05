@@ -1,0 +1,12 @@
+FILE_TYPE = MULTI_PHYS_TABLE; 
+PART 'HDMI' 
+
+
+{========================================================================================}
+:PART_NUMBER    | PACK_TYPE = JEDEC_TYPE	  | HEIGHT   | ROHS        | STATUS      | MANUFACTURER   | MPN         	| DESCRIPTION    ;
+{========================================================================================}
+ 'CDN-CON-0013' | 'SMD'(!) = 'HDMI_MICRO_RA' | '2.9MM'  | 'COMPLIANT' | 'Compliant' | 'Molex'        | '46765'    	| 'Micro HDMI Connector SMD'
+
+END_PART 
+END. 
+

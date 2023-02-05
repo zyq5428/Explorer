@@ -1,0 +1,899 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  BCLK_DN      pins ADDED TO this new net
+                                 U0504.AH35     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BCLK_DP      pins ADDED TO this new net
+                                 U0504.AJ35     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BCLK_ITP_DN  pins ADDED TO this new net
+                                 U0504.AA4      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BCLK_ITP_DP  pins ADDED TO this new net
+                                 U0504.AA5      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BPM_BUS<0>   pins ADDED TO this new net
+                                 U0504.B3       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BPM_BUS<1>   pins ADDED TO this new net
+                                 U0504.A5       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BPM_BUS<2>   pins ADDED TO this new net
+                                 U0504.C2       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BPM_BUS<3>   pins ADDED TO this new net
+                                 U0504.B4       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BPM_BUS<4>   pins ADDED TO this new net
+                                 U0504.D1       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BPM_BUS<5>   pins ADDED TO this new net
+                                 U0504.C3       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BPM_BUS<6>   pins ADDED TO this new net
+                                 U0504.D2       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BPM_BUS<7>   pins ADDED TO this new net
+                                 U0504.E2       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CAT_ERR*     pins ADDED TO this new net
+                                 U0504.AC37     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  COMP0        pins ADDED TO this new net
+                                 U0504.AB41     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DBR*         pins ADDED TO this new net
+                                 U0504.AF10     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  DDR_COMP<0>  pins ADDED TO this new net
+                                 U0504.AA8      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DDR_COMP<1>  pins ADDED TO this new net
+                                 U0504.Y7       
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DDR_COMP<2>  pins ADDED TO this new net
+                                 U0504.AC1      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DDR_VREF     pins ADDED TO this new net
+                                 U0504.L23      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FC_AH5       pins ADDED TO this new net
+                                 U0504.AH5      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  ISENSE       pins ADDED TO this new net
+                                 U0504.AK8      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PECI         pins ADDED TO this new net
+                                 U0504.AH36     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PRDY*        pins ADDED TO this new net
+                                 U0504.B41      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PREQ*        pins ADDED TO this new net
+                                 U0504.C42      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PROCHOT*     pins ADDED TO this new net
+                                 U0504.AG35     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PSI*         pins ADDED TO this new net
+                                 U0504.AP7      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESET*       pins ADDED TO this new net
+                                 U0504.AL39     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA3_COMPI  pins ADDED TO this new net
+                                 U0509.K10      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA3_COMPO  pins ADDED TO this new net
+                                 U0509.L10      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_BIAS    pins ADDED TO this new net
+                                 U0509.L12      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  SATA_CLK     pins ADDED TO this new net
+                                 U0509.G11      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_COMPI   pins ADDED TO this new net
+                                 U0509.H12      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_COMPO   pins ADDED TO this new net
+                                 U0509.G10      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_LED*    pins ADDED TO this new net
+                                 U0509.L13      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_RX_N<0> pins ADDED TO this new net
+                                 J0503.2        U0509.AK22     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_RX_N<1> pins ADDED TO this new net
+                                 J0505.2        U0509.AM22     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_RX_N<2> pins ADDED TO this new net
+                                 J0504.2        U0509.AP22     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_RX_N<3> pins ADDED TO this new net
+                                 J0501.6        U0509.AT22     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_RX_N<4> pins ADDED TO this new net
+                                 J0502.6        U0509.AV22     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_RX_N<5> pins ADDED TO this new net
+                                 J2.6           U0509.AY22     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_RX_P<0> pins ADDED TO this new net
+                                 J0503.3        U0509.AK23     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_RX_P<1> pins ADDED TO this new net
+                                 J0505.3        U0509.AM23     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_RX_P<2> pins ADDED TO this new net
+                                 J0504.3        U0509.AP23     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_RX_P<3> pins ADDED TO this new net
+                                 J0501.5        U0509.AT23     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_RX_P<4> pins ADDED TO this new net
+                                 J0502.5        U0509.AV23     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  SATA_RX_P<5> pins ADDED TO this new net
+                                 J2.5           U0509.AY23     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_TX_N<0> pins ADDED TO this new net
+                                 J0503.5        U0509.AJ39     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_TX_N<1> pins ADDED TO this new net
+                                 J0505.5        U0509.AJ37     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_TX_N<2> pins ADDED TO this new net
+                                 J0504.5        U0509.AK35     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_TX_N<3> pins ADDED TO this new net
+                                 J0501.3        U0509.AL37     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_TX_N<4> pins ADDED TO this new net
+                                 J0502.3        U0509.AN37     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_TX_N<5> pins ADDED TO this new net
+                                 J2.3           U0509.AR37     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_TX_P<0> pins ADDED TO this new net
+                                 J0503.6        U0509.AJ40     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_TX_P<1> pins ADDED TO this new net
+                                 R0501.1        U0509.AJ38     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_TX_P<2> pins ADDED TO this new net
+                                 J0504.6        U0509.AK36     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_TX_P<3> pins ADDED TO this new net
+                                 J0501.2        U0509.AL38     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_TX_P<4> pins ADDED TO this new net
+                                 R0500.1        U0509.AN38     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_TX_P<5> pins ADDED TO this new net
+                                 J2.2           U0509.AR38     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SATA_TX_P_X<1> pins ADDED TO this new net
+                                 J0505.6        R0501.2        
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SDATAOUT0    pins ADDED TO this new net
+                                 U0509.H13      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  SDATAOUT1    pins ADDED TO this new net
+                                 U0509.J12      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SKTOCC*      pins ADDED TO this new net
+                                 U0504.AG36     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SLOAD        pins ADDED TO this new net
+                                 U0509.K12      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TCK          pins ADDED TO this new net
+                                 U0504.AH10     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TDI          pins ADDED TO this new net
+                                 U0504.AJ9      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TDO          pins ADDED TO this new net
+                                 U0504.AJ10     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  THERMTRIP*   pins ADDED TO this new net
+                                 U0504.AG37     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TMS          pins ADDED TO this new net
+                                 U0504.AG10     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRST*        pins ADDED TO this new net
+                                 U0504.AH9      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VID<1>       pins ADDED TO this new net
+                                 U0504.AL9      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VID<2>       pins ADDED TO this new net
+                                 U0504.AN9      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VID<3>       pins ADDED TO this new net
+                                 U0504.AM10     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VID<4>       pins ADDED TO this new net
+                                 U0504.AN10     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VID<5>       pins ADDED TO this new net
+                                 U0504.AP9      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VID<6>       pins ADDED TO this new net
+                                 U0504.AP8      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  VID<7>       pins ADDED TO this new net
+                                 U0504.AN8      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VSS_SENSE    pins ADDED TO this new net
+                                 U0504.AR8      
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VSS_SENSE_VTT pins ADDED TO this new net
+                                 U0504.AE37     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  _N22         pins ADDED TO this new net
+                                 U0504.AL10     
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  _N93         pins ADDED TO this new net
+                                 J0502.2        R0500.2        
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| NET PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|     net  name   |   property   |                    value                    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BCLK_DN            PHYS_NET_NAME BCLK_DN
+ BCLK_DP            PHYS_NET_NAME BCLK_DP
+ BCLK_ITP_DN        PHYS_NET_NAME BCLK_ITP_DN
+ BCLK_ITP_DP        PHYS_NET_NAME BCLK_ITP_DP
+ BPM_BUS<0>         PHYS_NET_NAME BPM_BUS<0>
+ BPM_BUS<1>         PHYS_NET_NAME BPM_BUS<1>
+ BPM_BUS<2>         PHYS_NET_NAME BPM_BUS<2>
+ BPM_BUS<3>         PHYS_NET_NAME BPM_BUS<3>
+ BPM_BUS<4>         PHYS_NET_NAME BPM_BUS<4>
+ BPM_BUS<5>         PHYS_NET_NAME BPM_BUS<5>
+ BPM_BUS<6>         PHYS_NET_NAME BPM_BUS<6>
+ BPM_BUS<7>         PHYS_NET_NAME BPM_BUS<7>
+ CAT_ERR*           PHYS_NET_NAME CAT_ERR*
+ COMP0              PHYS_NET_NAME COMP0
+ DBR*               PHYS_NET_NAME DBR*
+ DDR_COMP<0>        PHYS_NET_NAME DDR_COMP<0>
+ DDR_COMP<1>        PHYS_NET_NAME DDR_COMP<1>
+ DDR_COMP<2>        PHYS_NET_NAME DDR_COMP<2>
+ DDR_VREF           PHYS_NET_NAME DDR_VREF
+ FC_AH5             PHYS_NET_NAME FC_AH5
+ ISENSE             PHYS_NET_NAME ISENSE
+ PECI               PHYS_NET_NAME PECI
+ PRDY*              PHYS_NET_NAME PRDY*
+ PREQ*              PHYS_NET_NAME PREQ*
+ PROCHOT*           PHYS_NET_NAME PROCHOT*
+ PSI*               PHYS_NET_NAME PSI*
+ RESET*             PHYS_NET_NAME RESET*
+ SATA3_COMPI        PHYS_NET_NAME SATA3_COMPI
+ SATA3_COMPO        PHYS_NET_NAME SATA3_COMPO
+ SATA_BIAS          PHYS_NET_NAME SATA_BIAS
+ SATA_CLK           PHYS_NET_NAME SATA_CLK
+ SATA_COMPI         PHYS_NET_NAME SATA_COMPI
+ SATA_COMPO         PHYS_NET_NAME SATA_COMPO
+ SATA_LED*          PHYS_NET_NAME SATA_LED*
+ SATA_RX_N<0>       PHYS_NET_NAME SATA_RX_N<0>
+ SATA_RX_N<1>       PHYS_NET_NAME SATA_RX_N<1>
+ SATA_RX_N<2>       PHYS_NET_NAME SATA_RX_N<2>
+ SATA_RX_N<3>       PHYS_NET_NAME SATA_RX_N<3>
+ SATA_RX_N<4>       PHYS_NET_NAME SATA_RX_N<4>
+ SATA_RX_N<5>       PHYS_NET_NAME SATA_RX_N<5>
+ SATA_RX_P<0>       PHYS_NET_NAME SATA_RX_P<0>
+ SATA_RX_P<1>       PHYS_NET_NAME SATA_RX_P<1>
+ SATA_RX_P<2>       PHYS_NET_NAME SATA_RX_P<2>
+ SATA_RX_P<3>       PHYS_NET_NAME SATA_RX_P<3>
+ SATA_RX_P<4>       PHYS_NET_NAME SATA_RX_P<4>
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| NET PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|     net  name   |   property   |                    value                    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ SATA_RX_P<5>       PHYS_NET_NAME SATA_RX_P<5>
+ SATA_TX_N<0>       PHYS_NET_NAME SATA_TX_N<0>
+ SATA_TX_N<1>       PHYS_NET_NAME SATA_TX_N<1>
+ SATA_TX_N<2>       PHYS_NET_NAME SATA_TX_N<2>
+ SATA_TX_N<3>       PHYS_NET_NAME SATA_TX_N<3>
+ SATA_TX_N<4>       PHYS_NET_NAME SATA_TX_N<4>
+ SATA_TX_N<5>       PHYS_NET_NAME SATA_TX_N<5>
+ SATA_TX_P<0>       PHYS_NET_NAME SATA_TX_P<0>
+ SATA_TX_P<1>       PHYS_NET_NAME SATA_TX_P<1>
+ SATA_TX_P<2>       PHYS_NET_NAME SATA_TX_P<2>
+ SATA_TX_P<3>       PHYS_NET_NAME SATA_TX_P<3>
+ SATA_TX_P<4>       PHYS_NET_NAME SATA_TX_P<4>
+ SATA_TX_P<5>       PHYS_NET_NAME SATA_TX_P<5>
+ SATA_TX_P_X<1>     PHYS_NET_NAME SATA_TX_P_X<1>
+ SDATAOUT0          PHYS_NET_NAME SDATAOUT0
+ SDATAOUT1          PHYS_NET_NAME SDATAOUT1
+ SKTOCC*            PHYS_NET_NAME SKTOCC*
+ SLOAD              PHYS_NET_NAME SLOAD
+ TCK                PHYS_NET_NAME TCK
+ TDI                PHYS_NET_NAME TDI
+ TDO                PHYS_NET_NAME TDO
+ THERMTRIP*         PHYS_NET_NAME THERMTRIP*
+ TMS                PHYS_NET_NAME TMS
+ TRST*              PHYS_NET_NAME TRST*
+ VID<1>             PHYS_NET_NAME VID<1>
+ VID<2>             PHYS_NET_NAME VID<2>
+ VID<3>             PHYS_NET_NAME VID<3>
+ VID<4>             PHYS_NET_NAME VID<4>
+ VID<5>             PHYS_NET_NAME VID<5>
+ VID<6>             PHYS_NET_NAME VID<6>
+ VID<7>             PHYS_NET_NAME VID<7>
+ VSS_SENSE          PHYS_NET_NAME VSS_SENSE
+ VSS_SENSE_VTT      PHYS_NET_NAME VSS_SENSE_VTT
+ _N22               PHYS_NET_NAME _N22
+ _N93               PHYS_NET_NAME _N93
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ RES_0805-CDN-RES-0290,1.1K,0.1A
+ SATA_TH-CDN-CON-0014
+ VIPER_ASIC_FCBGA-CDN-MPU-000009
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2                  SATA_TH-CDN-CON-0014  
+ J0501               SATA_TH-CDN-CON-0014  
+ J0502               SATA_TH-CDN-CON-0014  
+ J0503               SATA_TH-CDN-CON-0014  
+ J0504               SATA_TH-CDN-CON-0014  
+ J0505               SATA_TH-CDN-CON-0014  
+ R0500               RES_0805-CDN-RES-0290,1.1K,0.1A 
+ R0501               RES_0805-CDN-RES-0290,1.1K,0.1A 
+ U0500               VIPER_ASIC_FCBGA-CDN-MPU-000009 
+ U0501               VIPER_ASIC_FCBGA-CDN-MPU-000009 
+ U0504               VIPER_ASIC_FCBGA-CDN-MPU-000009 
+ U0509               VIPER_ASIC_FCBGA-CDN-MPU-000009 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| COMPONENT PROPERTIES added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   ref  des   |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2                             REUSE_ID       10
+ J0501                          REUSE_ID       4
+ J0502                          REUSE_ID       5
+ J0503                          REUSE_ID       7
+ J0504                          REUSE_ID       8
+ J0505                          REUSE_ID       9
+ R0500                          REUSE_ID       11
+ R0501                          REUSE_ID       12
+ U0500                          REUSE_ID       1
+ U0501                          REUSE_ID       3
+ U0504                          REUSE_ID       2
+ U0509                          REUSE_ID       6
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2.7                           CDS_LMAN_SYM_O -76200,-101600,76200,101600
+ J2.7                           HARD_LOCATION  
+ J2.7                           NO_SWAP_GATE_E 
+ J2.7                           PRIM_FILE      connector.sata
+ J2.7                           XY             (2654300,660400)
+ J0501.7                        CDS_LMAN_SYM_O -76200,-101600,76200,101600
+ J0501.7                        PRIM_FILE      connector.sata
+ J0501.7                        XY             (3340100,660400)
+ J0502.7                        CDS_LMAN_SYM_O -76200,-101600,76200,101600
+ J0502.7                        PRIM_FILE      connector.sata
+ J0502.7                        XY             (2997200,660400)
+ J0503.7                        CDS_LMAN_SYM_O -76200,-101600,76200,101600
+ J0503.7                        PRIM_FILE      connector.sata
+ J0503.7                        XY             (2654300,1727200)
+ J0504.7                        CDS_LMAN_SYM_O -76200,-101600,76200,101600
+ J0504.7                        PRIM_FILE      connector.sata
+ J0504.7                        XY             (3340100,1727200)
+ J0505.7                        CDS_LMAN_SYM_O -76200,-101600,76200,101600
+ J0505.7                        PRIM_FILE      connector.sata
+ J0505.7                        XY             (2997200,1727200)
+ R0500.2                        CDS_LMAN_SYM_O -25400,-25400,25400,25400
+ R0500.2                        PRIM_FILE      passives.res
+ R0500.2                        TOLERANCE      1%
+ R0500.2                        WATTAGE        0.125W
+ R0500.2                        XY             (2806700,965200)
+ R0501.2                        CDS_LMAN_SYM_O -25400,-25400,25400,25400
+ R0501.2                        PRIM_FILE      passives.res
+ R0501.2                        TOLERANCE      1%
+ R0501.2                        WATTAGE        0.125W
+ R0501.2                        XY             (2832100,1346200)
+ U0500.AE37                     CDS_LMAN_SYM_O -152400,-431800,152400,330200
+ U0500.AE37                     PRIM_FILE      custom_library.viper_asic
+ U0500.AE37                     XY             (406400,546100)
+ U0501.B13                      CDS_LMAN_SYM_O -254000,-457200,254000,457200
+ U0501.B13                      PRIM_FILE      custom_library.viper_asic
+ U0501.B13                      XY             (1016000,495300)
+ U0504.AE37                     CDS_LMAN_SYM_O -152400,-431800,152400,330200
+ U0504.AE37                     PRIM_FILE      custom_library.viper_asic
+ U0504.AE37                     XY             (584200,1562100)
+ U0509.K12                      CDS_LMAN_SYM_O -254000,-381000,254000,406400
+ U0509.K12                      PRIM_FILE      custom_library.viper_asic
+ U0509.K12                      XY             (2032000,1168400)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J2.1                           CDS_PINID      \M353\
+ J2.2                           CDS_PINID      \M357\
+ J2.3                           CDS_PINID      \M356\
+ J2.4                           CDS_PINID      \M352\
+ J2.5                           CDS_PINID      \M355\
+ J2.6                           CDS_PINID      \M354\
+ J2.7                           CDS_PINID      \M351\
+ J0501.1                        CDS_PINID      \M360\
+ J0501.2                        CDS_PINID      \M364\
+ J0501.3                        CDS_PINID      \M363\
+ J0501.4                        CDS_PINID      \M359\
+ J0501.5                        CDS_PINID      \M362\
+ J0501.6                        CDS_PINID      \M361\
+ J0501.7                        CDS_PINID      \M358\
+ J0502.1                        CDS_PINID      \M367\
+ J0502.2                        CDS_PINID      \M371\
+ J0502.3                        CDS_PINID      \M370\
+ J0502.4                        CDS_PINID      \M366\
+ J0502.5                        CDS_PINID      \M369\
+ J0502.6                        CDS_PINID      \M368\
+ J0502.7                        CDS_PINID      \M365\
+ J0503.1                        CDS_PINID      \M392\
+ J0503.2                        CDS_PINID      \M396\
+ J0503.3                        CDS_PINID      \M395\
+ J0503.4                        CDS_PINID      \M391\
+ J0503.5                        CDS_PINID      \M394\
+ J0503.6                        CDS_PINID      \M393\
+ J0503.7                        CDS_PINID      \M390\
+ J0504.1                        CDS_PINID      \M399\
+ J0504.2                        CDS_PINID      \M403\
+ J0504.3                        CDS_PINID      \M402\
+ J0504.4                        CDS_PINID      \M398\
+ J0504.5                        CDS_PINID      \M401\
+ J0504.6                        CDS_PINID      \M400\
+ J0504.7                        CDS_PINID      \M397\
+ J0505.1                        CDS_PINID      \M406\
+ J0505.2                        CDS_PINID      \M410\
+ J0505.3                        CDS_PINID      \M409\
+ J0505.4                        CDS_PINID      \M405\
+ J0505.5                        CDS_PINID      \M408\
+ J0505.6                        CDS_PINID      \M407\
+ J0505.7                        CDS_PINID      \M404\
+ R0500.1                        CDS_PINID      \M414\
+ R0500.2                        CDS_PINID      \M413\
+ R0501.1                        CDS_PINID      \M416\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  14  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R0501.2                        CDS_PINID      \M415\
+ U0500.A5                       CDS_PINID      \M27\(1)
+ U0500.AA4                      CDS_PINID      \M14\
+ U0500.AA5                      CDS_PINID      \M10\
+ U0500.AA8                      CDS_PINID      \M1\(0)
+ U0500.AB41                     CDS_PINID      \M15\
+ U0500.AC1                      CDS_PINID      \M1\(2)
+ U0500.AC37                     CDS_PINID      \M13\
+ U0500.AE37                     CDS_PINID      \M28\
+ U0500.AF10                     CDS_PINID      \M5\
+ U0500.AG10                     CDS_PINID      \M17\
+ U0500.AG35                     CDS_PINID      \M25\
+ U0500.AG36                     CDS_PINID      \M23\
+ U0500.AG37                     CDS_PINID      \M22\
+ U0500.AH5                      CDS_PINID      \M2\
+ U0500.AH9                      CDS_PINID      \M8\
+ U0500.AH10                     CDS_PINID      \M9\
+ U0500.AH35                     CDS_PINID      \M4\
+ U0500.AH36                     CDS_PINID      \M26\
+ U0500.AJ9                      CDS_PINID      \M18\
+ U0500.AJ10                     CDS_PINID      \M16\
+ U0500.AJ35                     CDS_PINID      \M3\
+ U0500.AK8                      CDS_PINID      \M20\
+ U0500.AL9                      CDS_PINID      \M11\(1)
+ U0500.AL10                     CDS_PINID      \M11\(0)
+ U0500.AL39                     CDS_PINID      \M7\
+ U0500.AM10                     CDS_PINID      \M11\(3)
+ U0500.AN8                      CDS_PINID      \M11\(7)
+ U0500.AN9                      CDS_PINID      \M11\(2)
+ U0500.AN10                     CDS_PINID      \M11\(4)
+ U0500.AP7                      CDS_PINID      \M24\
+ U0500.AP8                      CDS_PINID      \M11\(6)
+ U0500.AP9                      CDS_PINID      \M11\(5)
+ U0500.AR8                      CDS_PINID      \M21\
+ U0500.B3                       CDS_PINID      \M27\(0)
+ U0500.B4                       CDS_PINID      \M27\(3)
+ U0500.B41                      CDS_PINID      \M12\
+ U0500.C2                       CDS_PINID      \M27\(2)
+ U0500.C3                       CDS_PINID      \M27\(5)
+ U0500.C42                      CDS_PINID      \M19\
+ U0500.D1                       CDS_PINID      \M27\(4)
+ U0500.D2                       CDS_PINID      \M27\(6)
+ U0500.E2                       CDS_PINID      \M27\(7)
+ U0500.L23                      CDS_PINID      \M6\
+ U0500.Y7                       CDS_PINID      \M1\(1)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  15  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U0501.A7                       CDS_PINID      \M346\(3)
+ U0501.A10                      CDS_PINID      \M337\(13)
+ U0501.A15                      CDS_PINID      \M341\
+ U0501.A16                      CDS_PINID      \M349\(1)
+ U0501.A20                      CDS_PINID      \M337\(0)
+ U0501.A25                      CDS_PINID      \M337\(7)
+ U0501.A26                      CDS_PINID      \M337\(11)
+ U0501.A28                      CDS_PINID      \M337\(14)
+ U0501.A30                      CDS_PINID      \M343\(1)
+ U0501.A38                      CDS_PINID      \M350\(26)
+ U0501.B5                       CDS_PINID      \M350\(32)
+ U0501.B6                       CDS_PINID      \M350\(36)
+ U0501.B10                      CDS_PINID      \M346\(1)
+ U0501.B11                      CDS_PINID      \M342\(2)
+ U0501.B13                      CDS_PINID      \M339\
+ U0501.B15                      CDS_PINID      \M346\(2)
+ U0501.B16                      CDS_PINID      \M349\(0)
+ U0501.B19                      CDS_PINID      \M337\(10)
+ U0501.B21                      CDS_PINID      \M337\(1)
+ U0501.B23                      CDS_PINID      \M337\(4)
+ U0501.B24                      CDS_PINID      \M337\(5)
+ U0501.B25                      CDS_PINID      \M337\(8)
+ U0501.B26                      CDS_PINID      \M337\(12)
+ U0501.B29                      CDS_PINID      \M337\(15)
+ U0501.B30                      CDS_PINID      \M343\(2)
+ U0501.B31                      CDS_PINID      \M343\(3)
+ U0501.B38                      CDS_PINID      \M350\(31)
+ U0501.B39                      CDS_PINID      \M348\(3)
+ U0501.B40                      CDS_PINID      \M347\(3)
+ U0501.C4                       CDS_PINID      \M350\(33)
+ U0501.C6                       CDS_PINID      \M350\(37)
+ U0501.C7                       CDS_PINID      \M342\(3)
+ U0501.C9                       CDS_PINID      \M342\(1)
+ U0501.C12                      CDS_PINID      \M338\
+ U0501.C19                      CDS_PINID      \M344\(1)
+ U0501.C23                      CDS_PINID      \M337\(2)
+ U0501.C24                      CDS_PINID      \M337\(6)
+ U0501.C26                      CDS_PINID      \M337\(9)
+ U0501.C28                      CDS_PINID      \M349\(2)
+ U0501.C29                      CDS_PINID      \M343\(0)
+ U0501.C38                      CDS_PINID      \M350\(30)
+ U0501.C41                      CDS_PINID      \M350\(25)
+ U0501.D19                      CDS_PINID      \M345\(1)
+ U0501.D24                      CDS_PINID      \M337\(3)
+ U0501.D32                      CDS_PINID      \M340\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  16  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U0501.D37                      CDS_PINID      \M350\(27)
+ U0501.D40                      CDS_PINID      \M350\(24)
+ U0501.D41                      CDS_PINID      \M350\(28)
+ U0501.D42                      CDS_PINID      \M350\(29)
+ U0501.E3                       CDS_PINID      \M348\(4)
+ U0501.E4                       CDS_PINID      \M347\(4)
+ U0501.E18                      CDS_PINID      \M344\(2)
+ U0501.E19                      CDS_PINID      \M344\(3)
+ U0501.E20                      CDS_PINID      \M345\(3)
+ U0501.E42                      CDS_PINID      \M350\(18)
+ U0501.E43                      CDS_PINID      \M350\(19)
+ U0501.F1                       CDS_PINID      \M350\(34)
+ U0501.F2                       CDS_PINID      \M350\(39)
+ U0501.F3                       CDS_PINID      \M350\(38)
+ U0501.F12                      CDS_PINID      \M342\(0)
+ U0501.F18                      CDS_PINID      \M345\(2)
+ U0501.F41                      CDS_PINID      \M348\(2)
+ U0501.F42                      CDS_PINID      \M350\(23)
+ U0501.F43                      CDS_PINID      \M350\(22)
+ U0501.G1                       CDS_PINID      \M350\(44)
+ U0501.G3                       CDS_PINID      \M350\(35)
+ U0501.G15                      CDS_PINID      \M346\(0)
+ U0501.G41                      CDS_PINID      \M347\(2)
+ U0501.H1                       CDS_PINID      \M350\(41)
+ U0501.H2                       CDS_PINID      \M350\(40)
+ U0501.H3                       CDS_PINID      \M350\(45)
+ U0501.H41                      CDS_PINID      \M350\(16)
+ U0501.H43                      CDS_PINID      \M350\(17)
+ U0501.J19                      CDS_PINID      \M345\(0)
+ U0501.J41                      CDS_PINID      \M350\(21)
+ U0501.J42                      CDS_PINID      \M350\(20)
+ U0501.K2                       CDS_PINID      \M348\(5)
+ U0501.K3                       CDS_PINID      \M347\(5)
+ U0501.K19                      CDS_PINID      \M344\(0)
+ U0501.K42                      CDS_PINID      \M350\(10)
+ U0501.K43                      CDS_PINID      \M350\(11)
+ U0501.L1                       CDS_PINID      \M350\(42)
+ U0501.L2                       CDS_PINID      \M350\(47)
+ U0501.L3                       CDS_PINID      \M350\(46)
+ U0501.L41                      CDS_PINID      \M348\(1)
+ U0501.L42                      CDS_PINID      \M350\(15)
+ U0501.L43                      CDS_PINID      \M350\(14)
+ U0501.M1                       CDS_PINID      \M350\(43)
+ U0501.M3                       CDS_PINID      \M350\(52)
+ U0501.M41                      CDS_PINID      \M347\(1)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  17  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U0501.N1                       CDS_PINID      \M350\(48)
+ U0501.N2                       CDS_PINID      \M350\(49)
+ U0501.N3                       CDS_PINID      \M350\(53)
+ U0501.N41                      CDS_PINID      \M350\(8)
+ U0501.N43                      CDS_PINID      \M350\(9)
+ U0501.P41                      CDS_PINID      \M350\(13)
+ U0501.P42                      CDS_PINID      \M350\(12)
+ U0501.R2                       CDS_PINID      \M348\(6)
+ U0501.R3                       CDS_PINID      \M347\(6)
+ U0501.R4                       CDS_PINID      \M350\(54)
+ U0501.R42                      CDS_PINID      \M350\(3)
+ U0501.R43                      CDS_PINID      \M350\(2)
+ U0501.T1                       CDS_PINID      \M350\(50)
+ U0501.T2                       CDS_PINID      \M350\(51)
+ U0501.T3                       CDS_PINID      \M350\(55)
+ U0501.T42                      CDS_PINID      \M350\(7)
+ U0501.T43                      CDS_PINID      \M348\(0)
+ U0501.U1                       CDS_PINID      \M350\(60)
+ U0501.U3                       CDS_PINID      \M350\(61)
+ U0501.U4                       CDS_PINID      \M350\(56)
+ U0501.U41                      CDS_PINID      \M350\(6)
+ U0501.U43                      CDS_PINID      \M347\(0)
+ U0501.V1                       CDS_PINID      \M350\(57)
+ U0501.V4                       CDS_PINID      \M350\(62)
+ U0501.V41                      CDS_PINID      \M350\(1)
+ U0501.W1                       CDS_PINID      \M347\(7)
+ U0501.W2                       CDS_PINID      \M348\(7)
+ U0501.W4                       CDS_PINID      \M350\(63)
+ U0501.W40                      CDS_PINID      \M350\(4)
+ U0501.W41                      CDS_PINID      \M350\(0)
+ U0501.W42                      CDS_PINID      \M350\(5)
+ U0501.Y2                       CDS_PINID      \M350\(58)
+ U0501.Y3                       CDS_PINID      \M350\(59)
+ U0504.A5                       CDS_PINID      \M139\(1)
+ U0504.AA4                      CDS_PINID      \M126\
+ U0504.AA5                      CDS_PINID      \M122\
+ U0504.AA8                      CDS_PINID      \M113\(0)
+ U0504.AB41                     CDS_PINID      \M127\
+ U0504.AC1                      CDS_PINID      \M113\(2)
+ U0504.AC37                     CDS_PINID      \M125\
+ U0504.AE37                     CDS_PINID      \M140\
+ U0504.AF10                     CDS_PINID      \M117\
+ U0504.AG10                     CDS_PINID      \M129\
+ U0504.AG35                     CDS_PINID      \M137\
+ U0504.AG36                     CDS_PINID      \M135\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  18  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U0504.AG37                     CDS_PINID      \M134\
+ U0504.AH5                      CDS_PINID      \M114\
+ U0504.AH9                      CDS_PINID      \M120\
+ U0504.AH10                     CDS_PINID      \M121\
+ U0504.AH35                     CDS_PINID      \M116\
+ U0504.AH36                     CDS_PINID      \M138\
+ U0504.AJ9                      CDS_PINID      \M130\
+ U0504.AJ10                     CDS_PINID      \M128\
+ U0504.AJ35                     CDS_PINID      \M115\
+ U0504.AK8                      CDS_PINID      \M132\
+ U0504.AL9                      CDS_PINID      \M123\(1)
+ U0504.AL10                     CDS_PINID      \M123\(0)
+ U0504.AL39                     CDS_PINID      \M119\
+ U0504.AM10                     CDS_PINID      \M123\(3)
+ U0504.AN8                      CDS_PINID      \M123\(7)
+ U0504.AN9                      CDS_PINID      \M123\(2)
+ U0504.AN10                     CDS_PINID      \M123\(4)
+ U0504.AP7                      CDS_PINID      \M136\
+ U0504.AP8                      CDS_PINID      \M123\(6)
+ U0504.AP9                      CDS_PINID      \M123\(5)
+ U0504.AR8                      CDS_PINID      \M133\
+ U0504.B3                       CDS_PINID      \M139\(0)
+ U0504.B4                       CDS_PINID      \M139\(3)
+ U0504.B41                      CDS_PINID      \M124\
+ U0504.C2                       CDS_PINID      \M139\(2)
+ U0504.C3                       CDS_PINID      \M139\(5)
+ U0504.C42                      CDS_PINID      \M131\
+ U0504.D1                       CDS_PINID      \M139\(4)
+ U0504.D2                       CDS_PINID      \M139\(6)
+ U0504.E2                       CDS_PINID      \M139\(7)
+ U0504.L23                      CDS_PINID      \M118\
+ U0504.Y7                       CDS_PINID      \M113\(1)
+ U0509.AJ37                     CDS_PINID      \M375\(1)
+ U0509.AJ38                     CDS_PINID      \M374\(1)
+ U0509.AJ39                     CDS_PINID      \M375\(0)
+ U0509.AJ40                     CDS_PINID      \M374\(0)
+ U0509.AK22                     CDS_PINID      \M373\(0)
+ U0509.AK23                     CDS_PINID      \M372\(0)
+ U0509.AK35                     CDS_PINID      \M375\(2)
+ U0509.AK36                     CDS_PINID      \M374\(2)
+ U0509.AL37                     CDS_PINID      \M375\(3)
+ U0509.AL38                     CDS_PINID      \M374\(3)
+ U0509.AM22                     CDS_PINID      \M373\(1)
+ U0509.AM23                     CDS_PINID      \M372\(1)
+ U0509.AN37                     CDS_PINID      \M375\(4)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  19  |
+|------------------------------------------------------------------------------|
+|  D:.../system_capture/tutorial/output/tutorial/physical/tutorial.brd         |
+|                                                    Sat May 21 11:22:46 2022  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ U0509.AN38                     CDS_PINID      \M374\(4)
+ U0509.AP22                     CDS_PINID      \M373\(2)
+ U0509.AP23                     CDS_PINID      \M372\(2)
+ U0509.AR37                     CDS_PINID      \M375\(5)
+ U0509.AR38                     CDS_PINID      \M374\(5)
+ U0509.AT22                     CDS_PINID      \M373\(3)
+ U0509.AT23                     CDS_PINID      \M372\(3)
+ U0509.AV22                     CDS_PINID      \M373\(4)
+ U0509.AV23                     CDS_PINID      \M372\(4)
+ U0509.AY22                     CDS_PINID      \M373\(5)
+ U0509.AY23                     CDS_PINID      \M372\(5)
+ U0509.G10                      CDS_PINID      \M378\
+ U0509.G11                      CDS_PINID      \M377\
+ U0509.H12                      CDS_PINID      \M379\
+ U0509.H13                      CDS_PINID      \M382\
+ U0509.J12                      CDS_PINID      \M381\
+ U0509.K10                      CDS_PINID      \M385\
+ U0509.K12                      CDS_PINID      \M380\
+ U0509.L10                      CDS_PINID      \M384\
+ U0509.L12                      CDS_PINID      \M383\
+ U0509.L13                      CDS_PINID      \M376\
+|------------------------------------------------------------------------------|
+|       Nets changed          :     106                                        |
+|       Net property added    :      80                                        |
+|       Comp definitions added:       3                                        |
+|       Components added      :      12                                        |
+|       Comp property added   :      12                                        |
+|       Pin property added    :     291                                        |
+|       Slot property added   :      42                                        |
+|                                                                              |
+|   Total ECO changes reported:     546                                        |
+|------------------------------------------------------------------------------|

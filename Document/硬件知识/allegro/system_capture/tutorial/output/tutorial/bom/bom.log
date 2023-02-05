@@ -1,0 +1,180 @@
+
+
+    Cadence Design Systems, Inc.
+    Bomhdl 17.2-2016 S079 (3992359) 11/12/2021
+    Copyright 2011 Cadence Design Systems, Inc, Cadence Design Systems, Inc.
+
+    Run on Sat May 21 12:24:52 2022
+
+
+*****************************
+*  Processing project file  *
+*****************************
+
+    DESIGN_LIBRARY 'worklib'
+    DESIGN_NAME 'tutorial'
+    VIEW_SCHEMATIC 'sch_1'
+    VIEW_PACKAGER 'packaged'
+    VIEW_VARIANT 'variant'
+    VIEW_BOM ''
+    VIEW_CONFIG_PHYSICAL 'cfg_package'
+    USE_LIBRARY_PPT 'on'
+    MERGE_PPT 'on'
+    INCLUDE_PPT ''
+    EXCLUDE_PPT ''
+    SPREADSHEET 'OFF'
+    LAST_OUTPUT_FILE './output/tutorial/bom/ComparisonBOM.rpt'
+    TEMPLATE_FILE 'template.bom'
+    PACKAGED_VARIANT_SYNC_CHECK '1'
+    GEN_HIER_BOM '0'
+    LAST_CALLOUT_FILE ''
+    LAST_SS_DELIMITER 'Comma ,'
+    LAST_STANDARD_OPTION '0'
+    LAST_TEMPLATE_FILE 'd:/cadence/spb_17.2/share/cdssetup/template.bom'
+    LAST_VARIANT 'BETA'
+    LAST_VARIANT_FILE 'variant.dat'
+    LAST_WHAT_TO_OUTPUT '2'
+    USE_FILTERS '1'
+
+*********************************
+*  End processing project file  *
+*********************************
+
+ 
+Initializing tool communication modules... 
+
+*********************************
+*  Loading the design database  *
+*********************************
+
+Start loading the design. 
+Loading logical design view of tutorial 
+Setting design view directives...
+ 
+Loading pstX files...
+ 
+
+Loading... ./output/tutorial/packaged\pstchip.dat
+ 
+
+Loading... ./output/tutorial/packaged\pstchip.dat
+ 
+
+Loading... ./output/tutorial/packaged\pstxnet.dat
+ 
+packaging the design view... 
+End loading logical design view of tutorial 
+Reading cell level PPTs... 
+Start loading variant databse... 
+Setting design view directives...
+ 
+Loading variant database file variant.dat for design 'tutorial' 
+
+Loading... ./output/tutorial/packaged\pstchip.dat
+ 
+
+Loading... ./output/tutorial/packaged\pstchip.dat
+ 
+End loading variant database file variant.dat for design 'tutorial' 
+Start Merging the variant database in main design view.
+ 
+Variant Database merged successfully.
+ 
+Error #53:  ERROR(SPCODD-53): Packaging cannot be completed because packaging has encountered a null object ID. The design may not have been saved correctly. Save the design before packaging.
+      
+ 
+Error #53:  ERROR(SPCODD-53): Packaging cannot be completed because packaging has encountered a null object ID. The design may not have been saved correctly. Save the design before packaging.
+      
+ 
+Error #53:  ERROR(SPCODD-53): Packaging cannot be completed because packaging has encountered a null object ID. The design may not have been saved correctly. Save the design before packaging.
+      
+ 
+Error #53:  ERROR(SPCODD-53): Packaging cannot be completed because packaging has encountered a null object ID. The design may not have been saved correctly. Save the design before packaging.
+      
+ 
+Design loaded successfully. 
+
+
+******************************************
+*  Finished loading the design database  *
+******************************************
+
+
+*********************************
+*  Loading the design database  *
+*********************************
+
+Start loading the design. 
+Loading logical design view of tutorial 
+Setting design view directives...
+ 
+Loading pstX files...
+ 
+
+Loading... ./output/tutorial/packaged\pstchip.dat
+ 
+
+Loading... ./output/tutorial/packaged\pstchip.dat
+ 
+
+Loading... ./output/tutorial/packaged\pstxnet.dat
+ 
+packaging the design view... 
+End loading logical design view of tutorial 
+Reading cell level PPTs... 
+Start loading variant databse... 
+Setting design view directives...
+ 
+Loading variant database file variant.dat for design 'tutorial' 
+
+Loading... ./output/tutorial/packaged\pstchip.dat
+ 
+
+Loading... ./output/tutorial/packaged\pstchip.dat
+ 
+End loading variant database file variant.dat for design 'tutorial' 
+Start Merging the variant database in main design view.
+ 
+Variant Database merged successfully.
+ 
+Error #53:  ERROR(SPCODD-53): Packaging cannot be completed because packaging has encountered a null object ID. The design may not have been saved correctly. Save the design before packaging.
+      
+ 
+Error #53:  ERROR(SPCODD-53): Packaging cannot be completed because packaging has encountered a null object ID. The design may not have been saved correctly. Save the design before packaging.
+      
+ 
+Error #53:  ERROR(SPCODD-53): Packaging cannot be completed because packaging has encountered a null object ID. The design may not have been saved correctly. Save the design before packaging.
+      
+ 
+Error #53:  ERROR(SPCODD-53): Packaging cannot be completed because packaging has encountered a null object ID. The design may not have been saved correctly. Save the design before packaging.
+      
+ 
+Design loaded successfully. 
+
+
+******************************************
+*  Finished loading the design database  *
+******************************************
+
+
+**********************************
+*  Start generating bom reports. *
+**********************************
+
+Report generated successfully.
+
+Output file list :
+D:\Git\ishero\allegro\system_capture\tutorial\output\tutorial\bom\BOM.rpt
+
+*********************************
+*  End generating bom reports   *
+*********************************
+
+    Start time   12:24:52
+    End time     12:25:39
+    Elapsed time  0:00:47
+
+*********************************
+*  BOM-HDL execution done.      *
+*********************************
+

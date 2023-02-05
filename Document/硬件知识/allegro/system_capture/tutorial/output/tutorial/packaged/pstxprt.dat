@@ -1,0 +1,210 @@
+FILE_TYPE=EXPANDEDPARTLIST;
+{ Packager-XL run on 21-May-2022 AT 12:24:49 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='TUTORIAL';
+ POST_TIME='21-May-2022 AT 12:24:49';
+ SOURCE_TOOL='ONLINE_PACKAGER';
+END_DIRECTIVES;
+
+PART_NAME
+ J0501 'SATA_TH-CDN-CON-0014':
+ REUSE_ID='4';
+
+SECTION_NUMBER 1
+ '@worklib.tutorial(tbl_1):\I15\':
+ C_PATH='@worklib.tutorial(tbl_1):\I15\',
+ P_PATH='@worklib.tutorial(tbl_1):\pageSATA Interface(5)_i12\',
+ CDS_LMAN_SYM_OUTLINE='-76200,-101600,76200,101600',
+ PART_NAME='SATA_TH-CDN-CON-0014',
+ PACK_TYPE='TH',
+ PART_NUMBER='CDN-CON-0014',
+ PRIM_FILE='connector.sata',
+ XY='(3340100,660400)',
+ REUSE_ID='4';
+
+PART_NAME
+ J0502 'SATA_TH-CDN-CON-0014':
+ REUSE_ID='5';
+
+SECTION_NUMBER 1
+ '@worklib.tutorial(tbl_1):\I16\':
+ C_PATH='@worklib.tutorial(tbl_1):\I16\',
+ P_PATH='@worklib.tutorial(tbl_1):\pageSATA Interface(5)_i13\',
+ CDS_LMAN_SYM_OUTLINE='-76200,-101600,76200,101600',
+ PART_NAME='SATA_TH-CDN-CON-0014',
+ PACK_TYPE='TH',
+ PART_NUMBER='CDN-CON-0014',
+ PRIM_FILE='connector.sata',
+ XY='(2997200,660400)',
+ REUSE_ID='5';
+
+PART_NAME
+ J0503 'SATA_TH-CDN-CON-0014':
+ REUSE_ID='7';
+
+SECTION_NUMBER 1
+ '@worklib.tutorial(tbl_1):\I20\':
+ C_PATH='@worklib.tutorial(tbl_1):\I20\',
+ P_PATH='@worklib.tutorial(tbl_1):\pageSATA Interface(5)_i16\',
+ CDS_LMAN_SYM_OUTLINE='-76200,-101600,76200,101600',
+ PART_NAME='SATA_TH-CDN-CON-0014',
+ PACK_TYPE='TH',
+ PART_NUMBER='CDN-CON-0014',
+ PRIM_FILE='connector.sata',
+ XY='(2654300,1727200)',
+ REUSE_ID='7';
+
+PART_NAME
+ J0504 'SATA_TH-CDN-CON-0014':
+ REUSE_ID='8';
+
+SECTION_NUMBER 1
+ '@worklib.tutorial(tbl_1):\I21\':
+ C_PATH='@worklib.tutorial(tbl_1):\I21\',
+ P_PATH='@worklib.tutorial(tbl_1):\pageSATA Interface(5)_i17\',
+ CDS_LMAN_SYM_OUTLINE='-76200,-101600,76200,101600',
+ PART_NAME='SATA_TH-CDN-CON-0014',
+ PACK_TYPE='TH',
+ PART_NUMBER='CDN-CON-0014',
+ PRIM_FILE='connector.sata',
+ XY='(3340100,1727200)',
+ REUSE_ID='8';
+
+PART_NAME
+ J101 'SATA_TH-CDN-CON-0014':
+ REUSE_ID='13';
+
+SECTION_NUMBER 1
+ '@worklib.tutorial(tbl_1):\I22\':
+ C_PATH='@worklib.tutorial(tbl_1):\I22\',
+ P_PATH='@worklib.tutorial(tbl_1):\pageSATA Interface(5)_i18\',
+ CDS_LMAN_SYM_OUTLINE='-76200,-101600,76200,101600',
+ PART_NAME='SATA_TH-CDN-CON-0014',
+ LOCATION='J101',
+ PACK_TYPE='TH',
+ PART_NUMBER='CDN-CON-0014',
+ PRIM_FILE='connector.sata',
+ XY='(2997200,1727200)',
+ REUSE_ID='13';
+
+PART_NAME
+ J2 'SATA_TH-CDN-CON-0014':
+ REUSE_ID='10';
+
+SECTION_NUMBER 1
+ '@worklib.tutorial(tbl_1):\I14\':
+ C_PATH='@worklib.tutorial(tbl_1):\I14\',
+ P_PATH='@worklib.tutorial(tbl_1):\pageSATA Interface(5)_i11\',
+ CDS_LMAN_SYM_OUTLINE='-76200,-101600,76200,101600',
+ PART_NAME='SATA_TH-CDN-CON-0014',
+ LOCATION='J2',
+ PACK_TYPE='TH',
+ PART_NUMBER='CDN-CON-0014',
+ PRIM_FILE='connector.sata',
+ XY='(2654300,660400)',
+ REUSE_ID='10';
+
+PART_NAME
+ R0500 'RES_0805-CDN-RES-0290,1.1K,0.1A':
+ REUSE_ID='11';
+
+SECTION_NUMBER 1
+ '@worklib.tutorial(tbl_1):\I24\':
+ C_PATH='@worklib.tutorial(tbl_1):\I24\',
+ P_PATH='@worklib.tutorial(tbl_1):\pageSATA Interface(5)_i20\',
+ CDS_LMAN_SYM_OUTLINE='-25400,-25400,25400,25400',
+ PART_NAME='RES_0805-CDN-RES-0290,1.1K,0.1A',
+ PACK_TYPE='0805',
+ PART_NUMBER='CDN-RES-0290',
+ TOLERANCE='1%',
+ VALUE='1.1k',
+ WATTAGE='0.125W',
+ PRIM_FILE='passives.res',
+ XY='(2806700,965200)',
+ REUSE_ID='11';
+
+PART_NAME
+ R0501 'RES_0805-CDN-RES-0290,1.1K,0.1A':
+ REUSE_ID='12';
+
+SECTION_NUMBER 1
+ '@worklib.tutorial(tbl_1):\I25\':
+ C_PATH='@worklib.tutorial(tbl_1):\I25\',
+ P_PATH='@worklib.tutorial(tbl_1):\pageSATA Interface(5)_i21\',
+ CDS_LMAN_SYM_OUTLINE='-25400,-25400,25400,25400',
+ PART_NAME='RES_0805-CDN-RES-0290,1.1K,0.1A',
+ PACK_TYPE='0805',
+ PART_NUMBER='CDN-RES-0290',
+ TOLERANCE='1%',
+ VALUE='1.1k',
+ WATTAGE='0.125W',
+ PRIM_FILE='passives.res',
+ XY='(2832100,1346200)',
+ REUSE_ID='12';
+
+PART_NAME
+ U0500 'VIPER_ASIC_FCBGA-CDN-MPU-000009':
+ REUSE_ID='1';
+
+SECTION_NUMBER 1
+ '@worklib.tutorial(tbl_1):\I1\':
+ C_PATH='@worklib.tutorial(tbl_1):\I1\',
+ P_PATH='@worklib.tutorial(tbl_1):\pageSATA Interface(5)_i1\',
+ CDS_LMAN_SYM_OUTLINE='-152400,-431800,152400,330200',
+ PART_NAME='VIPER_ASIC_FCBGA-CDN-MPU-000009',
+ PACK_TYPE='FCBGA',
+ PART_NUMBER='CDN-MPU-000009',
+ PRIM_FILE='custom_library.viper_asic',
+ XY='(406400,546100)',
+ REUSE_ID='1';
+
+PART_NAME
+ U0501 'VIPER_ASIC_FCBGA-CDN-MPU-000009':
+ REUSE_ID='3';
+
+SECTION_NUMBER 2
+ '@worklib.tutorial(tbl_1):\I13\':
+ C_PATH='@worklib.tutorial(tbl_1):\I13\',
+ P_PATH='@worklib.tutorial(tbl_1):\pageSATA Interface(5)_i2\',
+ CDS_LMAN_SYM_OUTLINE='-254000,-457200,254000,457200',
+ PART_NAME='VIPER_ASIC_FCBGA-CDN-MPU-000009',
+ PACK_TYPE='FCBGA',
+ PART_NUMBER='CDN-MPU-000009',
+ PRIM_FILE='custom_library.viper_asic',
+ XY='(1016000,495300)',
+ REUSE_ID='3';
+
+PART_NAME
+ U0504 'VIPER_ASIC_FCBGA-CDN-MPU-000009':
+ REUSE_ID='2';
+
+SECTION_NUMBER 1
+ '@worklib.tutorial(tbl_1):\I5\':
+ C_PATH='@worklib.tutorial(tbl_1):\I5\',
+ P_PATH='@worklib.tutorial(tbl_1):\pageSATA Interface(5)_i5\',
+ CDS_LMAN_SYM_OUTLINE='-152400,-431800,152400,330200',
+ PART_NAME='VIPER_ASIC_FCBGA-CDN-MPU-000009',
+ PACK_TYPE='FCBGA',
+ PART_NUMBER='CDN-MPU-000009',
+ PRIM_FILE='custom_library.viper_asic',
+ XY='(584200,1562100)',
+ REUSE_ID='2';
+
+PART_NAME
+ U0509 'VIPER_ASIC_FCBGA-CDN-MPU-000009':
+ REUSE_ID='6';
+
+SECTION_NUMBER 9
+ '@worklib.tutorial(tbl_1):\I17\':
+ C_PATH='@worklib.tutorial(tbl_1):\I17\',
+ P_PATH='@worklib.tutorial(tbl_1):\pageSATA Interface(5)_i10\',
+ CDS_LMAN_SYM_OUTLINE='-254000,-381000,254000,406400',
+ PART_NAME='VIPER_ASIC_FCBGA-CDN-MPU-000009',
+ PACK_TYPE='FCBGA',
+ PART_NUMBER='CDN-MPU-000009',
+ PRIM_FILE='custom_library.viper_asic',
+ XY='(2032000,1168400)',
+ REUSE_ID='6';
+
+END.

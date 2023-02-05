@@ -1,0 +1,9 @@
+* source OP-AMP
+X_U1         0 N00297 N00334 N00434 OUT OPA2743
+R_R1         IN N00297  2k TC=0,0 
+R_R2         N00297 OUT  40k TC=0,0 
+R_R3         0 OUT  1k TC=0,0 
+V_V1         0 N00434 12
+V_V3         IN 0  AC 0
++SIN 0 100m 1000 0 0 0
+V_V2         0 N00334 -12

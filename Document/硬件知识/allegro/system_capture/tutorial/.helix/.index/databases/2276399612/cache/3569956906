@@ -1,0 +1,24 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DDR3_2GB_X16_SDRAM'
+
+{========================================================================================}
+:PART_NUMBER    | PACK_TYPE    = JEDEC_TYPE | HEIGHT   | ROHS        | STATUS | MANUFACTURER | MPN                      | DESCRIPTION                   | SPEED_GRADE        ;
+{========================================================================================}
+ 'CDN-MEM-0031' | 'FBGA96'(!)  = 'FBGA96'   | '1.05mm' | 'Compliant' | ''     | 'MICRON'     | 'MT41J128M16HA-125:D'    | 'DDR3 SDRAM 16MEGx16x8 Banks' | 'TCK=1.25ns,CL=11'
+ 'CDN-MEM-0032' | 'FBGA96'(!)  = 'FBGA96'   | '1.05mm' | 'Compliant' | ''     | 'MICRON'     | 'MT41J128M16HA-125E:D'   | 'DDR3 SDRAM 16MEGx16x8 Banks' | 'TCK=1.25ns,CL=10'
+ 'CDN-MEM-0033' | 'FBGA96'(!)  = 'FBGA96'   | '1.05mm' | 'Compliant' | ''     | 'MICRON'     | 'MT41J128M16HA-15:D'     | 'DDR3 SDRAM 16MEGx16x8 Banks' | 'TCK=1.5ns,CL=10' 
+ 'CDN-MEM-0034' | 'FBGA96'(!)  = 'FBGA96'   | '1.05mm' | 'Compliant' | ''     | 'MICRON'     | 'MT41J128M16HA-15E:D'    | 'DDR3 SDRAM 16MEGx16x8 Banks' | 'TCK=1.5ns,CL=9'  
+ 'CDN-MEM-0035' | 'FBGA96'(!)  = 'FBGA96'   | '1.05mm' | 'Compliant' | ''     | 'MICRON'     | 'MT41J128M16HA-187:D'    | 'DDR3 SDRAM 16MEGx16x8 Banks' | 'TCK=1.87ns,CL=8' 
+ 'CDN-MEM-0036' | 'FBGA96'(!)  = 'FBGA96'   | '1.05mm' | 'Compliant' | ''     | 'MICRON'     | 'MT41J128M16HA-187E:D'   | 'DDR3 SDRAM 16MEGx16x8 Banks' | 'TCK=1.87ns,CL=7' 
+ 'CDN-MEM-0037' | 'FBGA96'(!)  = 'FBGA96'   | '1.05mm' | 'Compliant' | ''     | 'MICRON'     | 'MT41J128M16HA-125IT:D'  | 'DDR3 SDRAM 16MEGx16x8 Banks' | 'TCK=1.25ns,CL=11'
+ 'CDN-MEM-0038' | 'FBGA96'(!)  = 'FBGA96'   | '1.05mm' | 'Compliant' | ''     | 'MICRON'     | 'MT41J128M16HA-125EIT:D' | 'DDR3 SDRAM 16MEGx16x8 Banks' | 'TCK=1.25ns,CL=10'
+ 'CDN-MEM-0039' | 'FBGA96'(!)  = 'FBGA96'   | '1.05mm' | 'Compliant' | ''     | 'MICRON'     | 'MT41J128M16HA-15IT:D'   | 'DDR3 SDRAM 16MEGx16x8 Banks' | 'TCK=1.5ns,CL=10' 
+ 'CDN-MEM-0040' | 'FBGA96'(!)  = 'FBGA96'   | '1.05mm' | 'Compliant' | ''     | 'MICRON'     | 'MT41J128M16HA-15EIT:D'  | 'DDR3 SDRAM 16MEGx16x8 Banks' | 'TCK=1.5ns,CL=9'  
+ 'CDN-MEM-0041' | 'FBGA96'(!)  = 'FBGA96'   | '1.05mm' | 'Compliant' | ''     | 'MICRON'     | 'MT41J128M16HA-187IT:D'  | 'DDR3 SDRAM 16MEGx16x8 Banks' | 'TCK=1.87ns,CL=8' 
+ 'CDN-MEM-0042' | 'FBGA96'(!)  = 'FBGA96'   | '1.05mm' | 'Compliant' | ''     | 'MICRON'     | 'MT41J128M16HA-187EIT:D' | 'DDR3 SDRAM 16MEGx16x8 Banks' | 'TCK=1.87ns,CL=7' 
+
+END_PART
+
+END.
+

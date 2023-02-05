@@ -1,0 +1,286 @@
+{
+resolve : { mode : 'mode_cache_wins_conditional'}
+}{
+    "objects": [
+        {
+            "id": "7A5BD9E3-4BE3-4448-A481-BC57C8EFFA10",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "DVI"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "D8DAED3B-F0D4-4D3D-BAFC-B5C2F7689E16",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "AFC6952D-4F4A-4D4A-AD39-7105DEC4A171",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "D8DAED3B-F0D4-4D3D-BAFC-B5C2F7689E16",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "dvi"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "AFC6952D-4F4A-4D4A-AD39-7105DEC4A171",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "AFC6952D-4F4A-4D4A-AD39-7105DEC4A171",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "connector"
+            }
+        },
+        {
+            "id": "BE2AAF5A-1193-41FC-B6FA-95924704A351",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "TH",
+                "PART_NUMBER": "CDN-CON-0010"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "D8DAED3B-F0D4-4D3D-BAFC-B5C2F7689E16",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "7A5BD9E3-4BE3-4448-A481-BC57C8EFFA10",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "F03774DA-95E0-44F3-8620-9A68548299F9",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "VGA"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "B01161DF-8EB9-4591-8BF0-68F66844FC19",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "AFC6952D-4F4A-4D4A-AD39-7105DEC4A171",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "B01161DF-8EB9-4591-8BF0-68F66844FC19",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "vga"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "AFC6952D-4F4A-4D4A-AD39-7105DEC4A171",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "583D26FF-D43A-449B-A03A-261B24BBC4A9",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "VGA",
+                "PART_NUMBER": "CDN-CON-0015"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "B01161DF-8EB9-4591-8BF0-68F66844FC19",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "F03774DA-95E0-44F3-8620-9A68548299F9",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "D28B1839-0958-483E-9B04-A734080FC362",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "VIPER_ASIC"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "8E2331C6-3DAA-49A4-B0D9-1743E7416C8F",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "49632DDE-E69B-4FC1-9CFB-2F96EC344CAE",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "8E2331C6-3DAA-49A4-B0D9-1743E7416C8F",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "viper_asic"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "49632DDE-E69B-4FC1-9CFB-2F96EC344CAE",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "49632DDE-E69B-4FC1-9CFB-2F96EC344CAE",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "custom_library"
+            }
+        },
+        {
+            "id": "4295C4E1-2F21-420D-B71D-BAD4F4003175",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "FCBGA",
+                "PART_NUMBER": "CDN-MPU-000008"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "8E2331C6-3DAA-49A4-B0D9-1743E7416C8F",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "D28B1839-0958-483E-9B04-A734080FC362",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_5"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

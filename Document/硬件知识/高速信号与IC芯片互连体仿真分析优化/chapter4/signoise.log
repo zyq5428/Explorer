@@ -1,0 +1,10 @@
+INFO: Reading report definition file 'D:/Cadence/SPB_17.4/share/pcb/signal/reports.dat'.
+INFO: Finished reading report definition file successfully.
+INFO: Reading report definition file 'D:/Cadence/SPB_17.4/share/pcb/signal/custom_rep.dat'.
+INFO: Finished reading report definition file successfully.
+INFO: Loaded existing device file 'D:\Cadence\SPB_Data\devices.dml'
+INFO: Finished loading SigNoise device libraries
+INFO: Simulation (DESIGN OUT1 1) DESIGN OUT1 1 Pulse Typ Reflection
+INFO: Using waveform resolution 1.000000 ns.
+INFO: Simulation (DESIGN OUT1 1) DESIGN OUT1 1 Pulse Typ Reflection finished
+ANNOTATION: Tlsim Command used :  tlsim  -r 1.000000 -o "waveforms.sim" -dl "delay.dl" -dst "distortion.dst" -log "tlsim.log" -ocycle "cycle.msm" "main.spc"\n

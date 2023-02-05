@@ -1,0 +1,12 @@
+FILE_TYPE = MULTI_PHYS_TABLE; 
+PART 'DVI' 
+
+
+{========================================================================================}
+:PART_NUMBER    | PACK_TYPE = JEDEC_TYPE	| HEIGHT   | ROHS        | STATUS      | MANUFACTURER	   | MPN         		| DESCRIPTION                                                             ;
+{========================================================================================}
+ 'CDN-CON-0010' | 'TH'(!) = 'DVI_CONN29'	| '5.9MM'  | 'COMPLIANT' | 'Compliant' | 'TE Connectivity' | '1367337'    	| 'DVI Video Connector TH'
+
+END_PART 
+END. 
+

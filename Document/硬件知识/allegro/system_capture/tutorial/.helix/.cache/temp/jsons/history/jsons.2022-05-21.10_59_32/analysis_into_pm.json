@@ -1,0 +1,123 @@
+{
+resolve : { mode : 'mode_cache_wins'},
+process : {mode: 'add'}
+}{
+    "objects": [
+        {
+            "id": "1D9CB8C7-425C-4557-A2D3-62D434272931",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "RES"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "3BEB7A3C-1CD5-45D8-82CD-7CD80214E137",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "37F514A4-67BA-4B7B-A36D-6F07ED9C4DF3",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "3BEB7A3C-1CD5-45D8-82CD-7CD80214E137",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "res"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "37F514A4-67BA-4B7B-A36D-6F07ED9C4DF3",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "37F514A4-67BA-4B7B-A36D-6F07ED9C4DF3",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "passives"
+            }
+        },
+        {
+            "id": "762E4F24-68BF-4191-A6BB-13DA9FF0AE7A",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "DESCRIPTION": "Precision Thick Film Chip Resistor 1.3k 150V 0.125W 1%",
+                "DIST": "FLAT",
+                "HEIGHT": "0.6mm",
+                "JEDEC_TYPE": "RESC2012N",
+                "MANUFACTURER": "Panasonic",
+                "MAX_TEMP": "155",
+                "MPN": "ERJ6ENF1301X",
+                "NEGTOL": "0.5%",
+                "PACK_TYPE": "0805",
+                "PART_NUMBER": "CDN-RES-0292",
+                "POSTOL": "0.5%",
+                "POWER": "0.125W",
+                "ROHS": "UNKNOWN",
+                "SLOPE": "RSMAX",
+                "STATUS": "",
+                "TC1": "100",
+                "TC2": "RTMPQ",
+                "TOLERANCE": "1%",
+                "TOL_ON_OFF": "ON",
+                "VALUE": "1.3k",
+                "VOLTAGE": "150V",
+                "WATTAGE": "0.125W"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "3BEB7A3C-1CD5-45D8-82CD-7CD80214E137",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "1D9CB8C7-425C-4557-A2D3-62D434272931",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

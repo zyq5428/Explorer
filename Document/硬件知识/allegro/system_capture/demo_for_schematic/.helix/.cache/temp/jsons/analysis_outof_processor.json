@@ -1,0 +1,261 @@
+{
+  "objects": [
+    {
+      "id": "9FDE1F6D-65D2-4079-B3BF-2F3DD13D0EF4",
+      "type": "schematic_model",
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "345EA4AD-1E65-4039-8C03-ED24152BAFFE",
+              "type": "library",
+              "vault": "design"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "1D02A614-342F-414D-B3EB-E6C59527B8EC",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "Y6P_EQN"
+      }
+    },
+    {
+      "id": "1D02A614-342F-414D-B3EB-E6C59527B8EC",
+      "type": "cell_model",
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "345EA4AD-1E65-4039-8C03-ED24152BAFFE",
+              "type": "library",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "y6p_eqn"
+      }
+    },
+    {
+      "id": "345EA4AD-1E65-4039-8C03-ED24152BAFFE",
+      "type": "library",
+      "relations": {},
+      "vault": "design",
+      "properties": {
+        "Library Name": "rf_comp_lib"
+      }
+    },
+    {
+      "id": "6F8CF314-B3F8-41CF-8832-ABADC59290DA",
+      "type": "part",
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "9FDE1F6D-65D2-4079-B3BF-2F3DD13D0EF4",
+              "type": "schematic_model",
+              "vault": "design"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "1D02A614-342F-414D-B3EB-E6C59527B8EC",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {},
+      "meta": [
+        {
+          "name": "cpath",
+          "value": "",
+          "data": [
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "differences": {
+        "relations": [
+          "identical",
+          "identical",
+          "identical"
+        ]
+      },
+      "action": [
+        "identical_design_cache",
+        "identical_cache_ref"
+      ],
+      "useraction": [
+        "identical_design_cache",
+        "identical_cache_ref"
+      ],
+      "id": "00587c4b-5f80-4741-9f8b-85f3abca9cab",
+      "tag": [],
+      "type": "part",
+      "objectid": "6F8CF314-B3F8-41CF-8832-ABADC59290DA",
+      "referenceid": "",
+      "cacheid": "",
+      "status": []
+    },
+    {
+      "differences": {
+        "relations": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "b3fa9581-0932-4e54-807d-c02ac4a6ca5a",
+      "tag": [],
+      "type": "schematic_model",
+      "objectid": "9FDE1F6D-65D2-4079-B3BF-2F3DD13D0EF4",
+      "referenceid": "a921a959-2ef2-44ab-b675-e79d9ddf8635",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {
+        "relations": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "95d325b7-fe5a-416c-b235-6599252ad4c7",
+      "tag": [],
+      "type": "cell_model",
+      "objectid": "1D02A614-342F-414D-B3EB-E6C59527B8EC",
+      "referenceid": "a65f7564-e3bc-4a1d-8cd0-ebcc5b38241b",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {},
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "13d424d9-576a-4d11-ae03-93c3099d0f4b",
+      "tag": [],
+      "type": "library",
+      "objectid": "345EA4AD-1E65-4039-8C03-ED24152BAFFE",
+      "referenceid": "4a3566e6-66e1-42b3-a111-eaa6d5a01922",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "id": "a921a959-2ef2-44ab-b675-e79d9ddf8635",
+      "type": "schematic_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "Y6P_EQN"
+      },
+      "header": [],
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "e7df55e6-a9b5-4ab2-b8e9-2ad7b9f5cabb",
+              "type": "library",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "a65f7564-e3bc-4a1d-8cd0-ebcc5b38241b",
+      "type": "cell_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "y6p_eqn"
+      },
+      "symbols": {
+        "sym_1": "P \"CDS_LMAN_SYM_OUTLINE\" \"-65,35,65,-185\" 0 0 0.00 0.00 22 0 0 0 0 0 0 0 0\nL 30 0 30 -25 -1 8\nL -30 20 -30 0 -1 8\nL 30 20 30 0 -1 8\nL 30 20 -30 20 -1 8\nL -30 -25 -30 -45 -1 8\nL 30 -25 30 -45 -1 8\nL 30 0 50 0 -1 8\nL 50 -25 30 -25 -1 8\nL -30 -25 -50 -25 -1 8\nL -30 0 -30 -25 -1 8\nL -50 0 -30 0 -1 8\nL 30 -60 30 -85 -1 8\nL -30 -45 -30 -60 -1 8\nL 30 -45 30 -60 -1 8\nL -30 -85 -30 -105 -1 8\nL 30 -85 30 -105 -1 8\nL 30 -60 50 -60 -1 8\nL 50 -85 30 -85 -1 8\nL -30 -85 -50 -85 -1 8\nL -30 -60 -30 -85 -1 8\nL -50 -60 -30 -60 -1 8\nL 30 -125 30 -150 -1 8\nL -30 -105 -30 -125 -1 8\nL 30 -105 30 -125 -1 8\nL -30 -150 -30 -170 -1 8\nL 30 -150 30 -170 -1 8\nL 30 -125 50 -125 -1 8\nL 50 -150 30 -150 -1 8\nL -30 -150 -50 -150 -1 8\nL -30 -125 -30 -150 -1 8\nL -50 -125 -30 -125 -1 8\nL -30 -170 30 -170 -1 8\nL -30 0 -20 0 -1 8\nL -25 5 -25 -5 -1 8\nL 20 0 30 0 -1 8\nL 25 5 25 -5 -1 8\nL -30 -65 -20 -65 -1 8\nL -25 -60 -25 -65 -1 8\nL 20 -60 30 -60 -1 8\nL 25 -60 25 -65 -1 8\nL -30 -125 -20 -125 -1 8\nL -25 -120 -25 -130 -1 8\nL 20 -125 30 -125 -1 8\nL 25 -120 25 -130 -1 8\nL -45 5 -45 -5 -1 8\nC -50 -25 \"P2\" -50 -25 0 0 16 0 L\nX \"IFF_ORG_PIN\" \"2\" -50 -25 0.0 0.0 16 0 0 0 15 0 0 0 74\nX \"VHDL_MODE\" \"INOUT\" -50 -25 0.0 0.0 16 0 0 0 15 0 0 0 74\nC 50 0 \"P3\" 50 0 0 0 16 0 L\nX \"IFF_ORG_PIN\" \"3\" 50 0 0.0 0.0 16 0 0 0 15 0 0 0 74\nX \"VHDL_MODE\" \"INOUT\" 50 0 0.0 0.0 16 0 0 0 15 0 0 0 74\nC 50 -25 \"P4\" 50 -25 0 0 16 0 L\nX \"IFF_ORG_PIN\" \"4\" 50 -25 0.0 0.0 16 0 0 0 15 0 0 0 74\nX \"VHDL_MODE\" \"INOUT\" 50 -25 0.0 0.0 16 0 0 0 15 0 0 0 74\nC -50 -60 \"P5\" -50 -60 0 0 16 0 L\nX \"IFF_ORG_PIN\" \"5\" -50 -60 0.0 0.0 16 0 0 0 15 0 0 0 74\nX \"VHDL_MODE\" \"INOUT\" -50 -60 0.0 0.0 16 0 0 0 15 0 0 0 74\nC -50 -85 \"P6\" -50 -85 0 0 16 0 L\nX \"IFF_ORG_PIN\" \"6\" -50 -85 0.0 0.0 16 0 0 0 15 0 0 0 74\nX \"VHDL_MODE\" \"INOUT\" -50 -85 0.0 0.0 16 0 0 0 15 0 0 0 74\nC 50 -60 \"P7\" 50 -60 0 0 16 0 L\nX \"IFF_ORG_PIN\" \"7\" 50 -60 0.0 0.0 16 0 0 0 15 0 0 0 74\nX \"VHDL_MODE\" \"INOUT\" 50 -60 0.0 0.0 16 0 0 0 15 0 0 0 74\nC 50 -85 \"P8\" 50 -85 0 0 16 0 L\nX \"IFF_ORG_PIN\" \"8\" 50 -85 0.0 0.0 16 0 0 0 15 0 0 0 74\nX \"VHDL_MODE\" \"INOUT\" 50 -85 0.0 0.0 16 0 0 0 15 0 0 0 74\nC -50 -125 \"P9\" -50 -125 0 0 16 0 L\nX \"IFF_ORG_PIN\" \"9\" -50 -125 0.0 0.0 16 0 0 0 15 0 0 0 74\nX \"VHDL_MODE\" \"INOUT\" -50 -125 0.0 0.0 16 0 0 0 15 0 0 0 74\nC -50 -150 \"P10\" -50 -150 0 0 16 0 L\nX \"IFF_ORG_PIN\" \"10\" -50 -150 0.0 0.0 16 0 0 0 15 0 0 0 74\nX \"VHDL_MODE\" \"INOUT\" -50 -150 0.0 0.0 16 0 0 0 15 0 0 0 74\nC 50 -125 \"P11\" 50 -125 0 0 16 0 L\nX \"IFF_ORG_PIN\" \"11\" 50 -125 0.0 0.0 16 0 0 0 15 0 0 0 74\nX \"VHDL_MODE\" \"INOUT\" 50 -125 0.0 0.0 16 0 0 0 15 0 0 0 74\nC 50 -150 \"P12\" 50 -150 0 0 16 0 L\nX \"IFF_ORG_PIN\" \"12\" 50 -150 0.0 0.0 16 0 0 0 15 0 0 0 74\nX \"VHDL_MODE\" \"INOUT\" 50 -150 0.0 0.0 16 0 0 0 15 0 0 0 74\nC -50 0 \"P1\" -50 0 0 0 16 0 L\nX \"IFF_ORG_PIN\" \"1\" -50 0 0.0 0.0 16 0 0 0 15 0 0 0 74\nX \"VHDL_MODE\" \"INOUT\" -50 0 0.0 0.0 16 0 0 0 15 0 0 0 74\nT -25 -145 0.00 0.0 0 0 0 0 0 1 68\n5\nT 15 -145 0.00 0.0 0 0 0 0 0 1 68\n6\nT 15 -85 0.00 0.0 0 0 0 0 0 1 68\n4\nT -25 -85 0.00 0.0 0 0 0 0 0 1 68\n3\nT -25 -20 0.00 0.0 0 0 0 0 0 1 68\n1\nT 15 -20 0.00 0.0 0 0 0 0 0 1 68\n2\nT 0 60 0 0 0 0 0 1 0 6 2\ny6p_eqn\nP \"ADS_Recip\" \"NO\" -65 -225 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_1_1_\" \"\" -65 -245 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_1_2_\" \"\" -65 -265 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_1_3_\" \"\" -65 -285 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_1_4_\" \"\" -65 -305 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_1_5_\" \"\" -65 -325 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_1_6_\" \"\" -65 -345 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_2_1_\" \"\" -65 -365 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_2_2_\" \"\" -65 -385 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_2_3_\" \"\" -65 -405 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_2_4_\" \"\" -65 -425 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_2_5_\" \"\" -65 -445 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_2_6_\" \"\" -65 -465 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_3_1_\" \"\" -65 -485 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_3_2_\" \"\" -65 -505 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_3_3_\" \"\" -65 -525 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_3_4_\" \"\" -65 -545 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_3_5_\" \"\" -65 -565 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_3_6_\" \"\" -65 -585 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_4_1_\" \"\" -65 -605 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_4_2_\" \"\" -65 -625 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_4_3_\" \"\" -65 -645 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_4_4_\" \"\" -65 -665 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_4_5_\" \"\" -65 -685 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_4_6_\" \"\" -65 -705 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_5_1_\" \"\" -65 -725 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_5_2_\" \"\" -65 -745 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_5_3_\" \"\" -65 -765 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_5_4_\" \"\" -65 -785 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_5_5_\" \"\" -65 -805 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_5_6_\" \"\" -65 -825 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_6_1_\" \"\" -65 -845 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_6_2_\" \"\" -65 -865 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_6_3_\" \"\" -65 -885 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_6_4_\" \"\" -65 -905 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_6_5_\" \"\" -65 -925 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y_6_6_\" \"\" -65 -945 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Temp\" \"\" -65 -965 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_ImpNoncausalLength\" \"\" -65 -985 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_ImpMode\" \"\" -65 -1005 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_ImpMaxFreq\" \"\" -65 -1025 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_ImpDeltaFreq\" \"\" -65 -1045 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_ImpMaxOrder\" \"\" -65 -1065 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_ImpWindow\" \"\" -65 -1085 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_ImpRelTol\" \"\" -65 -1105 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_ImpAbsTol\" \"\" -65 -1125 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_IFF_PROPERTY_MAPPING_ADS\" \"\" -65 -1145 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_LABEL\" \"\" -65 -1165 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_Y\" \"\" -65 -1185 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_1\" \"\" -65 -1205 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_2\" \"\" -65 -1225 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_3\" \"\" -65 -1245 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_4\" \"\" -65 -1265 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_5\" \"\" -65 -1285 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ADS_6\" \"\" -65 -1305 0.00 0.0 15 0 0 0 0 0 0 0 0\nP \"ISRFELEMENT\" \"1\" -65 -1325 0 0 15 0 0 0 0 0 0 0 0\nP \"RFELEMENTTYPE\" \"42732\" -65 -1345 0 0 15 0 0 0 0 0 0 0 0\nP \"PACK_IGNORE\" \"TRUE\" -65 -1365 0 0 15 0 0 0 0 0 0 0 0\nP \"BOM_IGNORE\" \"TRUE\" -65 -1385 0 0 15 0 0 0 0 0 0 0 0\n"
+      },
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "4a3566e6-66e1-42b3-a111-eaa6d5a01922",
+              "type": "library",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "4a3566e6-66e1-42b3-a111-eaa6d5a01922",
+      "type": "library",
+      "vault": "server",
+      "attributes": {
+        "Library Name": "rf_comp_lib"
+      }
+    },
+    {
+      "id": "e7df55e6-a9b5-4ab2-b8e9-2ad7b9f5cabb",
+      "type": "library",
+      "vault": "server",
+      "attributes": {
+        "Library Name": "rf_comp_lib"
+      }
+    }
+  ],
+  "cache": [],
+  "finalanalysis": {
+    "conflictMessage": "",
+    "conflict": ""
+  }
+}

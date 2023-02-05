@@ -1,0 +1,19 @@
+TITLE:                 Bill of Materials
+DATE:                  05/21/2022
+DESIGN:                tutorial
+TEMPLATE:              d:\cadence\spb_17.2\share\cdssetup\template.bom
+CALLOUT:               bom.callouts
+
+Part Name         Ref Des                 Qty     Unit       Cost  
+                                                  Price            
+===============   ====================   ====   =======   =======  
+RES_0805-CDN-RE   R0500,R0501               2         ?         ?  
+S-0290,1.1K,                                                       
+0.125W,1%                                                          
+SATA_TH-CDN-CON   J2,J101,J0501-J0504       6         ?         ?  
+-0014                                                              
+VIPER_ASIC_FCBG   U0500,U0501,U0504,        4         ?         ?  
+A-CDN-MPU-00000   U0509                                            
+9                                                                  
+TOTAL                                      12               0.000  
+===============   ====================   ====   =======   =======  

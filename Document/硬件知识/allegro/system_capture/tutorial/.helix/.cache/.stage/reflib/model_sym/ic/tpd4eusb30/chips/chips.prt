@@ -1,0 +1,32 @@
+FILE_TYPE=LIBRARY_PARTS;
+primitive 'TPD4EUSB30';
+  pin
+    '-D1':
+      PIN_NUMBER='(5)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'D1_P':
+      PIN_NUMBER='(4)';
+      INPUT_LOAD='(-0.01,0.01)';
+    '-D2':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'D2_P':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'GND1':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(-0.01,0.01)';
+    'GND':
+      PIN_NUMBER='(8)';
+      INPUT_LOAD='(-0.01,0.01)';
+  end_pin;
+  body
+    BODY_NAME='TPD4EUSB30';
+    PART_NAME='TPD4EUSB30';
+    PHYS_DES_PREFIX='U';
+    CLASS='IC';
+    NC_PINS='(6,7,9,10)';
+  end_body;
+end_primitive;
+
+END.

@@ -1,0 +1,596 @@
+{
+  "objects": [
+    {
+      "id": "1394BBDF-0E23-4141-8271-ADA1647BADFE",
+      "type": "part",
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "3523D0C6-387F-4F51-A8AC-2E6BC52ED9FF",
+              "type": "schematic_model",
+              "vault": "design"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "0FBE98BD-2BD8-4EC8-9EE8-FFDDB766B565",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "PACK_TYPE": "TH",
+        "PART_NUMBER": "CDN-CON-0014"
+      },
+      "meta": [
+        {
+          "name": "cpath",
+          "value": "@worklib.tutorial(tbl_1):\\I14\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J2"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.tutorial(tbl_1):\\I15\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J0501"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.tutorial(tbl_1):\\I16\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J0502"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.tutorial(tbl_1):\\I20\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J0503"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.tutorial(tbl_1):\\I21\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J0504"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            }
+          ]
+        },
+        {
+          "name": "cpath",
+          "value": "@worklib.tutorial(tbl_1):\\I22\\",
+          "data": [
+            {
+              "name": "refdes",
+              "value": "J101"
+            },
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0FBE98BD-2BD8-4EC8-9EE8-FFDDB766B565",
+      "type": "cell_model",
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "6A885763-8DA9-4A83-9572-1DB7B4208287",
+              "type": "library",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "sata"
+      }
+    },
+    {
+      "id": "6A885763-8DA9-4A83-9572-1DB7B4208287",
+      "type": "library",
+      "relations": {},
+      "vault": "design",
+      "properties": {
+        "Library Name": "connector"
+      }
+    },
+    {
+      "id": "3523D0C6-387F-4F51-A8AC-2E6BC52ED9FF",
+      "type": "schematic_model",
+      "relations": {
+        "cell": [
+          {
+            "related": {
+              "id": "0FBE98BD-2BD8-4EC8-9EE8-FFDDB766B565",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "SATA"
+      }
+    }
+  ],
+  "resolutions": [
+    {
+      "differences": {
+        "relations": [
+          "identical",
+          "identical",
+          "identical"
+        ],
+        "properties": [
+          "different",
+          "identical",
+          "different"
+        ]
+      },
+      "action": [
+        "update_design_from_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "manual_replace_design_from_ref",
+        "manual_replace_cache_from_ref"
+      ],
+      "id": "b6f13a11-22f1-415d-9790-86fdfe2a09a7",
+      "tag": [
+        "ref_partid_1c5a2170-27cf-4d53-8845-9fbfae3db5ca"
+      ],
+      "type": "part",
+      "objectid": "1394BBDF-0E23-4141-8271-ADA1647BADFE",
+      "referenceid": "1c5a2170-27cf-4d53-8845-9fbfae3db5ca",
+      "cacheid": "d1d64c38-9e14-4361-8d18-2796f60c5c44",
+      "status": []
+    },
+    {
+      "differences": {
+        "header_annotation_visibility": [
+          "not_applicable",
+          "not_applicable",
+          "identical"
+        ],
+        "header": [
+          "not_applicable",
+          "not_applicable",
+          "identical"
+        ],
+        "relations": [
+          "identical",
+          "identical",
+          "identical"
+        ]
+      },
+      "action": [
+        "identical_design_ref",
+        "identical_cache_ref"
+      ],
+      "useraction": [
+        "identical_design_ref"
+      ],
+      "id": "e739f563-b7ee-4fa3-9aab-63562f4ac172",
+      "tag": [],
+      "type": "schematic_model",
+      "objectid": "3523D0C6-387F-4F51-A8AC-2E6BC52ED9FF",
+      "referenceid": "448e11b3-ced3-485d-8fc1-51b86ad6f36a",
+      "cacheid": "c5e0c26e-1233-42e3-9b84-e10bd3fb984c",
+      "status": []
+    },
+    {
+      "differences": {
+        "chips": [
+          "not_applicable",
+          "not_applicable",
+          "identical"
+        ],
+        "relations": [
+          "identical",
+          "identical",
+          "identical"
+        ],
+        "symbols": [
+          "not_applicable",
+          "not_applicable",
+          "identical"
+        ]
+      },
+      "action": [
+        "identical_design_ref",
+        "identical_cache_ref"
+      ],
+      "useraction": [
+        "identical_design_ref"
+      ],
+      "id": "6dcb3497-ab40-4f93-9c29-25b372ae31a3",
+      "tag": [],
+      "type": "cell_model",
+      "objectid": "0FBE98BD-2BD8-4EC8-9EE8-FFDDB766B565",
+      "referenceid": "f7da3a87-cf9b-4a30-aabb-74d379ac5747",
+      "cacheid": "50e7928f-9308-41fc-93f8-acbf9c2885d6",
+      "status": []
+    },
+    {
+      "differences": {},
+      "action": [
+        "identical_design_ref",
+        "identical_cache_ref"
+      ],
+      "useraction": [
+        "identical_design_ref"
+      ],
+      "id": "76ab3509-d3e0-46ff-96a2-08b9eb7cdfa7",
+      "tag": [],
+      "type": "library",
+      "objectid": "6A885763-8DA9-4A83-9572-1DB7B4208287",
+      "referenceid": "9f67c2bb-d7cb-4e02-91b4-0c31a1a78039",
+      "cacheid": "42db349a-ae51-4b5d-b3d5-2b7868332a0a",
+      "status": []
+    }
+  ],
+  "reference": [
+    {
+      "id": "1c5a2170-27cf-4d53-8845-9fbfae3db5ca",
+      "type": "part",
+      "vault": "server",
+      "attributes": {
+        "Part Number": "CDN-CON-0014a"
+      },
+      "properties": {
+        "DESCRIPTION": "SATA SMD Vertical Connector",
+        "HEIGHT": "8.4MM",
+        "JEDEC_TYPE": "SATA_VERT1P27",
+        "MANUFACTURER": "Molex",
+        "MPN": "67800",
+        "PACK_TYPE": "TH",
+        "PART_NUMBER": "CDN-CON-0014a",
+        "PTF_SUBTYPE": "!",
+        "ROHS": "COMPLIANT",
+        "STATUS": "Compliant"
+      },
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "448e11b3-ced3-485d-8fc1-51b86ad6f36a",
+              "type": "schematic_model",
+              "vault": "server"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "f7da3a87-cf9b-4a30-aabb-74d379ac5747",
+              "type": "cell_model",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "448e11b3-ced3-485d-8fc1-51b86ad6f36a",
+      "type": "schematic_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "SATA"
+      },
+      "header": [
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PART_NUMBER",
+          "type": "Key",
+          "order": "1"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "STATUS",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "JEDEC_TYPE",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "DESCRIPTION",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MPN",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "PTF_SUBTYPE",
+          "type": "Subtype"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "HEIGHT",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MANUFACTURER",
+          "type": "Injected"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PACK_TYPE",
+          "type": "Key",
+          "order": "2"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "ROHS",
+          "type": "Injected"
+        }
+      ],
+      "relations": {
+        "cell": [
+          {
+            "related": {
+              "id": "f7da3a87-cf9b-4a30-aabb-74d379ac5747",
+              "type": "cell_model",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "f7da3a87-cf9b-4a30-aabb-74d379ac5747",
+      "type": "cell_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "sata"
+      },
+      "symbols": {
+        "sym_1": "L -200 50 -150 50 -1 0\nL -200 0 -150 0 -1 0\nL -200 -50 -150 -50 -1 0\nL -200 -100 -150 -100 -1 0\nL -50 -250 -50 -200 -1 0\nL 0 -250 0 -200 -1 0\nL 50 -250 50 -200 -1 0\nL -150 200 150 200 -1 0\nL -150 -200 150 -200 -1 0\nL -150 200 -150 -200 -1 0\nL 150 200 150 -200 -1 0\nT -125 125 0.00 0.00 48 0 0 0 0 4 82\nSATA\nC -200 50 \"DP_AP\" -225 50 0 1 32 0 R\nX \"PIN_TEXT\" \"DP_A+\" -140 50 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -170 50 0.00 0.00 32 0 0 2 0 0 1 0 0\nC -200 0 \"DP_AN\" -225 0 0 1 32 0 R\nX \"PIN_TEXT\" \"DP_A-\" -140 0 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -170 0 0.00 0.00 32 0 0 2 0 0 1 0 0\nC -200 -50 \"DP_BP\" -225 -50 0 1 32 0 R\nX \"PIN_TEXT\" \"DP_B+\" -140 -50 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -170 -49 0.00 0.00 32 0 0 2 0 0 1 0 0\nC -200 -100 \"DP_BN\" -225 -100 0 1 32 0 R\nX \"PIN_TEXT\" \"DP_B-\" -140 -99 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -170 -99 0.00 0.00 32 0 0 2 0 0 1 0 0\nC -50 -250 \"G1\" -50 -275 0 1 32 1 R\nX \"PIN_TEXT\" \"G1\" -50 -190 90.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -50 -219 90.00 0.00 32 0 0 2 0 0 1 0 0\nC 0 -250 \"G2\" 0 -275 0 1 32 1 R\nX \"PIN_TEXT\" \"G2\" 0 -190 90.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" 0 -219 90.00 0.00 32 0 0 2 0 0 1 0 0\nC 50 -250 \"G3\" 50 -275 0 1 32 1 R\nX \"PIN_TEXT\" \"G3\" 49 -190 90.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" 50 -219 90.00 0.00 32 0 0 2 0 0 1 0 0\nP \"CDS_LMAN_SYM_OUTLINE\" \"-150,200,150,-200\" 0 0 0.00 0.00 22 0 0 0 0 0 0 0 0\nP \"$LOCATION\" \"?\" 0 220 0.00 0.00 48 0 0 1 0 0 1 0 8\n"
+      },
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "9f67c2bb-d7cb-4e02-91b4-0c31a1a78039",
+              "type": "library",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "9f67c2bb-d7cb-4e02-91b4-0c31a1a78039",
+      "type": "library",
+      "vault": "server",
+      "attributes": {
+        "Library Name": "connector"
+      }
+    }
+  ],
+  "cache": [
+    {
+      "id": "d1d64c38-9e14-4361-8d18-2796f60c5c44",
+      "type": "part",
+      "vault": "cache",
+      "attributes": {
+        "Part Number": "CDN-CON-0014"
+      },
+      "properties": {
+        "DESCRIPTION": "SATA SMD Vertical Connector",
+        "HEIGHT": "8.4MM",
+        "JEDEC_TYPE": "SATA_VERT1P27",
+        "MANUFACTURER": "Molex",
+        "MPN": "67800",
+        "PACK_TYPE": "TH",
+        "PART_NUMBER": "CDN-CON-0014",
+        "PTF_SUBTYPE": "!",
+        "ROHS": "COMPLIANT",
+        "STATUS": "Compliant"
+      },
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "c5e0c26e-1233-42e3-9b84-e10bd3fb984c",
+              "type": "schematic_model",
+              "vault": "cache"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "50e7928f-9308-41fc-93f8-acbf9c2885d6",
+              "type": "cell_model",
+              "vault": "cache"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "c5e0c26e-1233-42e3-9b84-e10bd3fb984c",
+      "type": "schematic_model",
+      "vault": "cache",
+      "attributes": {
+        "Model Name": "SATA"
+      },
+      "header": [
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PART_NUMBER",
+          "type": "Key",
+          "order": "1"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "STATUS",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "JEDEC_TYPE",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "DESCRIPTION",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MPN",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "PTF_SUBTYPE",
+          "type": "Subtype"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "HEIGHT",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MANUFACTURER",
+          "type": "Injected"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PACK_TYPE",
+          "type": "Key",
+          "order": "2"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "ROHS",
+          "type": "Injected"
+        }
+      ],
+      "relations": {
+        "cell": [
+          {
+            "related": {
+              "id": "50e7928f-9308-41fc-93f8-acbf9c2885d6",
+              "type": "cell_model",
+              "vault": "cache"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "50e7928f-9308-41fc-93f8-acbf9c2885d6",
+      "type": "cell_model",
+      "vault": "cache",
+      "attributes": {
+        "Model Name": "sata"
+      },
+      "symbols": {
+        "sym_1": "L -200 50 -150 50 -1 0\nL -200 0 -150 0 -1 0\nL -200 -50 -150 -50 -1 0\nL -200 -100 -150 -100 -1 0\nL -50 -250 -50 -200 -1 0\nL 0 -250 0 -200 -1 0\nL 50 -250 50 -200 -1 0\nL -150 200 150 200 -1 0\nL -150 -200 150 -200 -1 0\nL -150 200 -150 -200 -1 0\nL 150 200 150 -200 -1 0\nT -125 125 0.00 0.00 48 0 0 0 0 4 82\nSATA\nC -200 50 \"DP_AP\" -225 50 0 1 32 0 R\nX \"PIN_TEXT\" \"DP_A+\" -140 50 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -170 50 0.00 0.00 32 0 0 2 0 0 1 0 0\nC -200 0 \"DP_AN\" -225 0 0 1 32 0 R\nX \"PIN_TEXT\" \"DP_A-\" -140 0 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -170 0 0.00 0.00 32 0 0 2 0 0 1 0 0\nC -200 -50 \"DP_BP\" -225 -50 0 1 32 0 R\nX \"PIN_TEXT\" \"DP_B+\" -140 -50 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -170 -49 0.00 0.00 32 0 0 2 0 0 1 0 0\nC -200 -100 \"DP_BN\" -225 -100 0 1 32 0 R\nX \"PIN_TEXT\" \"DP_B-\" -140 -99 0.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -170 -99 0.00 0.00 32 0 0 2 0 0 1 0 0\nC -50 -250 \"G1\" -50 -275 0 1 32 1 R\nX \"PIN_TEXT\" \"G1\" -50 -190 90.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" -50 -219 90.00 0.00 32 0 0 2 0 0 1 0 0\nC 0 -250 \"G2\" 0 -275 0 1 32 1 R\nX \"PIN_TEXT\" \"G2\" 0 -190 90.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" 0 -219 90.00 0.00 32 0 0 2 0 0 1 0 0\nC 50 -250 \"G3\" 50 -275 0 1 32 1 R\nX \"PIN_TEXT\" \"G3\" 49 -190 90.00 0.00 24 0 0 0 0 0 1 0 0\nX \"$PN\" \"?\" 50 -219 90.00 0.00 32 0 0 2 0 0 1 0 0\nP \"CDS_LMAN_SYM_OUTLINE\" \"-150,200,150,-200\" 0 0 0.00 0.00 22 0 0 0 0 0 0 0 0\nP \"$LOCATION\" \"?\" 0 220 0.00 0.00 48 0 0 1 0 0 1 0 8\n"
+      },
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "42db349a-ae51-4b5d-b3d5-2b7868332a0a",
+              "type": "library",
+              "vault": "cache"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "42db349a-ae51-4b5d-b3d5-2b7868332a0a",
+      "type": "library",
+      "vault": "cache",
+      "attributes": {
+        "Library Name": "connector"
+      }
+    }
+  ],
+  "finalanalysis": {
+    "conflictMessage": "",
+    "conflict": "valid"
+  }
+}

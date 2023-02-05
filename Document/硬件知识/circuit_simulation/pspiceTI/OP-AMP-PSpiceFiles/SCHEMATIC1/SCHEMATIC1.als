@@ -1,0 +1,11 @@
+.ALIASES
+X_U1            U1(3=0 4=N00297 5=N00334 2=N00434 1=OUT ) CN @OP-AMP.SCHEMATIC1(sch_1):INS32@OPA2743.OPA2743.Normal(chips)
+R_R1            R1(1=IN 2=N00297 ) CN @OP-AMP.SCHEMATIC1(sch_1):INS107@ANALOG.R.Normal(chips)
+R_R2            R2(1=N00297 2=OUT ) CN @OP-AMP.SCHEMATIC1(sch_1):INS123@ANALOG.R.Normal(chips)
+R_R3            R3(1=0 2=OUT ) CN @OP-AMP.SCHEMATIC1(sch_1):INS139@ANALOG.R.Normal(chips)
+V_V1            V1(+=0 -=N00434 ) CN @OP-AMP.SCHEMATIC1(sch_1):INS164@SOURCE.VDC.Normal(chips)
+V_V3            V3(+=IN -=0 ) CN @OP-AMP.SCHEMATIC1(sch_1):INS211@SOURCE.VSIN.Normal(chips)
+V_V2            V2(+=0 -=N00334 ) CN @OP-AMP.SCHEMATIC1(sch_1):INS404@SOURCE.VDC.Normal(chips)
+_    _(IN=IN)
+_    _(OUT=OUT)
+.ENDALIASES

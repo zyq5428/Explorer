@@ -1,0 +1,100 @@
+{
+resolve : { mode : 'mode_cache_wins'},
+process : {mode: 'add'}
+}{
+    "objects": [
+        {
+            "id": "9FDE1F6D-65D2-4079-B3BF-2F3DD13D0EF4",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "Y6P_EQN"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "1D02A614-342F-414D-B3EB-E6C59527B8EC",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "345EA4AD-1E65-4039-8C03-ED24152BAFFE",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1D02A614-342F-414D-B3EB-E6C59527B8EC",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "y6p_eqn"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "345EA4AD-1E65-4039-8C03-ED24152BAFFE",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "345EA4AD-1E65-4039-8C03-ED24152BAFFE",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "rf_comp_lib"
+            }
+        },
+        {
+            "id": "6F8CF314-B3F8-41CF-8832-ABADC59290DA",
+            "type": "part",
+            "vault": "design",
+            "properties": {},
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "1D02A614-342F-414D-B3EB-E6C59527B8EC",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "9FDE1F6D-65D2-4079-B3BF-2F3DD13D0EF4",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

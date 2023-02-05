@@ -1,0 +1,240 @@
+(Cell	res
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	2.0.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Modified)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	10/16/08,14:09:02)
+
+			(User	jburch)
+
+			(Path	adw_std_parts_lib.res)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	10/02/09,11:59:37)
+
+			(User	chimike)
+
+			(Path	passives.res)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.5)
+
+				(ModificationStatus	NULL)
+
+				(Status	Modified)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+			)
+
+			(Symbols	2
+
+				(Symbol	sym_2
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	0000000047687d3e)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	2.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Modified)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/16/08,14:09:02)
+
+							(User	jburch)
+
+							(Path	adw_std_parts_lib.res)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000004f3d7bba)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	2.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Modified)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/16/08,14:09:02)
+
+							(User	jburch)
+
+							(Path	adw_std_parts_lib.res)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001ca503c2)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000b06d9f55)
+
+			(Primitives	1
+
+				(Primitive	RES
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/16/08,14:09:02)
+
+							(User	jburch)
+
+							(Path	adw_std_parts_lib.res)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	RES
+
+							(PackType	RES)
+
+							(PackType	RES_0603)
+
+							(PackType	RES_0805)
+
+							(PackType	RES_1206)
+
+						)
+
+					)
+
+					(Packages	4
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d7a03a7)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	17.0-d084 (v17-0-100A))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c9503a9)
+
+)
+

@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LMZ14203'
+
+{========================================================================================}
+:PACK_TYPE    = PART_NUMBER   | JEDEC_TYPE  | DESCRIPTION                                                                | MANUFACTURER | MPN                   | TOLERANCE | VO_MIN | HEIGHT | STATUS | POWER | CURRENT | ROHS      | VO_MAX ;
+{========================================================================================}
+ 'TO-PMOD-7'(!) = 'CDN-IC-0013' | 'TO-PMOD-7' | '3A (0.8V-6V) Simple Switcher Power Module with 42V Maximum Input Voltage' | 'TI'         | 'LMZ14203TZ-ADJ/NOPB' | ''        | '0.8V' | ''     | ''     | '18W' | '3A'    | 'UNKNOWN' | '6V'  
+
+END_PART
+
+END.
+

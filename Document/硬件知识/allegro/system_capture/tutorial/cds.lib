@@ -1,0 +1,2 @@
+DEFINE worklib ./worklib
+INCLUDE "$CDS_SITE/cdssetup/cds.lib"

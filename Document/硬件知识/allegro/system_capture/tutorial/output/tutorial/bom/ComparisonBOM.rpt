@@ -1,0 +1,31 @@
+TITLE:                 Bill of Materials
+DATE:                  05/21/2022
+DESIGN:                tutorial
+TEMPLATE:              d:\cadence\spb_17.2\share\cdssetup\template.bom
+CALLOUT:               bom.callouts
+
+ Ref     Part Number    BETA        GAMMA       
+ Des                                            
+======   ============   =========   ==========  
+J0501    CDN-CON-0014   DNI         -           
+J0502    CDN-CON-0014   DNI         -           
+J0503    CDN-CON-0014   DNI         -           
+J0504    CDN-CON-0014   DNI         -           
+ J101    CDN-CON-0014   DNI         -           
+  J2     CDN-CON-0014   DNI         DNI         
+R0500    CDN-RES-0290   CDN-CAP-0   CDN-RES-02  
+                        154         92          
+
+Common Components List :
+ Ref     Part Number   
+ Des                   
+======   ============  
+R0501    CDN-RES-0290  
+U0500    CDN-MPU-0000  
+         09            
+U0501    CDN-MPU-0000  
+         09            
+U0504    CDN-MPU-0000  
+         09            
+U0509    CDN-MPU-0000  
+         09            

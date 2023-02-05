@@ -1,0 +1,517 @@
+{
+  "objects": [
+    {
+      "id": "802FAAD3-ECC9-48C7-88BE-A0EDB17695B1",
+      "type": "schematic_model",
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "243F5705-6469-404A-97FF-4629CAEA6173",
+              "type": "library",
+              "vault": "design"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "E7717AEB-C359-49F2-89C6-B49059C21EBC",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "CAP"
+      }
+    },
+    {
+      "id": "E7717AEB-C359-49F2-89C6-B49059C21EBC",
+      "type": "cell_model",
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "243F5705-6469-404A-97FF-4629CAEA6173",
+              "type": "library",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "cap"
+      }
+    },
+    {
+      "id": "243F5705-6469-404A-97FF-4629CAEA6173",
+      "type": "library",
+      "relations": {},
+      "vault": "design",
+      "properties": {
+        "Library Name": "passives"
+      }
+    },
+    {
+      "id": "AEC6B82D-7C2A-4106-8D3D-2164A99E358C",
+      "type": "part",
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "802FAAD3-ECC9-48C7-88BE-A0EDB17695B1",
+              "type": "schematic_model",
+              "vault": "design"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "E7717AEB-C359-49F2-89C6-B49059C21EBC",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "TCO": "X7R",
+        "VOLTAGE": "50V",
+        "ALT_SYMBOLS": "(CAPC2012N)",
+        "DIST": "FLAT",
+        "NEGTOL": "5%",
+        "TOLERANCE": "10%",
+        "MPN": "08055C331KAT2A",
+        "VALUE": "330pF",
+        "PACK_TYPE": "0805",
+        "PART_NUMBER": "CDN-CAP-0154",
+        "STATUS": "",
+        "MAX_TEMP": "125",
+        "DESCRIPTION": "Capacitor X7R 50V 330pF 10% 0805",
+        "IC": "UNDEF",
+        "KNEE": "CBMAX",
+        "HEIGHT": "0.94mm",
+        "MANUFACTURER": "AVX",
+        "CURRENT": "CIMAX",
+        "ROHS": "COMPLIANT",
+        "TC": "",
+        "JEDEC_TYPE": "CAPC2012N",
+        "TOL_ON_OFF": "ON",
+        "POSTOL": "5%",
+        "SLOPE": "CSMAX"
+      },
+      "meta": [
+        {
+          "name": "cpath",
+          "value": "",
+          "data": [
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "differences": {
+        "relations": [
+          "different",
+          "not_applicable",
+          "not_applicable"
+        ],
+        "properties": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "update_design_from_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "update_design_from_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "ee16991f-a6e6-484c-ad3b-0d398ebd0abd",
+      "tag": [
+        "ref_schematic_model_CAP",
+        "ref_partid_6d026e17-adea-40cc-beab-aee0b39f3349"
+      ],
+      "type": "part",
+      "objectid": "AEC6B82D-7C2A-4106-8D3D-2164A99E358C",
+      "referenceid": "6d026e17-adea-40cc-beab-aee0b39f3349",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {
+        "relations": [
+          "different",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "update_design_from_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "update_design_from_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "97900fdd-9b0d-4a6f-96d5-500a6e7fde33",
+      "tag": [
+        "ref_schematic_model_CAP"
+      ],
+      "type": "schematic_model",
+      "objectid": "802FAAD3-ECC9-48C7-88BE-A0EDB17695B1",
+      "referenceid": "070e11bc-f013-4d05-84b3-2738927121c7",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {
+        "relations": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "bb8ae54e-00b8-40b2-a214-e16f5b37d047",
+      "tag": [],
+      "type": "cell_model",
+      "objectid": "E7717AEB-C359-49F2-89C6-B49059C21EBC",
+      "referenceid": "ff2bb07c-8c7f-4ddf-bb8a-a19deb770b83",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {},
+      "action": [
+        "identical_design_cache",
+        "identical_cache_ref"
+      ],
+      "useraction": [
+        "identical_design_cache",
+        "identical_cache_ref"
+      ],
+      "id": "4f60a9fe-c476-4ee0-bcc1-de0f754aa203",
+      "tag": [],
+      "type": "library",
+      "objectid": "243F5705-6469-404A-97FF-4629CAEA6173",
+      "referenceid": "136ff7d7-4b73-4466-bafa-5e48a87d3807",
+      "cacheid": "5188ce64-0ad2-48c1-a68e-4e406003ac79",
+      "status": []
+    }
+  ],
+  "reference": [
+    {
+      "id": "6d026e17-adea-40cc-beab-aee0b39f3349",
+      "type": "part",
+      "vault": "server",
+      "attributes": {
+        "Part Number": "CDN-CAP-0154"
+      },
+      "properties": {
+        "ALT_SYMBOLS": "(CAPC2012N)",
+        "CURRENT": "CIMAX",
+        "DESCRIPTION": "Capacitor X7R 50V 330pF 10% 0805",
+        "DIST": "FLAT",
+        "HEIGHT": "0.94mm",
+        "IC": "UNDEF",
+        "JEDEC_TYPE": "CAPC2012N",
+        "KNEE": "CBMAX",
+        "MANUFACTURER": "AVX",
+        "MAX_TEMP": "125",
+        "MPN": "08055C331KAT2A",
+        "NEGTOL": "5%",
+        "PACK_TYPE": "0805",
+        "PART_NUMBER": "CDN-CAP-0154",
+        "POSTOL": "5%",
+        "PTF_SUBTYPE": "!",
+        "ROHS": "COMPLIANT",
+        "SLOPE": "CSMAX",
+        "STATUS": "",
+        "TC": "",
+        "TCO": "X7R",
+        "TOLERANCE": "10%",
+        "TOL_ON_OFF": "ON",
+        "VALUE": "330pF",
+        "VOLTAGE": "50V"
+      },
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "070e11bc-f013-4d05-84b3-2738927121c7",
+              "type": "schematic_model",
+              "vault": "server"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "ff2bb07c-8c7f-4ddf-bb8a-a19deb770b83",
+              "type": "cell_model",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "070e11bc-f013-4d05-84b3-2738927121c7",
+      "type": "schematic_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "CAP"
+      },
+      "header": [
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "TCO",
+          "type": "Injected"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "VOLTAGE",
+          "type": "Key",
+          "order": "3"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "TOLERANCE",
+          "type": "Key",
+          "order": "4"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "ALT_SYMBOLS",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "DIST",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "NEGTOL",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MPN",
+          "type": "Injected"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "VALUE",
+          "type": "Key",
+          "order": "2"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "PTF_SUBTYPE",
+          "type": "Subtype"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PACK_TYPE",
+          "type": "Key",
+          "order": "5"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PART_NUMBER",
+          "type": "Key",
+          "order": "1"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "STATUS",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MAX_TEMP",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "DESCRIPTION",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "IC",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "KNEE",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "HEIGHT",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MANUFACTURER",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "ROHS",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "CURRENT",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "TC",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "JEDEC_TYPE",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "TOL_ON_OFF",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "SLOPE",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "POSTOL",
+          "type": "Injected"
+        }
+      ],
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "136ff7d7-4b73-4466-bafa-5e48a87d3807",
+              "type": "library",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "ff2bb07c-8c7f-4ddf-bb8a-a19deb770b83",
+      "type": "cell_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "cap"
+      },
+      "symbols": {
+        "sym_1": "P \"CDS_LMAN_SYM_OUTLINE\" \"-50,50,50,-50\" 0 0 0.00 0.00 22 0 0 0 0 0 0 0 0\nL -15 40 -15 -40 -1 0\nL 15 40 15 -40 -1 0\nP \"$LOCATION\" \"?\" 0 80 0 0 48 0 0 1 0 0 1 0 8\nP \"VALUE\" \"?\" 0 50 0 0 29 0 0 1 0 0 1 0 0\nP \"VOLTAGE\" \"?\" 0 -75 0 0 29 0 0 1 0 0 1 0 0\nP \"TOLERANCE\" \"?\" 0 -105 0 0 29 0 0 1 0 0 1 0 0\nP \"PART_NUMBER\" \"?\" 0 -135 0 0 29 0 0 1 0 0 0 0 0\nP \"PACK_TYPE\" \"?\" 0 -165 0 0 29 0 0 1 0 0 0 0 0\nP \"PATH\" \"?\" 0 0 0 0 29 0 0 1 0 0 0 0 0\nL -100 0 -15 0 -1 0\nC -100 0 \"A\" -60 5 0 1 29 0 R\nX \"$PN\" \"#\" -25 1 0 0 29 0 0 2 0 0 1 0 0\nL 15 0 100 0 -1 0\nC 100 0 \"B\" 98 5 0 1 29 0 R\nX \"$PN\" \"#\" 25 1 0 0 29 0 0 0 0 0 1 0 0\n\n\n",
+        "sym_2": "P \"CDS_LMAN_SYM_OUTLINE\" \"-50,50,50,-50\" 0 0 0.00 0.00 22 0 0 0 0 0 0 0 0\nL 40 -15 -40 -15 -1 0\nL 40 15 -40 15 -1 0\nP \"$LOCATION\" \"?\" 50 30 0 0 48 0 0 0 0 0 1 0 8\nP \"VALUE\" \"?\" 50 0 0 0 29 0 0 0 0 0 1 0 0\nP \"VOLTAGE\" \"?\" 50 -30 0 0 29 0 0 0 0 0 1 0 0\nP \"TOLERANCE\" \"?\" 50 -60 0 0 29 0 0 0 0 0 1 0 0\nP \"PART_NUMBER\" \"?\" 50 -90 0 0 29 0 0 1 0 0 0 0 0\nP \"PACK_TYPE\" \"?\" 50 -120 0 0 29 0 0 1 0 0 0 0 0\nP \"PATH\" \"?\" 0 0 0 0 29 0 0 1 0 0 0 0 0\nL 0 100 0 15 -1 0\nC 0 100 \"A\" -2 75 0 1 29 0 R\nX \"$PN\" \"#\" 10 -50 0 0 29 0 0 0 0 0 1 0 0\nL 0 -15 0 -100 -1 0\nC 0 -100 \"B\" -2 -96 0 1 29 0 R\nX \"$PN\" \"#\" 10 25 0 0 29 0 0 0 0 0 1 0 0\n\n\n"
+      },
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "e7d28b63-8ce3-4dbb-93c6-cec00aa351e1",
+              "type": "library",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "136ff7d7-4b73-4466-bafa-5e48a87d3807",
+      "type": "library",
+      "vault": "server",
+      "attributes": {
+        "Library Name": "passives"
+      }
+    },
+    {
+      "id": "e7d28b63-8ce3-4dbb-93c6-cec00aa351e1",
+      "type": "library",
+      "vault": "server",
+      "attributes": {
+        "Library Name": "passives"
+      }
+    }
+  ],
+  "cache": [
+    {
+      "id": "5188ce64-0ad2-48c1-a68e-4e406003ac79",
+      "type": "library",
+      "vault": "cache",
+      "attributes": {
+        "Library Name": "passives"
+      }
+    }
+  ],
+  "finalanalysis": {
+    "conflictMessage": "",
+    "conflict": "valid"
+  }
+}

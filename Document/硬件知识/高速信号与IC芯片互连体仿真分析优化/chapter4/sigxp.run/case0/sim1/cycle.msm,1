@@ -1,0 +1,37 @@
+(CycleMeasurements 
+ ("DESIGN.IN1.1" 
+  (BasicData 
+   (vlohi 0.5 ) 
+   (vhilo 1.25 ) 
+   (tldelay 5e-10 ) 
+   (vinit 2.57105e-06 ) ) 
+  (Cycles 
+   (1 
+    (Rise 
+     (EarliestSwitch 
+      (volt 0.5 ) 
+      (time 7.12698e-10 ) ) 
+     (FirstSwitch 
+      (volt 1.25 ) 
+      (time 8.25695e-10 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 2.60216 ) 
+       (time 1.63973e-09 ) ) 
+      (minimum 
+       (volt 1.40635 ) 
+       (time 2.97562e-09 ) ) ) ) 
+    (Fall 
+     (EarliestSwitch 
+      (volt 1.25 ) 
+      (time 5.064e-08 ) ) 
+     (FirstSwitch 
+      (volt 0.5 ) 
+      (time 5.07257e-08 ) ) 
+     (MinMaxEvents 
+      (maximum 
+       (volt 0.407085 ) 
+       (time 5.28972e-08 ) ) 
+      (minimum 
+       (volt -0.896932 ) 
+       (time 5.16347e-08 ) ) ) ) ) ) ) ) 

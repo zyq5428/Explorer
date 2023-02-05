@@ -1,0 +1,12 @@
+FILE_TYPE = MULTI_PHYS_TABLE; 
+PART 'custom_pcie8' 
+
+{========================================================================================}
+:PART_NUMBER    | PACK_TYPE        = JEDEC_TYPE     | HEIGHT | ROHS        | STATUS   | MANUFACTURER  | MPN          | DESCRIPTION   ;
+{========================================================================================}
+ 'CDN-CON-0012' | 'custom_pcie8' (!) = 'pcie8'      | '11MM' | 'COMPLIANT' | 'ACTIVE' | 'TE'          | '1-1775801-1' | 'pcie_8x_98pin_connector'  
+
+
+
+END_PART 
+END. 

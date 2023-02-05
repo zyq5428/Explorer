@@ -1,0 +1,342 @@
+(Cell	ddr3_2gb_x16_sdram
+
+	(RevisionInfoBlock	
+
+		(Baselined	1)
+
+		(Revision	1.0.0)
+
+		(ModificationStatus	NULL)
+
+		(Status	Baselined)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/18/09,17:03:11)
+
+			(User	chimike)
+
+			(Path	memory.ddr3_2gb_x16_sdram)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/18/09,17:13:37)
+
+			(User	chimike)
+
+			(Path	memory.ddr3_2gb_x16_sdram)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000eff0fbeb)
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/18/09,17:03:11)
+
+							(User	chimike)
+
+							(Path	memory.ddr3_2gb_x16_sdram)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	0000000020000471)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000c0c05aea)
+
+			(Primitives	1
+
+				(Primitive	DDR3_2GB_X16_SDRAM_FBGA96
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/18/09,17:03:11)
+
+							(User	chimike)
+
+							(Path	memory.ddr3_2gb_x16_sdram)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	DDR3_2GB_X16_SDRAM
+
+							(PackType	DDR3_2GB_X16_SDRAM_FBGA96)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d5c03db)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.2-s002 (v16-2-57S))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cc403d7)
+
+)
+
+
+(Cell	ddr3_2gb_x16_sdram
+
+	(RevisionInfoBlock	
+
+		(Baselined	1)
+
+		(Revision	1.0.0)
+
+		(ModificationStatus	NULL)
+
+		(Status	Baselined)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	03/18/09,17:03:11)
+
+			(User	chimike)
+
+			(Path	memory.ddr3_2gb_x16_sdram)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	03/18/09,17:13:37)
+
+			(User	chimike)
+
+			(Path	memory.ddr3_2gb_x16_sdram)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000eff0fbeb)
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/18/09,17:03:11)
+
+							(User	chimike)
+
+							(Path	memory.ddr3_2gb_x16_sdram)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	0000000020000471)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000c0c05aea)
+
+			(Primitives	1
+
+				(Primitive	DDR3_2GB_X16_SDRAM_FBGA96
+
+					(RevisionInfoBlock	
+
+						(Baselined	1)
+
+						(Revision	1.0.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	03/18/09,17:03:11)
+
+							(User	chimike)
+
+							(Path	memory.ddr3_2gb_x16_sdram)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	DDR3_2GB_X16_SDRAM
+
+							(PackType	DDR3_2GB_X16_SDRAM_FBGA96)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001d5c03db)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	Unreleased)
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001cc403d7)
+
+)
+
+

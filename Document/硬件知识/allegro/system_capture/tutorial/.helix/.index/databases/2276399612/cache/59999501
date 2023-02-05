@@ -1,0 +1,15 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'VIPER_ASIC'
+
+{========================================================================================}
+:PART_NUMBER      | PACK_TYPE    = JEDEC_TYPE    | HEIGHT    | ROHS        | STATUS | MANUFACTURER | MPN          | DESCRIPTION         | TEMP_RANGE  | FREQ      | MECH_PART1                ;
+{========================================================================================}
+ 'CDN-MPU-000008' | 'FCBGA'(!)   = 'LGA1366_SKT' | '8.011mm' | 'Compliant' | ''     | 'TSMC'      | '12345' | 'Custom ASIC TSMC90nm' | '0 to 70 C' | '2.66GHZ' | 'SOCKET:LGA1366_SOCKET:1'
+ 'CDN-MPU-000009' | 'FCBGA'(!)   = 'LGA1366_SKT' | '8.011mm' | 'Compliant' | ''     | 'TSMC'      | '23456' | 'Custom ASIC TSMC65nm' | '0 to 70 C' | '2.93GHZ' | 'SOCKET:LGA1366_SOCKET:1'
+ 'CDN-MPU-000010' | 'FCBGA'(!)   = 'LGA1366_SKT' | '8.011mm' | 'Compliant' | ''     | 'GF'      | '45654' | 'Custom ASIC GF65nm' | '0 to 70 C' | '3.2GHZ'  | 'SOCKET:LGA1366_SOCKET:1'
+
+END_PART
+
+END.
+

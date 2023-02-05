@@ -1,0 +1,13 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'VGA'
+
+{========================================================================================}
+:PART_NUMBER    | PACK_TYPE    = JEDEC_TYPE | HEIGHT    | ROHS        | STATUS   | MANUFACTURER  | MPN               | DESCRIPTION                    ;
+{========================================================================================}
+ 'CDN-CON-0015' | 'VGA'(!)     = 'DSUB15'   | '12.55MM' | 'COMPLIANT' | 'Active' | 'Positronics' | 'ODD15F4R2NOX_AA' | '15 Pin DSUB Female Connector'
+
+END_PART
+
+END.
+

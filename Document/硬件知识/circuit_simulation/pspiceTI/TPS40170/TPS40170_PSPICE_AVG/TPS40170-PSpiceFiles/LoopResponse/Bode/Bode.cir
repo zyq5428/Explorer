@@ -1,0 +1,22 @@
+** Profile: "LoopResponse-Bode"  [ D:\Git\ishero\circuit_simulation\pspiceTI\TPS40170\TPS40170_PSPICE_AVG\tps40170-pspicefiles\loopresponse\bode.sim ] 
+
+** Creating circuit file "Bode.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../tps40170_avg.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 100 1E6
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) 
+.INC "..\LoopResponse.net" 
+
+
+.END

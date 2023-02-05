@@ -1,0 +1,125 @@
+{
+resolve : { mode : 'mode_cache_wins'},
+process : {mode: 'add'}
+}{
+    "objects": [
+        {
+            "id": "802FAAD3-ECC9-48C7-88BE-A0EDB17695B1",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "CAP"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "E7717AEB-C359-49F2-89C6-B49059C21EBC",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "243F5705-6469-404A-97FF-4629CAEA6173",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "E7717AEB-C359-49F2-89C6-B49059C21EBC",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "cap"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "243F5705-6469-404A-97FF-4629CAEA6173",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "243F5705-6469-404A-97FF-4629CAEA6173",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "passives"
+            }
+        },
+        {
+            "id": "AEC6B82D-7C2A-4106-8D3D-2164A99E358C",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "ALT_SYMBOLS": "(CAPC2012N)",
+                "CURRENT": "CIMAX",
+                "DESCRIPTION": "Capacitor X7R 50V 330pF 10% 0805",
+                "DIST": "FLAT",
+                "HEIGHT": "0.94mm",
+                "IC": "UNDEF",
+                "JEDEC_TYPE": "CAPC2012N",
+                "KNEE": "CBMAX",
+                "MANUFACTURER": "AVX",
+                "MAX_TEMP": "125",
+                "MPN": "08055C331KAT2A",
+                "NEGTOL": "5%",
+                "PACK_TYPE": "0805",
+                "PART_NUMBER": "CDN-CAP-0154",
+                "POSTOL": "5%",
+                "ROHS": "COMPLIANT",
+                "SLOPE": "CSMAX",
+                "STATUS": "",
+                "TC": "",
+                "TCO": "X7R",
+                "TOLERANCE": "10%",
+                "TOL_ON_OFF": "ON",
+                "VALUE": "330pF",
+                "VOLTAGE": "50V"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "E7717AEB-C359-49F2-89C6-B49059C21EBC",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "802FAAD3-ECC9-48C7-88BE-A0EDB17695B1",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

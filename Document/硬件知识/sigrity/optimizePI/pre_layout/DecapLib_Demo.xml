@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PopDecapLib Version="1.0"
+ Count="9" SelPath = "C:\OptimizePI\docs\New_tutorial\Project\Demo_Pre_layout_copy\DecapLib_Demo.xml" >
+			<PopDecapLibItem ID="1" Prefer="5" Manuf="Murata" PartNo="CAP_0.22uF_0402" 			AliasPartNo="grm155r61a224ke19" Size="0402" SizeUnit="0" 			ModelType="0" Rv="0.000000e+000" Lv="0.000000e+000" Cv="0.000000e+000" Cnom="2.200000e-007" UpTolerance = "1.000000e-001" LowTolerance="-1.000000e-001" Area="8.000000e+002" AreaUnit="0" SelfReson="2.000000e+007" Volt="1.000000e+001" 			TCC="X5R" CktDef=".PartialCkt grm155r61a224ke19 ExtNode= 1 0
+S1 1 0 2 0 Model=grm155r61a224ke19.s2p
+V 2 0 0
+.EndPartialCkt" PriceA="1.000000e-002" PriceB="2.000000e-003" PriceC="0.000000e+000" 			Comment="cost from digikey 30,000unit order" TrackFolder="" SParameterPath="C:\OptimizePI\docs\New_tutorial\Project\Demo_Pre_layout_copy\S-Parameter File\"/>
+			<PopDecapLibItem ID="2" Prefer="5" Manuf="Murata" PartNo="CAP_0.47uF_0402" 			AliasPartNo="grm155r61a474ke15" Size="0402" SizeUnit="0" 			ModelType="0" Rv="0.000000e+000" Lv="0.000000e+000" Cv="0.000000e+000" Cnom="4.700000e-007" UpTolerance = "1.000000e-001" LowTolerance="-1.000000e-001" Area="8.000000e+002" AreaUnit="0" SelfReson="1.500000e+007" Volt="1.000000e+001" 			TCC="X5R" CktDef=".PartialCkt grm155r61a474ke15 ExtNode= 1 0
+S1 1 0 2 0 Model=grm155r61a474ke15.s2p
+V 2 0 0
+.EndPartialCkt" PriceA="1.100000e-002" PriceB="2.000000e-003" PriceC="0.000000e+000" 			Comment="cost from digikey 30,000unit order" TrackFolder="" SParameterPath="C:\OptimizePI\docs\New_tutorial\Project\Demo_Pre_layout_copy\S-Parameter File\"/>
+			<PopDecapLibItem ID="3" Prefer="5" Manuf="Murata" PartNo="CAP_0.1uF_0402" 			AliasPartNo="grm155r71c104ka88" Size="0402" SizeUnit="0" 			ModelType="0" Rv="0.000000e+000" Lv="0.000000e+000" Cv="0.000000e+000" Cnom="1.000000e-007" UpTolerance = "1.000000e-001" LowTolerance="-1.000000e-001" Area="8.000000e+002" AreaUnit="0" SelfReson="2.500000e+007" Volt="1.600000e+001" 			TCC="X7R" CktDef=".PartialCkt grm155r71c104ka88 ExtNode= 1 0
+S1 1 0 2 0 Model=grm155r71c104ka88.s2p
+V 2 0 0
+.EndPartialCkt" PriceA="3.000000e-003" PriceB="2.000000e-003" PriceC="0.000000e+000" 			Comment="cost from digikey 30,000unit order" TrackFolder="" SParameterPath="C:\OptimizePI\docs\New_tutorial\Project\Demo_Pre_layout_copy\S-Parameter File\"/>
+			<PopDecapLibItem ID="7" Prefer="5" Manuf="Murata" PartNo="CAP_10nF_0402" 			AliasPartNo="grm155r71c103ka01" Size="0402" SizeUnit="0" 			ModelType="0" Rv="0.000000e+000" Lv="0.000000e+000" Cv="0.000000e+000" Cnom="1.000000e-008" UpTolerance = "1.000000e-001" LowTolerance="-1.000000e-001" Area="8.000000e+002" AreaUnit="0" SelfReson="7.500000e+007" Volt="1.600000e+001" 			TCC="X7R" CktDef=".PartialCkt grm155r71c103ka01 ExtNode= 1 0
+S1 1 0 2 0 Model=grm155r71c103ka01.s2p
+V 2 0 0
+.EndPartialCkt" PriceA="3.000000e-003" PriceB="2.000000e-003" PriceC="0.000000e+000" 			Comment="cost from digikey 30,000unit order" TrackFolder="" SParameterPath="C:\OptimizePI\docs\New_tutorial\Project\Demo_Pre_layout_copy\S-Parameter File\"/>
+			<PopDecapLibItem ID="8" Prefer="5" Manuf="Murata" PartNo="CAP_10uF_0603" 			AliasPartNo="grm188r60j106me47" Size="0603" SizeUnit="0" 			ModelType="0" Rv="0.000000e+000" Lv="0.000000e+000" Cv="0.000000e+000" Cnom="1.000000e-005" UpTolerance = "2.000000e-001" LowTolerance="-2.000000e-001" Area="1.800000e+003" AreaUnit="0" SelfReson="2.928645e+006" Volt="6.300000e+000" 			TCC="X5R" CktDef=".PartialCkt grm188r60j106me47 ExtNode= 1 0
+S1 1 0 2 0 Model=grm188r60j106me47.s2p
+V 2 0 0
+.EndPartialCkt" PriceA="4.500000e-002" PriceB="2.000000e-003" PriceC="0.000000e+000" 			Comment="cost from digikey 24,000unit order" TrackFolder="" SParameterPath="C:\OptimizePI\docs\New_tutorial\Project\Demo_Pre_layout_copy\S-Parameter File\"/>
+			<PopDecapLibItem ID="6" Prefer="5" Manuf="Murata" PartNo="CAP_22nF_0402" 			AliasPartNo="grm155r71c223ka01" Size="0402" SizeUnit="0" 			ModelType="0" Rv="0.000000e+000" Lv="0.000000e+000" Cv="0.000000e+000" Cnom="2.200000e-008" UpTolerance = "1.000000e-001" LowTolerance="-1.000000e-001" Area="8.000000e+002" AreaUnit="0" SelfReson="5.000000e+007" Volt="1.600000e+001" 			TCC="X7R" CktDef=".PartialCkt grm155r71c223ka01 ExtNode= 1 0
+S1 1 0 2 0 Model=grm155r71c223ka01.s2p
+V 2 0 0
+.EndPartialCkt" PriceA="4.000000e-003" PriceB="2.000000e-003" PriceC="0.000000e+000" 			Comment="cost from digikey 30,000unit order" TrackFolder="" SParameterPath="C:\OptimizePI\docs\New_tutorial\Project\Demo_Pre_layout_copy\S-Parameter File\"/>
+			<PopDecapLibItem ID="9" Prefer="5" Manuf="Murata" PartNo="CAP_22uF_0805" 			AliasPartNo="grm21br60j226me39" Size="0805" SizeUnit="0" 			ModelType="0" Rv="0.000000e+000" Lv="0.000000e+000" Cv="0.000000e+000" Cnom="2.200000e-005" UpTolerance = "2.000000e-001" LowTolerance="-2.000000e-001" Area="4.000000e+003" AreaUnit="0" SelfReson="2.154435e+006" Volt="6.300000e+000" 			TCC="X5R" CktDef=".PartialCkt grm21br60j226me39 ExtNode= 1 0
+S1 1 0 2 0 Model=grm21br60j226me39.s2p
+V 2 0 0
+.EndPartialCkt" PriceA="4.500000e-002" PriceB="2.000000e-003" PriceC="0.000000e+000" 			Comment="cost from digikey 24,000unit order" TrackFolder="" SParameterPath="C:\OptimizePI\docs\New_tutorial\Project\Demo_Pre_layout_copy\S-Parameter File\"/>
+			<PopDecapLibItem ID="5" Prefer="5" Manuf="Murata" PartNo="CAP_47nF_0402" 			AliasPartNo="grm155r71a473ka01" Size="0402" SizeUnit="0" 			ModelType="0" Rv="0.000000e+000" Lv="0.000000e+000" Cv="0.000000e+000" Cnom="4.700000e-008" UpTolerance = "1.000000e-001" LowTolerance="-1.000000e-001" Area="8.000000e+002" AreaUnit="0" SelfReson="3.500000e+007" Volt="1.000000e+001" 			TCC="X7R" CktDef=".PartialCkt grm155r71a473ka01 ExtNode= 1 0
+S1 1 0 2 0 Model=grm155r71a473ka01.s2p
+V 2 0 0
+.EndPartialCkt" PriceA="4.000000e-003" PriceB="2.000000e-003" PriceC="0.000000e+000" 			Comment="cost from digikey 30,000unit order" TrackFolder="" SParameterPath="C:\OptimizePI\docs\New_tutorial\Project\Demo_Pre_layout_copy\S-Parameter File\"/>
+			<PopDecapLibItem ID="4" Prefer="5" Manuf="Murata" PartNo="CAP_1uF_0402" 			AliasPartNo="grm155r60j105ke19" Size="0402" SizeUnit="0" 			ModelType="0" Rv="0.000000e+000" Lv="0.000000e+000" Cv="0.000000e+000" Cnom="1.000000e-006" UpTolerance = "1.000000e-001" LowTolerance="-1.000000e-001" Area="8.000000e+002" AreaUnit="0" SelfReson="1.000000e+007" Volt="6.300000e+000" 			TCC="X5R" CktDef=".PartialCkt grm155r60j105ke19 ExtNode= 1 0
+S1 1 0 2 0 Model=grm155r60j105ke19.s2p
+V 2 0 0
+.EndPartialCkt" PriceA="8.000000e-003" PriceB="2.000000e-003" PriceC="0.000000e+000" 			Comment="cost from digikey 30,000unit order" TrackFolder="" SParameterPath="C:\OptimizePI\docs\New_tutorial\Project\Demo_Pre_layout_copy\S-Parameter File\"/>
+</PopDecapLib>

@@ -1,0 +1,1571 @@
+FILE_TYPE = EXPANDEDNETLIST;
+{ Packager-XL run on 21-May-2022 AT 12:24:49 CONSTRAINTS_VIEW_GENERATED }
+NET_NAME
+'BCLK_DN'
+ '@worklib.tutorial(tbl_1):\N21\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N21\',
+ PHYS_NET_NAME='BCLK_DN';
+NODE_NAME     U0504 AH35
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'bclk_dn': PN='AH35',
+ CDS_PINID='\M116\';
+NET_NAME
+'BCLK_DP'
+ '@worklib.tutorial(tbl_1):\N22\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N22\',
+ PHYS_NET_NAME='BCLK_DP';
+NODE_NAME     U0504 AJ35
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'bclk_dp': PN='AJ35',
+ CDS_PINID='\M115\';
+NET_NAME
+'DBR*'
+ '@worklib.tutorial(tbl_1):\N23\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N23\',
+ PHYS_NET_NAME='DBR*';
+NODE_NAME     U0504 AF10
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'dbr*': PN='AF10',
+ CDS_PINID='\M117\';
+NET_NAME
+'DDR_VREF'
+ '@worklib.tutorial(tbl_1):\N24\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N24\',
+ PHYS_NET_NAME='DDR_VREF';
+NODE_NAME     U0504 L23
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'ddr_vref': PN='L23',
+ CDS_PINID='\M118\';
+NET_NAME
+'ISENSE'
+ '@worklib.tutorial(tbl_1):\N25\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N25\',
+ PHYS_NET_NAME='ISENSE';
+NODE_NAME     U0504 AK8
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'isense': PN='AK8',
+ CDS_PINID='\M132\';
+NET_NAME
+'PREQ*'
+ '@worklib.tutorial(tbl_1):\N26\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N26\',
+ PHYS_NET_NAME='PREQ*';
+NODE_NAME     U0504 C42
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'preq*': PN='C42',
+ CDS_PINID='\M131\';
+NET_NAME
+'RESET*'
+ '@worklib.tutorial(tbl_1):\N27\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N27\',
+ PHYS_NET_NAME='RESET*';
+NODE_NAME     U0504 AL39
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'reset*': PN='AL39',
+ CDS_PINID='\M119\';
+NET_NAME
+'TCK'
+ '@worklib.tutorial(tbl_1):\N28\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N28\',
+ PHYS_NET_NAME='TCK';
+NODE_NAME     U0504 AH10
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'tck': PN='AH10',
+ CDS_PINID='\M121\';
+NET_NAME
+'TDI'
+ '@worklib.tutorial(tbl_1):\N29\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N29\',
+ PHYS_NET_NAME='TDI';
+NODE_NAME     U0504 AJ9
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'tdi': PN='AJ9',
+ CDS_PINID='\M130\';
+NET_NAME
+'TMS'
+ '@worklib.tutorial(tbl_1):\N30\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N30\',
+ PHYS_NET_NAME='TMS';
+NODE_NAME     U0504 AG10
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'tms': PN='AG10',
+ CDS_PINID='\M129\';
+NET_NAME
+'TDO'
+ '@worklib.tutorial(tbl_1):\N31\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N31\',
+ PHYS_NET_NAME='TDO';
+NODE_NAME     U0504 AJ10
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'tdo': PN='AJ10',
+ CDS_PINID='\M128\';
+NET_NAME
+'TRST*'
+ '@worklib.tutorial(tbl_1):\N32\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N32\',
+ PHYS_NET_NAME='TRST*';
+NODE_NAME     U0504 AH9
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'trst*': PN='AH9',
+ CDS_PINID='\M120\';
+NET_NAME
+'COMP0'
+ '@worklib.tutorial(tbl_1):\N33\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N33\',
+ PHYS_NET_NAME='COMP0';
+NODE_NAME     U0504 AB41
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'comp0': PN='AB41',
+ CDS_PINID='\M127\';
+NET_NAME
+'DDR_COMP<0>'
+ '@worklib.tutorial(tbl_1):\N34\'<0>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N34\(0)',
+ PHYS_NET_NAME='DDR_COMP<0>';
+NODE_NAME     U0504 AA8
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'ddr_comp<0>': PN='AA8',
+ CDS_PINID='\M113\(0)';
+NET_NAME
+'DDR_COMP<1>'
+ '@worklib.tutorial(tbl_1):\N34\'<1>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N34\(1)',
+ PHYS_NET_NAME='DDR_COMP<1>';
+NODE_NAME     U0504 Y7
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'ddr_comp<1>': PN='Y7',
+ CDS_PINID='\M113\(1)';
+NET_NAME
+'DDR_COMP<2>'
+ '@worklib.tutorial(tbl_1):\N34\'<2>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N34\(2)',
+ PHYS_NET_NAME='DDR_COMP<2>';
+NODE_NAME     U0504 AC1
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'ddr_comp<2>': PN='AC1',
+ CDS_PINID='\M113\(2)';
+NET_NAME
+'FC_AH5'
+ '@worklib.tutorial(tbl_1):\N35\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N35\',
+ PHYS_NET_NAME='FC_AH5';
+NODE_NAME     U0504 AH5
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'fc_ah5': PN='AH5',
+ CDS_PINID='\M114\';
+NET_NAME
+'CAT_ERR*'
+ '@worklib.tutorial(tbl_1):\N37\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N37\',
+ PHYS_NET_NAME='CAT_ERR*';
+NODE_NAME     U0504 AC37
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'cat_err*': PN='AC37',
+ CDS_PINID='\M125\';
+NET_NAME
+'PECI'
+ '@worklib.tutorial(tbl_1):\N38\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N38\',
+ PHYS_NET_NAME='PECI';
+NODE_NAME     U0504 AH36
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'peci': PN='AH36',
+ CDS_PINID='\M138\';
+NET_NAME
+'PROCHOT*'
+ '@worklib.tutorial(tbl_1):\N39\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N39\',
+ PHYS_NET_NAME='PROCHOT*';
+NODE_NAME     U0504 AG35
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'prochot*': PN='AG35',
+ CDS_PINID='\M137\';
+NET_NAME
+'VID<1>'
+ '@worklib.tutorial(tbl_1):\N40\'<1>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N40\(1)',
+ PHYS_NET_NAME='VID<1>';
+NODE_NAME     U0504 AL9
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'vid<1>': PN='AL9',
+ CDS_PINID='\M123\(1)';
+NET_NAME
+'VID<2>'
+ '@worklib.tutorial(tbl_1):\N40\'<2>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N40\(2)',
+ PHYS_NET_NAME='VID<2>';
+NODE_NAME     U0504 AN9
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'vid<2>': PN='AN9',
+ CDS_PINID='\M123\(2)';
+NET_NAME
+'VID<3>'
+ '@worklib.tutorial(tbl_1):\N40\'<3>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N40\(3)',
+ PHYS_NET_NAME='VID<3>';
+NODE_NAME     U0504 AM10
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'vid<3>': PN='AM10',
+ CDS_PINID='\M123\(3)';
+NET_NAME
+'VID<4>'
+ '@worklib.tutorial(tbl_1):\N40\'<4>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N40\(4)',
+ PHYS_NET_NAME='VID<4>';
+NODE_NAME     U0504 AN10
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'vid<4>': PN='AN10',
+ CDS_PINID='\M123\(4)';
+NET_NAME
+'VID<5>'
+ '@worklib.tutorial(tbl_1):\N40\'<5>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N40\(5)',
+ PHYS_NET_NAME='VID<5>';
+NODE_NAME     U0504 AP9
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'vid<5>': PN='AP9',
+ CDS_PINID='\M123\(5)';
+NET_NAME
+'VID<6>'
+ '@worklib.tutorial(tbl_1):\N40\'<6>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N40\(6)',
+ PHYS_NET_NAME='VID<6>';
+NODE_NAME     U0504 AP8
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'vid<6>': PN='AP8',
+ CDS_PINID='\M123\(6)';
+NET_NAME
+'VID<7>'
+ '@worklib.tutorial(tbl_1):\N40\'<7>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N40\(7)',
+ PHYS_NET_NAME='VID<7>';
+NODE_NAME     U0504 AN8
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'vid<7>': PN='AN8',
+ CDS_PINID='\M123\(7)';
+NET_NAME
+'BCLK_ITP_DN'
+ '@worklib.tutorial(tbl_1):\N41\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N41\',
+ PHYS_NET_NAME='BCLK_ITP_DN';
+NODE_NAME     U0504 AA4
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'bclk_itp_dn': PN='AA4',
+ CDS_PINID='\M126\';
+NET_NAME
+'BCLK_ITP_DP'
+ '@worklib.tutorial(tbl_1):\N42\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N42\',
+ PHYS_NET_NAME='BCLK_ITP_DP';
+NODE_NAME     U0504 AA5
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'bclk_itp_dp': PN='AA5',
+ CDS_PINID='\M122\';
+NET_NAME
+'PRDY*'
+ '@worklib.tutorial(tbl_1):\N43\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N43\',
+ PHYS_NET_NAME='PRDY*';
+NODE_NAME     U0504 B41
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'prdy*': PN='B41',
+ CDS_PINID='\M124\';
+NET_NAME
+'PSI*'
+ '@worklib.tutorial(tbl_1):\N44\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N44\',
+ PHYS_NET_NAME='PSI*';
+NODE_NAME     U0504 AP7
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'psi*': PN='AP7',
+ CDS_PINID='\M136\';
+NET_NAME
+'SKTOCC*'
+ '@worklib.tutorial(tbl_1):\N45\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N45\',
+ PHYS_NET_NAME='SKTOCC*';
+NODE_NAME     U0504 AG36
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'sktocc*': PN='AG36',
+ CDS_PINID='\M135\';
+NET_NAME
+'THERMTRIP*'
+ '@worklib.tutorial(tbl_1):\N46\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N46\',
+ PHYS_NET_NAME='THERMTRIP*';
+NODE_NAME     U0504 AG37
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'thermtrip*': PN='AG37',
+ CDS_PINID='\M134\';
+NET_NAME
+'VSS_SENSE'
+ '@worklib.tutorial(tbl_1):\N47\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N47\',
+ PHYS_NET_NAME='VSS_SENSE';
+NODE_NAME     U0504 AR8
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'vss_sense': PN='AR8',
+ CDS_PINID='\M133\';
+NET_NAME
+'VSS_SENSE_VTT'
+ '@worklib.tutorial(tbl_1):\N48\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N48\',
+ PHYS_NET_NAME='VSS_SENSE_VTT';
+NODE_NAME     U0504 AE37
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'vss_sense_vtt': PN='AE37',
+ CDS_PINID='\M140\';
+NET_NAME
+'_N22'
+ '@worklib.tutorial(tbl_1):\N50\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N50\',
+ PHYS_NET_NAME='_N22';
+NODE_NAME     U0504 AL10
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'vid<0>': PN='AL10',
+ CDS_PINID='\M123\(0)';
+NET_NAME
+'BPM_BUS<0>'
+ '@worklib.tutorial(tbl_1):\N51\'<0>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N51\(0)',
+ PHYS_NET_NAME='BPM_BUS<0>';
+NODE_NAME     U0504 B3
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'bpm_m<0>': PN='B3',
+ CDS_PINID='\M139\(0)';
+NET_NAME
+'BPM_BUS<1>'
+ '@worklib.tutorial(tbl_1):\N51\'<1>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N51\(1)',
+ PHYS_NET_NAME='BPM_BUS<1>';
+NODE_NAME     U0504 A5
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'bpm_m<1>': PN='A5',
+ CDS_PINID='\M139\(1)';
+NET_NAME
+'BPM_BUS<2>'
+ '@worklib.tutorial(tbl_1):\N51\'<2>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N51\(2)',
+ PHYS_NET_NAME='BPM_BUS<2>';
+NODE_NAME     U0504 C2
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'bpm_m<2>': PN='C2',
+ CDS_PINID='\M139\(2)';
+NET_NAME
+'BPM_BUS<3>'
+ '@worklib.tutorial(tbl_1):\N51\'<3>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N51\(3)',
+ PHYS_NET_NAME='BPM_BUS<3>';
+NODE_NAME     U0504 B4
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'bpm_m<3>': PN='B4',
+ CDS_PINID='\M139\(3)';
+NET_NAME
+'BPM_BUS<4>'
+ '@worklib.tutorial(tbl_1):\N51\'<4>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N51\(4)',
+ PHYS_NET_NAME='BPM_BUS<4>';
+NODE_NAME     U0504 D1
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'bpm_m<4>': PN='D1',
+ CDS_PINID='\M139\(4)';
+NET_NAME
+'BPM_BUS<5>'
+ '@worklib.tutorial(tbl_1):\N51\'<5>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N51\(5)',
+ PHYS_NET_NAME='BPM_BUS<5>';
+NODE_NAME     U0504 C3
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'bpm_m<5>': PN='C3',
+ CDS_PINID='\M139\(5)';
+NET_NAME
+'BPM_BUS<6>'
+ '@worklib.tutorial(tbl_1):\N51\'<6>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N51\(6)',
+ PHYS_NET_NAME='BPM_BUS<6>';
+NODE_NAME     U0504 D2
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'bpm_m<6>': PN='D2',
+ CDS_PINID='\M139\(6)';
+NET_NAME
+'BPM_BUS<7>'
+ '@worklib.tutorial(tbl_1):\N51\'<7>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N51\(7)',
+ PHYS_NET_NAME='BPM_BUS<7>';
+NODE_NAME     U0504 E2
+ '@worklib.tutorial(tbl_1):\I5\':
+ 'bpm_m<7>': PN='E2',
+ CDS_PINID='\M139\(7)';
+NET_NAME
+'SATA_TX_P<0>'
+ '@worklib.tutorial(tbl_1):\N80\'<0>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N80\(0)',
+ PHYS_NET_NAME='SATA_TX_P<0>';
+NODE_NAME     U0509 AJ40
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_txp<0>': PN='AJ40',
+ CDS_PINID='\M374\(0)';
+NODE_NAME     J0503 6
+ '@worklib.tutorial(tbl_1):\I20\':
+ 'dp_bn': PN='6',
+ CDS_PINID='\M393\';
+NET_NAME
+'SATA_TX_P<1>'
+ '@worklib.tutorial(tbl_1):\N80\'<1>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N80\(1)',
+ PHYS_NET_NAME='SATA_TX_P<1>';
+NODE_NAME     U0509 AJ38
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_txp<1>': PN='AJ38',
+ CDS_PINID='\M374\(1)';
+NODE_NAME     R0501 1
+ '@worklib.tutorial(tbl_1):\I25\':
+ 'a': PN='1',
+ CDS_PINID='\M416\';
+NET_NAME
+'SATA_TX_P<2>'
+ '@worklib.tutorial(tbl_1):\N80\'<2>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N80\(2)',
+ PHYS_NET_NAME='SATA_TX_P<2>';
+NODE_NAME     U0509 AK36
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_txp<2>': PN='AK36',
+ CDS_PINID='\M374\(2)';
+NODE_NAME     J0504 6
+ '@worklib.tutorial(tbl_1):\I21\':
+ 'dp_bn': PN='6',
+ CDS_PINID='\M400\';
+NET_NAME
+'SATA_TX_P<3>'
+ '@worklib.tutorial(tbl_1):\N80\'<3>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N80\(3)',
+ PHYS_NET_NAME='SATA_TX_P<3>';
+NODE_NAME     J0501 2
+ '@worklib.tutorial(tbl_1):\I15\':
+ 'dp_ap': PN='2',
+ CDS_PINID='\M364\';
+NODE_NAME     U0509 AL38
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_txp<3>': PN='AL38',
+ CDS_PINID='\M374\(3)';
+NET_NAME
+'SATA_TX_P<4>'
+ '@worklib.tutorial(tbl_1):\N80\'<4>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N80\(4)',
+ PHYS_NET_NAME='SATA_TX_P<4>';
+NODE_NAME     U0509 AN38
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_txp<4>': PN='AN38',
+ CDS_PINID='\M374\(4)';
+NODE_NAME     R0500 1
+ '@worklib.tutorial(tbl_1):\I24\':
+ 'a': PN='1',
+ CDS_PINID='\M414\';
+NET_NAME
+'SATA_TX_P<5>'
+ '@worklib.tutorial(tbl_1):\N80\'<5>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N80\(5)',
+ PHYS_NET_NAME='SATA_TX_P<5>';
+NODE_NAME     J2 2
+ '@worklib.tutorial(tbl_1):\I14\':
+ 'dp_ap': PN='2',
+ CDS_PINID='\M357\';
+NODE_NAME     U0509 AR37
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_txp<5>': PN='AR37',
+ CDS_PINID='\M374\(5)';
+NET_NAME
+'SATA_TX_N<0>'
+ '@worklib.tutorial(tbl_1):\N81\'<0>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N81\(0)',
+ PHYS_NET_NAME='SATA_TX_N<0>';
+NODE_NAME     U0509 AJ39
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_txn<0>': PN='AJ39',
+ CDS_PINID='\M375\(0)';
+NODE_NAME     J0503 5
+ '@worklib.tutorial(tbl_1):\I20\':
+ 'dp_bp': PN='5',
+ CDS_PINID='\M394\';
+NET_NAME
+'SATA_TX_N<1>'
+ '@worklib.tutorial(tbl_1):\N81\'<1>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N81\(1)',
+ PHYS_NET_NAME='SATA_TX_N<1>';
+NODE_NAME     U0509 AJ37
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_txn<1>': PN='AJ37',
+ CDS_PINID='\M375\(1)';
+NODE_NAME     J101 5
+ '@worklib.tutorial(tbl_1):\I22\':
+ 'dp_bp': PN='5',
+ CDS_PINID='\M408\';
+NET_NAME
+'SATA_TX_N<2>'
+ '@worklib.tutorial(tbl_1):\N81\'<2>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N81\(2)',
+ PHYS_NET_NAME='SATA_TX_N<2>';
+NODE_NAME     U0509 AK35
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_txn<2>': PN='AK35',
+ CDS_PINID='\M375\(2)';
+NODE_NAME     J0504 5
+ '@worklib.tutorial(tbl_1):\I21\':
+ 'dp_bp': PN='5',
+ CDS_PINID='\M401\';
+NET_NAME
+'SATA_TX_N<3>'
+ '@worklib.tutorial(tbl_1):\N81\'<3>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N81\(3)',
+ PHYS_NET_NAME='SATA_TX_N<3>';
+NODE_NAME     J0501 3
+ '@worklib.tutorial(tbl_1):\I15\':
+ 'dp_an': PN='3',
+ CDS_PINID='\M363\';
+NODE_NAME     U0509 AL37
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_txn<3>': PN='AL37',
+ CDS_PINID='\M375\(3)';
+NET_NAME
+'SATA_TX_N<4>'
+ '@worklib.tutorial(tbl_1):\N81\'<4>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N81\(4)',
+ PHYS_NET_NAME='SATA_TX_N<4>';
+NODE_NAME     J0502 3
+ '@worklib.tutorial(tbl_1):\I16\':
+ 'dp_an': PN='3',
+ CDS_PINID='\M370\';
+NODE_NAME     U0509 AN37
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_txn<4>': PN='AN37',
+ CDS_PINID='\M375\(4)';
+NET_NAME
+'SATA_TX_N<5>'
+ '@worklib.tutorial(tbl_1):\N81\'<5>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N81\(5)',
+ PHYS_NET_NAME='SATA_TX_N<5>';
+NODE_NAME     J2 3
+ '@worklib.tutorial(tbl_1):\I14\':
+ 'dp_an': PN='3',
+ CDS_PINID='\M356\';
+NODE_NAME     U0509 AR38
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_txn<5>': PN='AR38',
+ CDS_PINID='\M375\(5)';
+NET_NAME
+'SATA_RX_P<0>'
+ '@worklib.tutorial(tbl_1):\N82\'<0>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N82\(0)',
+ PHYS_NET_NAME='SATA_RX_P<0>';
+NODE_NAME     U0509 AK23
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_rxp<0>': PN='AK23',
+ CDS_PINID='\M372\(0)';
+NODE_NAME     J0503 3
+ '@worklib.tutorial(tbl_1):\I20\':
+ 'dp_an': PN='3',
+ CDS_PINID='\M395\';
+NET_NAME
+'SATA_RX_P<1>'
+ '@worklib.tutorial(tbl_1):\N82\'<1>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N82\(1)',
+ PHYS_NET_NAME='SATA_RX_P<1>';
+NODE_NAME     U0509 AM23
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_rxp<1>': PN='AM23',
+ CDS_PINID='\M372\(1)';
+NODE_NAME     J101 3
+ '@worklib.tutorial(tbl_1):\I22\':
+ 'dp_an': PN='3',
+ CDS_PINID='\M409\';
+NET_NAME
+'SATA_RX_P<2>'
+ '@worklib.tutorial(tbl_1):\N82\'<2>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N82\(2)',
+ PHYS_NET_NAME='SATA_RX_P<2>';
+NODE_NAME     U0509 AP23
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_rxp<2>': PN='AP23',
+ CDS_PINID='\M372\(2)';
+NODE_NAME     J0504 3
+ '@worklib.tutorial(tbl_1):\I21\':
+ 'dp_an': PN='3',
+ CDS_PINID='\M402\';
+NET_NAME
+'SATA_RX_P<3>'
+ '@worklib.tutorial(tbl_1):\N82\'<3>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N82\(3)',
+ PHYS_NET_NAME='SATA_RX_P<3>';
+NODE_NAME     J0501 5
+ '@worklib.tutorial(tbl_1):\I15\':
+ 'dp_bp': PN='5',
+ CDS_PINID='\M362\';
+NODE_NAME     U0509 AT23
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_rxp<3>': PN='AT23',
+ CDS_PINID='\M372\(3)';
+NET_NAME
+'SATA_RX_P<4>'
+ '@worklib.tutorial(tbl_1):\N82\'<4>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N82\(4)',
+ PHYS_NET_NAME='SATA_RX_P<4>';
+NODE_NAME     J0502 5
+ '@worklib.tutorial(tbl_1):\I16\':
+ 'dp_bp': PN='5',
+ CDS_PINID='\M369\';
+NODE_NAME     U0509 AV23
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_rxp<4>': PN='AV23',
+ CDS_PINID='\M372\(4)';
+NET_NAME
+'SATA_RX_P<5>'
+ '@worklib.tutorial(tbl_1):\N82\'<5>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N82\(5)',
+ PHYS_NET_NAME='SATA_RX_P<5>';
+NODE_NAME     J2 5
+ '@worklib.tutorial(tbl_1):\I14\':
+ 'dp_bp': PN='5',
+ CDS_PINID='\M355\';
+NODE_NAME     U0509 AY23
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_rxp<5>': PN='AY23',
+ CDS_PINID='\M372\(5)';
+NET_NAME
+'SATA_RX_N<0>'
+ '@worklib.tutorial(tbl_1):\N83\'<0>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N83\(0)',
+ PHYS_NET_NAME='SATA_RX_N<0>';
+NODE_NAME     U0509 AK22
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_rxn<0>': PN='AK22',
+ CDS_PINID='\M373\(0)';
+NODE_NAME     J0503 2
+ '@worklib.tutorial(tbl_1):\I20\':
+ 'dp_ap': PN='2',
+ CDS_PINID='\M396\';
+NET_NAME
+'SATA_RX_N<1>'
+ '@worklib.tutorial(tbl_1):\N83\'<1>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N83\(1)',
+ PHYS_NET_NAME='SATA_RX_N<1>';
+NODE_NAME     U0509 AM22
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_rxn<1>': PN='AM22',
+ CDS_PINID='\M373\(1)';
+NODE_NAME     J101 2
+ '@worklib.tutorial(tbl_1):\I22\':
+ 'dp_ap': PN='2',
+ CDS_PINID='\M410\';
+NET_NAME
+'SATA_RX_N<2>'
+ '@worklib.tutorial(tbl_1):\N83\'<2>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N83\(2)',
+ PHYS_NET_NAME='SATA_RX_N<2>';
+NODE_NAME     U0509 AP22
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_rxn<2>': PN='AP22',
+ CDS_PINID='\M373\(2)';
+NODE_NAME     J0504 2
+ '@worklib.tutorial(tbl_1):\I21\':
+ 'dp_ap': PN='2',
+ CDS_PINID='\M403\';
+NET_NAME
+'SATA_RX_N<3>'
+ '@worklib.tutorial(tbl_1):\N83\'<3>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N83\(3)',
+ PHYS_NET_NAME='SATA_RX_N<3>';
+NODE_NAME     J0501 6
+ '@worklib.tutorial(tbl_1):\I15\':
+ 'dp_bn': PN='6',
+ CDS_PINID='\M361\';
+NODE_NAME     U0509 AT22
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_rxn<3>': PN='AT22',
+ CDS_PINID='\M373\(3)';
+NET_NAME
+'SATA_RX_N<4>'
+ '@worklib.tutorial(tbl_1):\N83\'<4>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N83\(4)',
+ PHYS_NET_NAME='SATA_RX_N<4>';
+NODE_NAME     J0502 6
+ '@worklib.tutorial(tbl_1):\I16\':
+ 'dp_bn': PN='6',
+ CDS_PINID='\M368\';
+NODE_NAME     U0509 AV22
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_rxn<4>': PN='AV22',
+ CDS_PINID='\M373\(4)';
+NET_NAME
+'SATA_RX_N<5>'
+ '@worklib.tutorial(tbl_1):\N83\'<5>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N83\(5)',
+ PHYS_NET_NAME='SATA_RX_N<5>';
+NODE_NAME     J2 6
+ '@worklib.tutorial(tbl_1):\I14\':
+ 'dp_bn': PN='6',
+ CDS_PINID='\M354\';
+NODE_NAME     U0509 AY22
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_rxn<5>': PN='AY22',
+ CDS_PINID='\M373\(5)';
+NET_NAME
+'_N93'
+ '@worklib.tutorial(tbl_1):\N84\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N84\',
+ PHYS_NET_NAME='_N93';
+NODE_NAME     J0502 2
+ '@worklib.tutorial(tbl_1):\I16\':
+ 'dp_ap': PN='2',
+ CDS_PINID='\M371\';
+NODE_NAME     R0500 2
+ '@worklib.tutorial(tbl_1):\I24\':
+ 'b': PN='2',
+ CDS_PINID='\M413\';
+NET_NAME
+'SATA3_COMPI'
+ '@worklib.tutorial(tbl_1):\N85\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N85\',
+ PHYS_NET_NAME='SATA3_COMPI';
+NODE_NAME     U0509 K10
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata3_compi': PN='K10',
+ CDS_PINID='\M385\';
+NET_NAME
+'SATA3_COMPO'
+ '@worklib.tutorial(tbl_1):\N86\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N86\',
+ PHYS_NET_NAME='SATA3_COMPO';
+NODE_NAME     U0509 L10
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata3_compo': PN='L10',
+ CDS_PINID='\M384\';
+NET_NAME
+'SATA_BIAS'
+ '@worklib.tutorial(tbl_1):\N87\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N87\',
+ PHYS_NET_NAME='SATA_BIAS';
+NODE_NAME     U0509 L12
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_bias': PN='L12',
+ CDS_PINID='\M383\';
+NET_NAME
+'SATA_COMPI'
+ '@worklib.tutorial(tbl_1):\N88\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N88\',
+ PHYS_NET_NAME='SATA_COMPI';
+NODE_NAME     U0509 H12
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_compi': PN='H12',
+ CDS_PINID='\M379\';
+NET_NAME
+'SATA_COMPO'
+ '@worklib.tutorial(tbl_1):\N89\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N89\',
+ PHYS_NET_NAME='SATA_COMPO';
+NODE_NAME     U0509 G10
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_compo': PN='G10',
+ CDS_PINID='\M378\';
+NET_NAME
+'SATA_CLK'
+ '@worklib.tutorial(tbl_1):\N90\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N90\',
+ PHYS_NET_NAME='SATA_CLK';
+NODE_NAME     U0509 G11
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_clk': PN='G11',
+ CDS_PINID='\M377\';
+NET_NAME
+'SATA_LED*'
+ '@worklib.tutorial(tbl_1):\N91\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N91\',
+ PHYS_NET_NAME='SATA_LED*';
+NODE_NAME     U0509 L13
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sata_led*': PN='L13',
+ CDS_PINID='\M376\';
+NET_NAME
+'SDATAOUT0'
+ '@worklib.tutorial(tbl_1):\N92\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N92\',
+ PHYS_NET_NAME='SDATAOUT0';
+NODE_NAME     U0509 H13
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sdataout0': PN='H13',
+ CDS_PINID='\M382\';
+NET_NAME
+'SDATAOUT1'
+ '@worklib.tutorial(tbl_1):\N93\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N93\',
+ PHYS_NET_NAME='SDATAOUT1';
+NODE_NAME     U0509 J12
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sdataout1': PN='J12',
+ CDS_PINID='\M381\';
+NET_NAME
+'SLOAD'
+ '@worklib.tutorial(tbl_1):\N94\':
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N94\',
+ PHYS_NET_NAME='SLOAD';
+NODE_NAME     U0509 K12
+ '@worklib.tutorial(tbl_1):\I17\':
+ 'sload': PN='K12',
+ CDS_PINID='\M380\';
+NET_NAME
+'SATA_TX_P_X<1>'
+ '@worklib.tutorial(tbl_1):\N95\'<1>:
+ C_SIGNAL='@worklib.tutorial(tbl_1):\N95\(1)',
+ PHYS_NET_NAME='SATA_TX_P_X<1>';
+NODE_NAME     J101 6
+ '@worklib.tutorial(tbl_1):\I22\':
+ 'dp_bn': PN='6',
+ CDS_PINID='\M407\';
+NODE_NAME     R0501 2
+ '@worklib.tutorial(tbl_1):\I25\':
+ 'b': PN='2',
+ CDS_PINID='\M415\';
+NET_NAME
+'NC'
+ 'NC':
+ C_SIGNAL='NC';
+NODE_NAME     U0500 AA8
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'ddr_comp<0>': PN='AA8',
+ CDS_PINID='\M1\(0)';
+NODE_NAME     U0500 Y7
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'ddr_comp<1>': PN='Y7',
+ CDS_PINID='\M1\(1)';
+NODE_NAME     U0500 AC1
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'ddr_comp<2>': PN='AC1',
+ CDS_PINID='\M1\(2)';
+NODE_NAME     U0500 AH5
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'fc_ah5': PN='AH5',
+ CDS_PINID='\M2\';
+NODE_NAME     U0500 AJ35
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'bclk_dp': PN='AJ35',
+ CDS_PINID='\M3\';
+NODE_NAME     U0500 AH35
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'bclk_dn': PN='AH35',
+ CDS_PINID='\M4\';
+NODE_NAME     U0500 AF10
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'dbr*': PN='AF10',
+ CDS_PINID='\M5\';
+NODE_NAME     U0500 L23
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'ddr_vref': PN='L23',
+ CDS_PINID='\M6\';
+NODE_NAME     U0500 AL39
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'reset*': PN='AL39',
+ CDS_PINID='\M7\';
+NODE_NAME     U0500 AH9
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'trst*': PN='AH9',
+ CDS_PINID='\M8\';
+NODE_NAME     U0500 AH10
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'tck': PN='AH10',
+ CDS_PINID='\M9\';
+NODE_NAME     U0500 AA5
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'bclk_itp_dp': PN='AA5',
+ CDS_PINID='\M10\';
+NODE_NAME     U0500 AL10
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'vid<0>': PN='AL10',
+ CDS_PINID='\M11\(0)';
+NODE_NAME     U0500 AL9
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'vid<1>': PN='AL9',
+ CDS_PINID='\M11\(1)';
+NODE_NAME     U0500 AN9
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'vid<2>': PN='AN9',
+ CDS_PINID='\M11\(2)';
+NODE_NAME     U0500 AM10
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'vid<3>': PN='AM10',
+ CDS_PINID='\M11\(3)';
+NODE_NAME     U0500 AN10
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'vid<4>': PN='AN10',
+ CDS_PINID='\M11\(4)';
+NODE_NAME     U0500 AP9
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'vid<5>': PN='AP9',
+ CDS_PINID='\M11\(5)';
+NODE_NAME     U0500 AP8
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'vid<6>': PN='AP8',
+ CDS_PINID='\M11\(6)';
+NODE_NAME     U0500 AN8
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'vid<7>': PN='AN8',
+ CDS_PINID='\M11\(7)';
+NODE_NAME     U0500 B41
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'prdy*': PN='B41',
+ CDS_PINID='\M12\';
+NODE_NAME     U0500 AC37
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'cat_err*': PN='AC37',
+ CDS_PINID='\M13\';
+NODE_NAME     U0500 AA4
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'bclk_itp_dn': PN='AA4',
+ CDS_PINID='\M14\';
+NODE_NAME     U0500 AB41
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'comp0': PN='AB41',
+ CDS_PINID='\M15\';
+NODE_NAME     U0500 AJ10
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'tdo': PN='AJ10',
+ CDS_PINID='\M16\';
+NODE_NAME     U0500 AG10
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'tms': PN='AG10',
+ CDS_PINID='\M17\';
+NODE_NAME     U0500 AJ9
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'tdi': PN='AJ9',
+ CDS_PINID='\M18\';
+NODE_NAME     U0500 C42
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'preq*': PN='C42',
+ CDS_PINID='\M19\';
+NODE_NAME     U0500 AK8
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'isense': PN='AK8',
+ CDS_PINID='\M20\';
+NODE_NAME     U0500 AR8
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'vss_sense': PN='AR8',
+ CDS_PINID='\M21\';
+NODE_NAME     U0500 AG37
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'thermtrip*': PN='AG37',
+ CDS_PINID='\M22\';
+NODE_NAME     U0500 AG36
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'sktocc*': PN='AG36',
+ CDS_PINID='\M23\';
+NODE_NAME     U0500 AP7
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'psi*': PN='AP7',
+ CDS_PINID='\M24\';
+NODE_NAME     U0500 AG35
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'prochot*': PN='AG35',
+ CDS_PINID='\M25\';
+NODE_NAME     U0500 AH36
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'peci': PN='AH36',
+ CDS_PINID='\M26\';
+NODE_NAME     U0500 B3
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'bpm_m<0>': PN='B3',
+ CDS_PINID='\M27\(0)';
+NODE_NAME     U0500 A5
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'bpm_m<1>': PN='A5',
+ CDS_PINID='\M27\(1)';
+NODE_NAME     U0500 C2
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'bpm_m<2>': PN='C2',
+ CDS_PINID='\M27\(2)';
+NODE_NAME     U0500 B4
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'bpm_m<3>': PN='B4',
+ CDS_PINID='\M27\(3)';
+NODE_NAME     U0500 D1
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'bpm_m<4>': PN='D1',
+ CDS_PINID='\M27\(4)';
+NODE_NAME     U0500 C3
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'bpm_m<5>': PN='C3',
+ CDS_PINID='\M27\(5)';
+NODE_NAME     U0500 D2
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'bpm_m<6>': PN='D2',
+ CDS_PINID='\M27\(6)';
+NODE_NAME     U0500 E2
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'bpm_m<7>': PN='E2',
+ CDS_PINID='\M27\(7)';
+NODE_NAME     U0500 AE37
+ '@worklib.tutorial(tbl_1):\I1\':
+ 'vss_sense_vtt': PN='AE37',
+ CDS_PINID='\M28\';
+NODE_NAME     U0501 A20
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<0>': PN='A20',
+ CDS_PINID='\M337\(0)';
+NODE_NAME     U0501 B21
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<1>': PN='B21',
+ CDS_PINID='\M337\(1)';
+NODE_NAME     U0501 C23
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<2>': PN='C23',
+ CDS_PINID='\M337\(2)';
+NODE_NAME     U0501 D24
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<3>': PN='D24',
+ CDS_PINID='\M337\(3)';
+NODE_NAME     U0501 B23
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<4>': PN='B23',
+ CDS_PINID='\M337\(4)';
+NODE_NAME     U0501 B24
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<5>': PN='B24',
+ CDS_PINID='\M337\(5)';
+NODE_NAME     U0501 C24
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<6>': PN='C24',
+ CDS_PINID='\M337\(6)';
+NODE_NAME     U0501 A25
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<7>': PN='A25',
+ CDS_PINID='\M337\(7)';
+NODE_NAME     U0501 B25
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<8>': PN='B25',
+ CDS_PINID='\M337\(8)';
+NODE_NAME     U0501 C26
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<9>': PN='C26',
+ CDS_PINID='\M337\(9)';
+NODE_NAME     U0501 B19
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<10>': PN='B19',
+ CDS_PINID='\M337\(10)';
+NODE_NAME     U0501 A26
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<11>': PN='A26',
+ CDS_PINID='\M337\(11)';
+NODE_NAME     U0501 B26
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<12>': PN='B26',
+ CDS_PINID='\M337\(12)';
+NODE_NAME     U0501 A10
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<13>': PN='A10',
+ CDS_PINID='\M337\(13)';
+NODE_NAME     U0501 A28
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<14>': PN='A28',
+ CDS_PINID='\M337\(14)';
+NODE_NAME     U0501 B29
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ma<15>': PN='B29',
+ CDS_PINID='\M337\(15)';
+NODE_NAME     U0501 C12
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_cas*': PN='C12',
+ CDS_PINID='\M338\';
+NODE_NAME     U0501 B13
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_we*': PN='B13',
+ CDS_PINID='\M339\';
+NODE_NAME     U0501 D32
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_reset*': PN='D32',
+ CDS_PINID='\M340\';
+NODE_NAME     U0501 A15
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ras*': PN='A15',
+ CDS_PINID='\M341\';
+NODE_NAME     U0501 F12
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_odt<0>': PN='F12',
+ CDS_PINID='\M342\(0)';
+NODE_NAME     U0501 C9
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_odt<1>': PN='C9',
+ CDS_PINID='\M342\(1)';
+NODE_NAME     U0501 B11
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_odt<2>': PN='B11',
+ CDS_PINID='\M342\(2)';
+NODE_NAME     U0501 C7
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_odt<3>': PN='C7',
+ CDS_PINID='\M342\(3)';
+NODE_NAME     U0501 C29
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_cke<0>': PN='C29',
+ CDS_PINID='\M343\(0)';
+NODE_NAME     U0501 A30
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_cke<1>': PN='A30',
+ CDS_PINID='\M343\(1)';
+NODE_NAME     U0501 B30
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_cke<2>': PN='B30',
+ CDS_PINID='\M343\(2)';
+NODE_NAME     U0501 B31
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_cke<3>': PN='B31',
+ CDS_PINID='\M343\(3)';
+NODE_NAME     U0501 K19
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_clk_m<0>': PN='K19',
+ CDS_PINID='\M344\(0)';
+NODE_NAME     U0501 C19
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_clk_m<1>': PN='C19',
+ CDS_PINID='\M344\(1)';
+NODE_NAME     U0501 E18
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_clk_m<2>': PN='E18',
+ CDS_PINID='\M344\(2)';
+NODE_NAME     U0501 E19
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_clk_m<3>': PN='E19',
+ CDS_PINID='\M344\(3)';
+NODE_NAME     U0501 J19
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_clk_p<0>': PN='J19',
+ CDS_PINID='\M345\(0)';
+NODE_NAME     U0501 D19
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_clk_p<1>': PN='D19',
+ CDS_PINID='\M345\(1)';
+NODE_NAME     U0501 F18
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_clk_p<2>': PN='F18',
+ CDS_PINID='\M345\(2)';
+NODE_NAME     U0501 E20
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_clk_p<3>': PN='E20',
+ CDS_PINID='\M345\(3)';
+NODE_NAME     U0501 G15
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_cs_m<0>': PN='G15',
+ CDS_PINID='\M346\(0)';
+NODE_NAME     U0501 B10
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_cs_m<1>': PN='B10',
+ CDS_PINID='\M346\(1)';
+NODE_NAME     U0501 B15
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_cs_m<2>': PN='B15',
+ CDS_PINID='\M346\(2)';
+NODE_NAME     U0501 A7
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_cs_m<3>': PN='A7',
+ CDS_PINID='\M346\(3)';
+NODE_NAME     U0501 U43
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_m<0>': PN='U43',
+ CDS_PINID='\M347\(0)';
+NODE_NAME     U0501 M41
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_m<1>': PN='M41',
+ CDS_PINID='\M347\(1)';
+NODE_NAME     U0501 G41
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_m<2>': PN='G41',
+ CDS_PINID='\M347\(2)';
+NODE_NAME     U0501 B40
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_m<3>': PN='B40',
+ CDS_PINID='\M347\(3)';
+NODE_NAME     U0501 E4
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_m<4>': PN='E4',
+ CDS_PINID='\M347\(4)';
+NODE_NAME     U0501 K3
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_m<5>': PN='K3',
+ CDS_PINID='\M347\(5)';
+NODE_NAME     U0501 R3
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_m<6>': PN='R3',
+ CDS_PINID='\M347\(6)';
+NODE_NAME     U0501 W1
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_m<7>': PN='W1',
+ CDS_PINID='\M347\(7)';
+NODE_NAME     U0501 T43
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_p<0>': PN='T43',
+ CDS_PINID='\M348\(0)';
+NODE_NAME     U0501 L41
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_p<1>': PN='L41',
+ CDS_PINID='\M348\(1)';
+NODE_NAME     U0501 F41
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_p<2>': PN='F41',
+ CDS_PINID='\M348\(2)';
+NODE_NAME     U0501 B39
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_p<3>': PN='B39',
+ CDS_PINID='\M348\(3)';
+NODE_NAME     U0501 E3
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_p<4>': PN='E3',
+ CDS_PINID='\M348\(4)';
+NODE_NAME     U0501 K2
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_p<5>': PN='K2',
+ CDS_PINID='\M348\(5)';
+NODE_NAME     U0501 R2
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_p<6>': PN='R2',
+ CDS_PINID='\M348\(6)';
+NODE_NAME     U0501 W2
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dqs_p<7>': PN='W2',
+ CDS_PINID='\M348\(7)';
+NODE_NAME     U0501 B16
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ba<0>': PN='B16',
+ CDS_PINID='\M349\(0)';
+NODE_NAME     U0501 A16
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ba<1>': PN='A16',
+ CDS_PINID='\M349\(1)';
+NODE_NAME     U0501 C28
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_ba<2>': PN='C28',
+ CDS_PINID='\M349\(2)';
+NODE_NAME     U0501 W41
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<0>': PN='W41',
+ CDS_PINID='\M350\(0)';
+NODE_NAME     U0501 V41
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<1>': PN='V41',
+ CDS_PINID='\M350\(1)';
+NODE_NAME     U0501 R43
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<2>': PN='R43',
+ CDS_PINID='\M350\(2)';
+NODE_NAME     U0501 R42
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<3>': PN='R42',
+ CDS_PINID='\M350\(3)';
+NODE_NAME     U0501 W40
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<4>': PN='W40',
+ CDS_PINID='\M350\(4)';
+NODE_NAME     U0501 W42
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<5>': PN='W42',
+ CDS_PINID='\M350\(5)';
+NODE_NAME     U0501 U41
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<6>': PN='U41',
+ CDS_PINID='\M350\(6)';
+NODE_NAME     U0501 T42
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<7>': PN='T42',
+ CDS_PINID='\M350\(7)';
+NODE_NAME     U0501 N41
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<8>': PN='N41',
+ CDS_PINID='\M350\(8)';
+NODE_NAME     U0501 N43
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<9>': PN='N43',
+ CDS_PINID='\M350\(9)';
+NODE_NAME     U0501 K42
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<10>': PN='K42',
+ CDS_PINID='\M350\(10)';
+NODE_NAME     U0501 K43
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<11>': PN='K43',
+ CDS_PINID='\M350\(11)';
+NODE_NAME     U0501 P42
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<12>': PN='P42',
+ CDS_PINID='\M350\(12)';
+NODE_NAME     U0501 P41
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<13>': PN='P41',
+ CDS_PINID='\M350\(13)';
+NODE_NAME     U0501 L43
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<14>': PN='L43',
+ CDS_PINID='\M350\(14)';
+NODE_NAME     U0501 L42
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<15>': PN='L42',
+ CDS_PINID='\M350\(15)';
+NODE_NAME     U0501 H41
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<16>': PN='H41',
+ CDS_PINID='\M350\(16)';
+NODE_NAME     U0501 H43
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<17>': PN='H43',
+ CDS_PINID='\M350\(17)';
+NODE_NAME     U0501 E42
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<18>': PN='E42',
+ CDS_PINID='\M350\(18)';
+NODE_NAME     U0501 E43
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<19>': PN='E43',
+ CDS_PINID='\M350\(19)';
+NODE_NAME     U0501 J42
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<20>': PN='J42',
+ CDS_PINID='\M350\(20)';
+NODE_NAME     U0501 J41
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<21>': PN='J41',
+ CDS_PINID='\M350\(21)';
+NODE_NAME     U0501 F43
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<22>': PN='F43',
+ CDS_PINID='\M350\(22)';
+NODE_NAME     U0501 F42
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<23>': PN='F42',
+ CDS_PINID='\M350\(23)';
+NODE_NAME     U0501 D40
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<24>': PN='D40',
+ CDS_PINID='\M350\(24)';
+NODE_NAME     U0501 C41
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<25>': PN='C41',
+ CDS_PINID='\M350\(25)';
+NODE_NAME     U0501 A38
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<26>': PN='A38',
+ CDS_PINID='\M350\(26)';
+NODE_NAME     U0501 D37
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<27>': PN='D37',
+ CDS_PINID='\M350\(27)';
+NODE_NAME     U0501 D41
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<28>': PN='D41',
+ CDS_PINID='\M350\(28)';
+NODE_NAME     U0501 D42
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<29>': PN='D42',
+ CDS_PINID='\M350\(29)';
+NODE_NAME     U0501 C38
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<30>': PN='C38',
+ CDS_PINID='\M350\(30)';
+NODE_NAME     U0501 B38
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<31>': PN='B38',
+ CDS_PINID='\M350\(31)';
+NODE_NAME     U0501 B5
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<32>': PN='B5',
+ CDS_PINID='\M350\(32)';
+NODE_NAME     U0501 C4
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<33>': PN='C4',
+ CDS_PINID='\M350\(33)';
+NODE_NAME     U0501 F1
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<34>': PN='F1',
+ CDS_PINID='\M350\(34)';
+NODE_NAME     U0501 G3
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<35>': PN='G3',
+ CDS_PINID='\M350\(35)';
+NODE_NAME     U0501 B6
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<36>': PN='B6',
+ CDS_PINID='\M350\(36)';
+NODE_NAME     U0501 C6
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<37>': PN='C6',
+ CDS_PINID='\M350\(37)';
+NODE_NAME     U0501 F3
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<38>': PN='F3',
+ CDS_PINID='\M350\(38)';
+NODE_NAME     U0501 F2
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<39>': PN='F2',
+ CDS_PINID='\M350\(39)';
+NODE_NAME     U0501 H2
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<40>': PN='H2',
+ CDS_PINID='\M350\(40)';
+NODE_NAME     U0501 H1
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<41>': PN='H1',
+ CDS_PINID='\M350\(41)';
+NODE_NAME     U0501 L1
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<42>': PN='L1',
+ CDS_PINID='\M350\(42)';
+NODE_NAME     U0501 M1
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<43>': PN='M1',
+ CDS_PINID='\M350\(43)';
+NODE_NAME     U0501 G1
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<44>': PN='G1',
+ CDS_PINID='\M350\(44)';
+NODE_NAME     U0501 H3
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<45>': PN='H3',
+ CDS_PINID='\M350\(45)';
+NODE_NAME     U0501 L3
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<46>': PN='L3',
+ CDS_PINID='\M350\(46)';
+NODE_NAME     U0501 L2
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<47>': PN='L2',
+ CDS_PINID='\M350\(47)';
+NODE_NAME     U0501 N1
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<48>': PN='N1',
+ CDS_PINID='\M350\(48)';
+NODE_NAME     U0501 N2
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<49>': PN='N2',
+ CDS_PINID='\M350\(49)';
+NODE_NAME     U0501 T1
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<50>': PN='T1',
+ CDS_PINID='\M350\(50)';
+NODE_NAME     U0501 T2
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<51>': PN='T2',
+ CDS_PINID='\M350\(51)';
+NODE_NAME     U0501 M3
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<52>': PN='M3',
+ CDS_PINID='\M350\(52)';
+NODE_NAME     U0501 N3
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<53>': PN='N3',
+ CDS_PINID='\M350\(53)';
+NODE_NAME     U0501 R4
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<54>': PN='R4',
+ CDS_PINID='\M350\(54)';
+NODE_NAME     U0501 T3
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<55>': PN='T3',
+ CDS_PINID='\M350\(55)';
+NODE_NAME     U0501 U4
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<56>': PN='U4',
+ CDS_PINID='\M350\(56)';
+NODE_NAME     U0501 V1
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<57>': PN='V1',
+ CDS_PINID='\M350\(57)';
+NODE_NAME     U0501 Y2
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<58>': PN='Y2',
+ CDS_PINID='\M350\(58)';
+NODE_NAME     U0501 Y3
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<59>': PN='Y3',
+ CDS_PINID='\M350\(59)';
+NODE_NAME     U0501 U1
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<60>': PN='U1',
+ CDS_PINID='\M350\(60)';
+NODE_NAME     U0501 U3
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<61>': PN='U3',
+ CDS_PINID='\M350\(61)';
+NODE_NAME     U0501 V4
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<62>': PN='V4',
+ CDS_PINID='\M350\(62)';
+NODE_NAME     U0501 W4
+ '@worklib.tutorial(tbl_1):\I13\':
+ 'ddr0_dq<63>': PN='W4',
+ CDS_PINID='\M350\(63)';
+NODE_NAME     J2 7
+ '@worklib.tutorial(tbl_1):\I14\':
+ 'g3': PN='7',
+ CDS_PINID='\M351\';
+NODE_NAME     J2 4
+ '@worklib.tutorial(tbl_1):\I14\':
+ 'g2': PN='4',
+ CDS_PINID='\M352\';
+NODE_NAME     J2 1
+ '@worklib.tutorial(tbl_1):\I14\':
+ 'g1': PN='1',
+ CDS_PINID='\M353\';
+NODE_NAME     J0501 7
+ '@worklib.tutorial(tbl_1):\I15\':
+ 'g3': PN='7',
+ CDS_PINID='\M358\';
+NODE_NAME     J0501 4
+ '@worklib.tutorial(tbl_1):\I15\':
+ 'g2': PN='4',
+ CDS_PINID='\M359\';
+NODE_NAME     J0501 1
+ '@worklib.tutorial(tbl_1):\I15\':
+ 'g1': PN='1',
+ CDS_PINID='\M360\';
+NODE_NAME     J0502 7
+ '@worklib.tutorial(tbl_1):\I16\':
+ 'g3': PN='7',
+ CDS_PINID='\M365\';
+NODE_NAME     J0502 4
+ '@worklib.tutorial(tbl_1):\I16\':
+ 'g2': PN='4',
+ CDS_PINID='\M366\';
+NODE_NAME     J0502 1
+ '@worklib.tutorial(tbl_1):\I16\':
+ 'g1': PN='1',
+ CDS_PINID='\M367\';
+NODE_NAME     J0503 7
+ '@worklib.tutorial(tbl_1):\I20\':
+ 'g3': PN='7',
+ CDS_PINID='\M390\';
+NODE_NAME     J0503 4
+ '@worklib.tutorial(tbl_1):\I20\':
+ 'g2': PN='4',
+ CDS_PINID='\M391\';
+NODE_NAME     J0503 1
+ '@worklib.tutorial(tbl_1):\I20\':
+ 'g1': PN='1',
+ CDS_PINID='\M392\';
+NODE_NAME     J0504 7
+ '@worklib.tutorial(tbl_1):\I21\':
+ 'g3': PN='7',
+ CDS_PINID='\M397\';
+NODE_NAME     J0504 4
+ '@worklib.tutorial(tbl_1):\I21\':
+ 'g2': PN='4',
+ CDS_PINID='\M398\';
+NODE_NAME     J0504 1
+ '@worklib.tutorial(tbl_1):\I21\':
+ 'g1': PN='1',
+ CDS_PINID='\M399\';
+NODE_NAME     J101 7
+ '@worklib.tutorial(tbl_1):\I22\':
+ 'g3': PN='7',
+ CDS_PINID='\M404\';
+NODE_NAME     J101 4
+ '@worklib.tutorial(tbl_1):\I22\':
+ 'g2': PN='4',
+ CDS_PINID='\M405\';
+NODE_NAME     J101 1
+ '@worklib.tutorial(tbl_1):\I22\':
+ 'g1': PN='1',
+ CDS_PINID='\M406\';
+END.

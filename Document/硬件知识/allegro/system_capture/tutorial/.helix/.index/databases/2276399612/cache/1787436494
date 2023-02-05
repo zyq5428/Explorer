@@ -1,0 +1,12 @@
+FILE_TYPE = MULTI_PHYS_TABLE; 
+PART 'USB_30VA' 
+
+
+{========================================================================================}
+:PART_NUMBER    | PACK_TYPE = JEDEC_TYPE	  | HEIGHT   | ROHS        | STATUS      | MANUFACTURER  | MPN       | DESCRIPTION   ;
+{========================================================================================}
+ 'CDN-CON-0016' | 'TH'(!) = 'USB_30VERTA'  | '12.5MM'  | 'COMPLIANT' | 'Compliant' | 'GCT'       | '67800' | 'USB3.0 Vertical Connector'
+
+END_PART 
+END. 
+

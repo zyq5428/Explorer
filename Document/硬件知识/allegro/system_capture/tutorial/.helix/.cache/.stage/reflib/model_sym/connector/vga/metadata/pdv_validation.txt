@@ -1,0 +1,1 @@
+SPLBPD-506,Cell 'vga':For logical part DSUB15, pack type DSUB15 is missing in chips.prt but present in the part table file. The default package will be assigned in chips.prt during packaging. If this is not desired, specify the pack type on the General page of the Package Editor.,Warning

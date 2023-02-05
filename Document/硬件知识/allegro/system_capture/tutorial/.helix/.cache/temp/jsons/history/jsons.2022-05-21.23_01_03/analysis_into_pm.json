@@ -1,0 +1,103 @@
+{
+resolve : { mode : 'mode_cache_wins'},
+process : {mode: 'add'}
+}{
+    "objects": [
+        {
+            "id": "2022BD6C-A7CE-4125-9F37-5851751BAD3C",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "CUSTOM_PCIE8"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "2ABC0DCE-4685-4456-BE9F-D5F0F364F182",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "6FB46162-6E42-4FC2-828B-058456C39198",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2ABC0DCE-4685-4456-BE9F-D5F0F364F182",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "custom_pcie8"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "6FB46162-6E42-4FC2-828B-058456C39198",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "6FB46162-6E42-4FC2-828B-058456C39198",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "connector"
+            }
+        },
+        {
+            "id": "0ACD19F3-08EA-4C11-8BE4-DFA4BF4E7480",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "CUSTOM_PCIE8",
+                "PART_NUMBER": "CDN-CON-0012"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "2ABC0DCE-4685-4456-BE9F-D5F0F364F182",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "2022BD6C-A7CE-4125-9F37-5851751BAD3C",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

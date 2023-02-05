@@ -1,0 +1,6 @@
+INFO: Reading report definition file 'd:/cadence/spb_17.2/share/pcb/signal/reports.dat'.
+INFO: Finished reading report definition file successfully.
+INFO: Reading report definition file 'd:/cadence/spb_17.2/share/pcb/signal/custom_rep.dat'.
+INFO: Finished reading report definition file successfully.
+INFO: Loaded existing device file 'D:\Git\ishero\allegro\system_capture\tutorial\output\tutorial\physical\devices.dml'
+INFO: Finished loading SigNoise device libraries

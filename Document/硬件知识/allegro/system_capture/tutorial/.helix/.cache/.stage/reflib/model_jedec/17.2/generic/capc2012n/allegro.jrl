@@ -1,0 +1,24 @@
+\t (00:00:03) allegro 17.2 S079 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Sat May 21 10:58:29 2022
+\t (00:00:03)         Host=HEROZHOU User=59427 Pid=12308 CPUs=12
+\t (00:00:03) CmdLine= allegro -s d:\Cadence\SPB_17.2\tools\pcbdw\bin\\..\pcb_tools/pcb_libExtract/bin/extdata.scr -nographic -expert D:\Git\ishero\allegro\system_capture\tutorial\.helix\.cache\.stage\reflib\model_jedec\17.2\generic\capc2012n\capc2012n.dra
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: D:/Git/ishero/allegro/system_capture/tutorial/.helix/.cache/.stage/reflib/model_jedec/17.2/generic/capc2012n/capc2012n.dra
+\i (00:00:04) trapsize 20457
+\i (00:00:04) replay 'd:`\Cadence`\SPB_17.2`\tools`\pcbdw`\bin`\`\..`\pcb_tools/pcb_libExtract/bin/extdata.scr' 
+\i (00:00:04) setwindow pcb 
+\i (00:00:04) version 15.5 
+\t (00:00:04) Script version: 15.5
+\i (00:00:04) trapsize 255 
+\i (00:00:04) skill '`'toolDir = axlGetVariable( "WB_ROOT")`'' 
+   (00:00:04) "d:\\Cadence\\SPB_17.2\\tools\\pcbdw\\bin\\\\.."
+\i (00:00:04) skill '`'toolPath = strcat( toolDir "/pcb_tools/pcb_libExtract/skill/pkgData.il")`'' 
+   (00:00:04) "d:\\Cadence\\SPB_17.2\\tools\\pcbdw\\bin\\\\../pcb_tools/pcb_libExtract/skill/pkgData.il"
+\i (00:00:04) skill '`'load toolPath`' ' 
+   (00:00:04) t
+\i (00:00:04) skill '`'_PKGEX_generateXML()`'' 
+   (00:00:04) t
+\i (00:00:04) exit 
+\t (00:00:04)     Journal end - Sat May 21 10:58:31 2022

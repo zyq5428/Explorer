@@ -1,0 +1,2 @@
+DEFINE worklib ./worklib
+INCLUDE "d:/cadence/spb_17.2/share/cdssetup/cds.lib"

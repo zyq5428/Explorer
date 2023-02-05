@@ -1,0 +1,107 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : tutorial.brd                                  )
+(    Software Version : 17.2S079                                      )
+(    Date/Time        : Sat May 21 11:22:46 2022                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'D:/Git/ishero/allegro/system_capture/tutorial/output/tutorial/packaged'
+Design Directory:            'D:/Git/ishero/allegro/system_capture/tutorial/output/tutorial/physical'
+Old design name:             'D:/Git/ishero/allegro/system_capture/tutorial/output/tutorial/physical/tutorial.brd'
+New design name:             'D:/Git/ishero/allegro/system_capture/tutorial/output/tutorial/physical/tutorial.brd'
+
+CmdLine: netrev -i D:/Git/ishero/allegro/system_capture/tutorial/output/tutorial/packaged -u -y 1 -n -1 D:/Git/ishero/allegro/system_capture/tutorial/output/tutorial/physical/tutorial.brd -$ -w C:/Users/59427/AppData/Local/Temp/.temp_tutorial_251370280/constraints_difference_report.xml
+
+------ Preparing to read pst files ------
+
+Starting to read D:/Git/ishero/allegro/system_capture/tutorial/output/tutorial/packaged/pstchip.dat 
+   Finished reading D:/Git/ishero/allegro/system_capture/tutorial/output/tutorial/packaged/pstchip.dat (00:00:00.78)
+Starting to read D:/Git/ishero/allegro/system_capture/tutorial/output/tutorial/packaged/pstxprt.dat 
+   Finished reading D:/Git/ishero/allegro/system_capture/tutorial/output/tutorial/packaged/pstxprt.dat (00:00:00.00)
+Starting to read D:/Git/ishero/allegro/system_capture/tutorial/output/tutorial/packaged/pstxnet.dat 
+   Finished reading D:/Git/ishero/allegro/system_capture/tutorial/output/tutorial/packaged/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+
+Note: CDS_LW_PART_NUMBER property definition created
+Note: PHYS_NET_NAME property definition created
+
+
+
+===========================================================
+Start Constraint Override Import
+	Constraint File:    D:/Git/ishero/allegro/system_capture/tutorial/output/tutorial/packaged/pstcmdb.dat
+	Start time: Sat May 21 11:22:46 2022
+===========================================================
+===========================================================
+Finished Constraint Update	Time: Sat May 21 11:22:47 2022
+===========================================================
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/Cadence/Tutorial_Files/tutorial_database/SITE/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Tutorial_Files/tutorial_database/SITE/pcb/symbols 
+           d:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           d:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           D:\Cadence\Tutorial_Files\tutorial_database\SITE/pcb_symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Tutorial_Files/tutorial_database/SITE/pcb/padstacks 
+           d:/cadence/spb_17.2/share/pcb/pcb_lib/symbols 
+           d:/cadence/spb_17.2/share/pcb/allegrolib/symbols 
+           D:\Cadence\Tutorial_Files\tutorial_database\SITE/pcb_symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on May 21 11:22:45 2022
+   DESIGN NAME : 'TUTORIAL'
+   PACKAGING ON 21-May-2022 AT 11:22:43
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:05:53
+elapsed time  0:00:02
+

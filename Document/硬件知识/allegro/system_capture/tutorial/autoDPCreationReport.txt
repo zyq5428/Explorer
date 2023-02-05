@@ -1,0 +1,29 @@
+Constraint Automation Report
+
+========================================================================
+Updating Differential Pairs based upon Nets in the Design. Force mode(1)
+
+Processing nets which contain ".*[0-9]+P" and suffix "P" with nets which contain ".*[0-9]+N" and suffix "N"...
+
+Processing nets which contain ".*_P.*" and suffix "_P" with nets which contain ".*_N.*" and suffix "_N"...
+  Adding DP_SATA_RX_5 with members SATA_RX_P<5> and SATA_RX_N<5>
+  Adding DP_SATA_RX_4 with members SATA_RX_P<4> and SATA_RX_N<4>
+  Adding DP_SATA_RX_3 with members SATA_RX_P<3> and SATA_RX_N<3>
+  Adding DP_SATA_RX_2 with members SATA_RX_P<2> and SATA_RX_N<2>
+  Adding DP_SATA_RX_1 with members SATA_RX_P<1> and SATA_RX_N<1>
+  Adding DP_SATA_RX_0 with members SATA_RX_P<0> and SATA_RX_N<0>
+  Adding DP_SATA_TX_5 with members SATA_TX_P<5> and SATA_TX_N<5>
+  Adding DP_SATA_TX_4 with members SATA_TX_P<4> and SATA_TX_N<4>
+  Adding DP_SATA_TX_3 with members SATA_TX_P<3> and SATA_TX_N<3>
+  Adding DP_SATA_TX_2 with members SATA_TX_P<2> and SATA_TX_N<2>
+  Adding DP_SATA_TX_1 with members SATA_TX_P<1> and SATA_TX_N<1>
+  Adding DP_SATA_TX_0 with members SATA_TX_P<0> and SATA_TX_N<0>
+
+Processing nets which contain ".*[0-9]+P" and suffix "P" with nets which contain ".*[0-9]+M" and suffix "M"...
+
+Processing nets which contain ".*_P.*" and suffix "_P" with nets which contain ".*_M.*" and suffix "_M"...
+
+=========================================================
+
+
+*** End Report

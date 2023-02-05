@@ -1,0 +1,18 @@
+* source TPS40170
+R_R4         N14503866 FB  15k TC=0,0 
+X_L1         SW VOUT LDCR PARAMS:  L={L}  DCR=5.9m IC=0   
+I_I1         VOUT 0 DC 10Adc  
+C_C13         COMP N14503866  10n  TC=0,0 
+C_Cinj         N145229710 N14501586  100k  TC=0,0 
+C_C21         FB N14514516  820p  TC=0,0 
+L_Linj         VOUT N14501586  100k  
+C_C14         COMP FB  22p  TC=0,0 
+V_VIN         VIN 0 24
+X_C9         VOUT 0 CESR PARAMS:  C=29u  ESR=2m X=3  IC=2
+X_C22         VOUT 0 CESR PARAMS:  C=6u  ESR=2m X=2  IC=2
+R_R10         0 FB  2.74k TC=0,0 
+V_V8         N145229710 0 DC 0Vdc AC 1Vac 
+R_R13         N14514516 N14501586  499 TC=0,0 
+R_R11         FB N14501586  20k TC=0,0 
+X_U1         FB SW COMP VIN 0 TPS40170_AVG PARAMS:  L={L} FS={FS}
+.PARAM  l=5.56u fs=300k

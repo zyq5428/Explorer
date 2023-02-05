@@ -1,0 +1,40 @@
+* source TPS40170
+R_R5         0 LDRV  10k  
+C_C20         LDRV 0  1000p IC=0 
+X_Q1         HDRV VIN SW POWERMOS PARAMS: RDSON=9m CISS=2000p CRSS=17p
++  COSS=440p VSP=3 RG=1.3
+C_C14         FB COMP  220p IC=0 
+R_R4         N145662551 FB  3.83k  
+C_C13         N145662551 COMP  8200p IC=0 
+R_R10         0 FB  2.74k  
+R_RLoad         0 VOUT  0.833  
+X_C9         VOUT 0 CESR PARAMS:  C=22u  ESR=5m X=2  IC=0
+X_L1         SW VOUT LDCR PARAMS:  L=8.2u  DCR=16m IC=0
+X_C22         VOUT 0 CESR PARAMS:  C=10u  ESR=5m X=2  IC=0
+R_R2         UVLO VIN  200k  
+R_R6         0 UVLO  22.1k  
+X_Q2         LDRV SW 0 POWERMOS PARAMS: RDSON=6.2m CISS=3000p CRSS=24p
++  COSS=660p VSP=3 RG=1
+R_R1         VIN VIN  1  
+R_R9         0 ILIM  12.1k  
+C_C18         VIN 0  1u IC=0 
+C_C15         SS 0  3.3n IC=0 
+C_C7         SW BOOT  0.1u  
+R_R12         N14567287 VOUT  49.9  
+R_R11         FB N14567287  20k  
+R_R13         N14566111 N14567287  511  
+C_C21         N14566111 FB  1500p IC=0 
+X_C1         VIN 0 CESR PARAMS:  C=2.2u  ESR=5m X=4  IC=0
+X_C5         VIN 0 CESR PARAMS:  C=1u  ESR=5m X=1  IC=0
+X_C6         VIN 0 CESR PARAMS:  C=120u  ESR=5m X=1  IC=0
+V_VIN         VIN 0  
++PULSE 0 60 1u 10u 10u 1 2
+C_C19         VBP 0  4.7u IC=0 
+R_R16         TRK VDD  10k  
+R_R19         VOUT PGOOD  100k  
+C_C16         VDD 0  1u IC=0 
+R_R7         0 RT  31.6k  
+C_C17         ILIM 0  1000p IC=0 
+R_R14         ENABLE VIN  64.9k  
+X_U1         SYNC FB HDRV RT SS SW 0 0 TRK COMP VIN PGOOD VBP VDD VIN LDRV ILIM
++  UVLO BOOT ENABLE TPS40170 

@@ -1,0 +1,137 @@
+
+**** 02/27/22 13:57:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "LoopResponse-Bode"  [ D:\Git\ishero\circuit_simulation\pspiceTI\TPS40170\TPS40170_PSPICE_AVG\tps40170-pspicefiles\loopr
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Bode.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../tps40170_avg.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 100 100 1E6
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) 
+.INC "..\LoopResponse.net" 
+
+
+
+**** INCLUDING LoopResponse.net ****
+* source TPS40170
+R_R4         N14503866 FB  15k TC=0,0 
+X_L1         SW VOUT LDCR PARAMS:  L={L}  DCR=5.9m IC=0   
+I_I1         VOUT 0 DC 10Adc  
+C_C13         COMP N14503866  10n  TC=0,0 
+C_Cinj         N145229710 N14501586  100k  TC=0,0 
+C_C21         FB N14514516  820p  TC=0,0 
+L_Linj         VOUT N14501586  100k  
+C_C14         COMP FB  22p  TC=0,0 
+V_VIN         VIN 0 24
+X_C9         VOUT 0 CESR PARAMS:  C=29u  ESR=2m X=3  IC=2
+X_C22         VOUT 0 CESR PARAMS:  C=6u  ESR=2m X=2  IC=2
+R_R10         0 FB  2.74k TC=0,0 
+V_V8         N145229710 0 DC 0Vdc AC 1Vac 
+R_R13         N14514516 N14501586  499 TC=0,0 
+R_R11         FB N14501586  20k TC=0,0 
+X_U1         FB SW COMP VIN 0 TPS40170_AVG PARAMS:  L={L} FS={FS}
+.PARAM  l=5.56u fs=300k
+
+**** RESUMING Bode.cir ****
+.END
+
+
+WARNING(ORPSIM-15256): <X_L1.IC> not a subcircuit param
+
+WARNING(ORPSIM-15256): <X_C9.IC> not a subcircuit param
+
+WARNING(ORPSIM-15256): <X_C22.IC> not a subcircuit param
+
+INFO(ORPSIM-16573): AC analysis does not support expression evaluation at each frequency. ABM devices with non-linear operations will be evaluated only at bias point.
+
+**** 02/27/22 13:57:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "LoopResponse-Bode"  [ D:\Git\ishero\circuit_simulation\pspiceTI\TPS40170\TPS40170_PSPICE_AVG\tps40170-pspicefiles\loopr
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(   FB)     .6000  (   SW)    5.0383  (  VIN)   24.0000  ( COMP)     .3149      
+
+( VOUT)    4.9793  (X_C9.1)    0.0000 (X_L1.1)    5.0383 (X_C22.1)    0.0000    
+
+(N14501586)    4.9793                 (N14503866)     .6000                     
+
+(N14514516)    4.9793                 (N145229710)    0.0000                    
+
+(X_U1.X_U1.cx)    5.0383              (X_U1.X_U1.d2)     .7901                  
+
+(X_U1.X_U1.dc)     .2099              (X_U1.X_U1.d2X)     .7901                 
+
+(X_U1.X_U1.Fsv) 300.0E+03             (X_U1.N14501718)     .2099                
+
+(X_U1.N14502406)     .6000            (X_U1.X_U1.Xd.dcx)     .2099              
+
+(X_U1.X_U1.Xd.clpn)     .0150         (X_U1.X_U1.Xd.clpp)     .9500             
+
+(X_U1.X_U1.Xd2.clpn)     .0070        (X_U1.X_U1.Xd2.clpp)     .7901            
+
+(X_U1.X_U1.Xd2.d2cx)     .7901        
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VIN       -2.099E+00
+    V_V8         0.000E+00
+    X_U1.V_V9    0.000E+00
+    X_U1.X_U1.VM   1.000E+01
+    X_U1.X_U1.Xd.V2  -7.501E-13
+    X_U1.X_U1.Xd2.V1   7.931E-13
+
+    TOTAL POWER DISSIPATION   5.04E+01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/27/22 13:57:29 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "LoopResponse-Bode"  [ D:\Git\ishero\circuit_simulation\pspiceTI\TPS40170\TPS40170_PSPICE_AVG\tps40170-pspicefiles\loopr
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =         .97
+  Total job time (using Solver 1)   =         .55
+

@@ -1,0 +1,141 @@
+[OutputJobFile]
+Version=1.0
+
+[OutputGroup1]
+Name=Other BOM Reports.OutJob
+Description=
+TargetOutputMedium=BOMs
+VariantName=[No Variations]
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=PRNCR002 PS
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
+OutputMedium1=BOMs
+OutputMedium1_Type=GeneratedFiles
+OutputMedium2=Verify Supplier Stock and Prices
+OutputMedium2_Type=GeneratedFiles
+OutputType1=BOM_PartType
+OutputName1=Digi-Key Bill of Materials
+OutputCategory1=Report
+OutputDocumentPath1=
+OutputVariantName1=001
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=0
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+Configuration1_Name1=Filter
+Configuration1_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration1_Name2=General
+Configuration1_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=False|ShowExportOptions=True|TemplateFilename=C:\NSCUtils\Altium\Templates\AD\DigiKey_BOM_TI.XLT|BatchMode=5|FormWidth=942|FormHeight=633|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD
+Configuration1_Name3=GroupOrder
+Configuration1_Item3=PartNumber=True
+Configuration1_Name4=OutputConfigurationParameter1
+Configuration1_Item4=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
+Configuration1_Name5=SortOrder
+Configuration1_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration1_Name6=VisibleOrder
+Configuration1_Item6=Designator=100|Manufacturer=100|PartNumber=100|Supplier 1=100|Supplier Order Qty 1=100|Supplier Part Number 1=100|Quantity=100|Supplier 2=100|Supplier Order Qty 2=100|Supplier Part Number 2=100
+OutputType2=BOM_PartType
+OutputName2=EVM Assembly Bill of Materials
+OutputCategory2=Report
+OutputDocumentPath2=
+OutputVariantName2=001
+OutputEnabled2=1
+OutputEnabled2_OutputMedium1=1
+OutputEnabled2_OutputMedium2=0
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+Configuration2_Name1=Filter
+Configuration2_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration2_Name2=General
+Configuration2_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=True|Database=False|IncludePCBData=False|ShowExportOptions=True|TemplateFilename=C:\NSCUtils\Altium\Templates\AD\EVM_Assembly_TI.XLT|BatchMode=5|FormWidth=942|FormHeight=641|SupplierProdQty=100|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD
+Configuration2_Name3=GroupOrder
+Configuration2_Item3=Fitted=True|PartNumber=True
+Configuration2_Name4=SortOrder
+Configuration2_Item4=Fitted=Up|Designator=Up|Comment=Up|Footprint=Up
+Configuration2_Name5=VisibleOrder
+Configuration2_Item5=Fitted=100|Alternate Manufacturer=100|Alternate PartNumber=100|Description=100|Designator=100|Footprint=100|LibRef=100|Manufacturer=100|PartNumber=100|Quantity=100|RoHS=100|Supplier 1=100|Supplier 2=100|Supplier Currency 1=100|Supplier Part Number 1=100|Supplier Part Number 2=100|Supplier Unit Price 1=100|Library Name=100
+OutputType3=BOM_PartType
+OutputName3=Engineering Bill of Materials
+OutputCategory3=Report
+OutputDocumentPath3=
+OutputVariantName3=001
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputDefault3=0
+PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+Configuration3_Name1=Filter
+Configuration3_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration3_Name2=General
+Configuration3_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=True|Database=False|IncludePCBData=False|ShowExportOptions=True|TemplateFilename=C:\NSCUtils\Altium\Templates\AD\TI_BOM_Engineering.XLT|BatchMode=5|FormWidth=942|FormHeight=633|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=<none>
+Configuration3_Name3=GroupOrder
+Configuration3_Item3=
+Configuration3_Name4=OutputConfigurationParameter1
+Configuration3_Item4=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
+Configuration3_Name5=SortOrder
+Configuration3_Item5=Fitted=Up|Designator=Up|Comment=Up|Footprint=Up
+Configuration3_Name6=VisibleOrder
+Configuration3_Item6=Fitted=100|Description=100|Designator=100|LibRef=100|PartNumber=100|Quantity=100|Library Name=100|Manufacturer=100|RoHS=100|Supplier 1=100|Supplier Part Number 1=100|Supplier 2=100|Supplier Part Number 2=100
+OutputType4=BOM_PartType
+OutputName4=Verify Supplier Stock and Prices
+OutputCategory4=Report
+OutputDocumentPath4=
+OutputVariantName4=001
+OutputEnabled4=0
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=1
+OutputDefault4=0
+PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PaperKind=Letter|PrintScaleMode=1
+Configuration4_Name1=Filter
+Configuration4_Item1=545046300E5446696C74657257726170706572000D46696C7465722E416374697665090F46696C7465722E43726974657269610A04000000000000000000
+Configuration4_Name2=General
+Configuration4_Item2=OpenExported=False|AddToProject=False|ForceFit=False|NotFitted=False|Database=False|IncludePCBData=False|ShowExportOptions=True|TemplateFilename=C:\NSCUtils\Altium\Templates\AD\StockAndPriceCheck_TI.XLT|BatchMode=5|FormWidth=934|FormHeight=630|SupplierProdQty=100|SupplierAutoQty=True|SupplierUseCachedPricing=False|SupplierCurrency=USD
+Configuration4_Name3=GroupOrder
+Configuration4_Item3=PartNumber=True
+Configuration4_Name4=OutputConfigurationParameter1
+Configuration4_Item4=Record=BOMPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False
+Configuration4_Name5=SortOrder
+Configuration4_Item5=Designator=Up|Comment=Up|Footprint=Up
+Configuration4_Name6=VisibleOrder
+Configuration4_Item6=Description=100|Designator=100|PartNumber=100|Quantity=100|Supplier 1=100|Supplier 2=100|Supplier Stock 1=100|Supplier Stock 2=100|Supplier Unit Price 1=100|Supplier Unit Price 2=100|Manufacturer=100|Supplier Part Number 1=100|Supplier Part Number 2=100|Supplier Order Qty 1=100|Supplier Order Qty 2=100|Supplier Subtotal 1=100|Supplier Subtotal 2=100|Supplier 3=100|Supplier Order Qty 3=100|Supplier Part Number 3=100|Supplier Stock 3=100|Supplier Subtotal 3=100|Supplier Unit Price 3=100
+
+[PublishSettings]
+OutputFilePath1=C:\Users\a0415754\Documents\Altium Stuff\PMP9289\Project Outputs\
+ReleaseManaged1=0
+OutputBasePath1=Project Outputs
+OutputPathMedia1=
+OutputPathOutputer1=[Output Type]
+OutputFileName1=
+OpenOutput1=1
+OutputFilePath2=
+ReleaseManaged2=0
+OutputBasePath2=Project Outputs
+OutputPathMedia2=
+OutputPathOutputer2=[Output Type]
+OutputFileName2=
+OpenOutput2=1
+
+[GeneratedFilesSettings]
+RelativeOutputPath1=C:\Users\a0415754\Documents\Altium Stuff\PMP9289\Project Outputs\
+OpenOutputs1=1
+AddToProject1=0
+TimestampFolder1=0
+UseOutputName1=0
+OpenODBOutput1=0
+OpenGerberOutput1=1
+OpenNCDrillOutput1=1
+OpenIPCOutput1=0
+EnableReload1=0
+RelativeOutputPath2=
+OpenOutputs2=1
+AddToProject2=0
+TimestampFolder2=0
+UseOutputName2=0
+OpenODBOutput2=0
+OpenGerberOutput2=1
+OpenNCDrillOutput2=1
+OpenIPCOutput2=0
+EnableReload2=0
+

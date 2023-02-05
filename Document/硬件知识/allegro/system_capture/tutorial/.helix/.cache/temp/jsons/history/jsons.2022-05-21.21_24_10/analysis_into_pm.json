@@ -1,0 +1,979 @@
+{
+resolve : { mode : 'mode_cache_wins_conditional'}
+}{
+    "objects": [
+        {
+            "id": "9AEEE826-3B3A-4338-AEA8-68784F71BDD2",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "DVI"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "E6DE939B-0192-4F77-BE38-2DF29DFD79E9",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "661D4663-438A-43F4-A95F-19482F1C7081",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "E6DE939B-0192-4F77-BE38-2DF29DFD79E9",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "dvi"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "661D4663-438A-43F4-A95F-19482F1C7081",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "661D4663-438A-43F4-A95F-19482F1C7081",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "connector"
+            }
+        },
+        {
+            "id": "47620DC4-3886-43AC-9416-2026E979F30A",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "TH",
+                "PART_NUMBER": "CDN-CON-0010"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "E6DE939B-0192-4F77-BE38-2DF29DFD79E9",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "9AEEE826-3B3A-4338-AEA8-68784F71BDD2",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3F03A8A5-35D5-4ECF-B76B-A6B88CE22E24",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "RES"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "E00E17F2-DD74-474E-89A3-3E4935E2DF47",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "729FEF1E-A432-408E-94F4-6BCCB82EFA3C",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "E00E17F2-DD74-474E-89A3-3E4935E2DF47",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "res"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "729FEF1E-A432-408E-94F4-6BCCB82EFA3C",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "729FEF1E-A432-408E-94F4-6BCCB82EFA3C",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "passives"
+            }
+        },
+        {
+            "id": "97BACF83-D47F-4D24-9B94-FB25A47FDBE0",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "0805",
+                "PART_NUMBER": "CDN-RES-0650",
+                "TOLERANCE": "1%",
+                "VALUE": "33.2K",
+                "WATTAGE": "0.125W"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "E00E17F2-DD74-474E-89A3-3E4935E2DF47",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "3F03A8A5-35D5-4ECF-B76B-A6B88CE22E24",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "65ACB80A-EB32-40D3-9393-02B7326D597A",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "CAP"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "2C55B615-7FBB-44B7-8F16-801AC7F81D47",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "729FEF1E-A432-408E-94F4-6BCCB82EFA3C",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "2C55B615-7FBB-44B7-8F16-801AC7F81D47",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "cap"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "729FEF1E-A432-408E-94F4-6BCCB82EFA3C",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "F025BC4E-2EA5-46AE-A14C-0C13FD738DA6",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "DESCRIPTION": "CAPACITOR X7R 50V 330PF 5% 0603",
+                "JEDEC_TYPE": "CAPC1608N",
+                "MANUFACTURER": "AVX",
+                "PACK_TYPE": "0603",
+                "PART_NUMBER": "CDN-CAP-0001",
+                "ROHS": "COMPLIANT",
+                "TOLERANCE": "5%",
+                "VALUE": "330PF",
+                "VOLTAGE": "50V"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "2C55B615-7FBB-44B7-8F16-801AC7F81D47",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "65ACB80A-EB32-40D3-9393-02B7326D597A",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "225EA4F0-46CB-421D-82FC-F0A2CC59AB3A",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "LMZ14203"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "CAFA9393-1A87-4E12-835B-E9E5CC718A9D",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "DEB08A02-133B-44C1-B7D5-3974C93FFFC5",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "CAFA9393-1A87-4E12-835B-E9E5CC718A9D",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "lmz14203"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "DEB08A02-133B-44C1-B7D5-3974C93FFFC5",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "DEB08A02-133B-44C1-B7D5-3974C93FFFC5",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "ic"
+            }
+        },
+        {
+            "id": "7E6786E0-039D-472E-8C72-7D22C5D70931",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "TO-PMOD-7"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "CAFA9393-1A87-4E12-835B-E9E5CC718A9D",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "225EA4F0-46CB-421D-82FC-F0A2CC59AB3A",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "B0E373FF-BA59-4E7B-940C-05AC7D3E015C",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "0805",
+                "PART_NUMBER": "CDN-CAP-0185",
+                "TOLERANCE": "10",
+                "VALUE": "10NF",
+                "VOLTAGE": "50V"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "2C55B615-7FBB-44B7-8F16-801AC7F81D47",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "65ACB80A-EB32-40D3-9393-02B7326D597A",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "D00C4183-F6D9-47BE-BE02-DE217F838FD6",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "VGA"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "EC593327-DF5F-49E2-9BC7-5B2AE0B7E5BD",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "661D4663-438A-43F4-A95F-19482F1C7081",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "EC593327-DF5F-49E2-9BC7-5B2AE0B7E5BD",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "vga"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "661D4663-438A-43F4-A95F-19482F1C7081",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "C0B84483-7682-43BF-AA6C-98E1D4C025AF",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "VGA",
+                "PART_NUMBER": "CDN-CON-0015"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "EC593327-DF5F-49E2-9BC7-5B2AE0B7E5BD",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "D00C4183-F6D9-47BE-BE02-DE217F838FD6",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "8BDDD1CD-40F5-455D-BFC6-57B469EB39BE",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "0805",
+                "PART_NUMBER": "CDN-RES-0652",
+                "TOLERANCE": "1%",
+                "VALUE": "68.1K",
+                "WATTAGE": "0.125W"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "E00E17F2-DD74-474E-89A3-3E4935E2DF47",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "3F03A8A5-35D5-4ECF-B76B-A6B88CE22E24",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "418E4476-6E68-4F45-BF1D-8D625333CA71",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "1210",
+                "PART_NUMBER": "CDN-CAP-0184",
+                "TOLERANCE": "15%",
+                "VALUE": "100UF",
+                "VOLTAGE": "6.3V"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "2C55B615-7FBB-44B7-8F16-801AC7F81D47",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "65ACB80A-EB32-40D3-9393-02B7326D597A",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "32FC2EAD-BE13-4E70-A903-94CCF09F58E5",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "0805",
+                "PART_NUMBER": "CDN-RES-0653",
+                "TOLERANCE": "0.5%",
+                "VALUE": "620",
+                "WATTAGE": "0.1W"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "E00E17F2-DD74-474E-89A3-3E4935E2DF47",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "3F03A8A5-35D5-4ECF-B76B-A6B88CE22E24",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "254185BE-54FB-4BCB-BAA7-DF27EBE6E5D9",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "VIPER_ASIC"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "7CAD2F8D-82BF-4D2D-804B-11A57CA5F6B3",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "3A458EB3-0943-4D2F-9573-3F7FA6905C6F",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "7CAD2F8D-82BF-4D2D-804B-11A57CA5F6B3",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "viper_asic"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "3A458EB3-0943-4D2F-9573-3F7FA6905C6F",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "3A458EB3-0943-4D2F-9573-3F7FA6905C6F",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "custom_library"
+            }
+        },
+        {
+            "id": "D58EFD8C-AD8A-4084-8F6D-0C2BBD0C2454",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "FCBGA",
+                "PART_NUMBER": "CDN-MPU-000008"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "7CAD2F8D-82BF-4D2D-804B-11A57CA5F6B3",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "254185BE-54FB-4BCB-BAA7-DF27EBE6E5D9",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_5"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2DC235FE-940A-42EB-83A5-44D04074B10D",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "0805",
+                "PART_NUMBER": "CDN-RES-0651",
+                "TOLERANCE": "1%",
+                "VALUE": "6.34K",
+                "WATTAGE": "0.125W"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "E00E17F2-DD74-474E-89A3-3E4935E2DF47",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "3F03A8A5-35D5-4ECF-B76B-A6B88CE22E24",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "516E39C0-25C6-4B8C-89A2-4A68FD4C008F",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "0805",
+                "PART_NUMBER": "CDN-RES-0649",
+                "TOLERANCE": "1%",
+                "VALUE": "1.24K",
+                "WATTAGE": "0.125W"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "E00E17F2-DD74-474E-89A3-3E4935E2DF47",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "3F03A8A5-35D5-4ECF-B76B-A6B88CE22E24",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "A8913EC9-78AB-4C2B-B83A-45AE74026A55",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "0805",
+                "PART_NUMBER": "CDN-CAP-0182",
+                "TOLERANCE": "10%",
+                "VALUE": "22NF",
+                "VOLTAGE": "50V"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "2C55B615-7FBB-44B7-8F16-801AC7F81D47",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "65ACB80A-EB32-40D3-9393-02B7326D597A",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "C2EFA2A1-5675-4AAA-B557-49931732ED8B",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "DDR3_2GB_X16_SDRAM"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "ECD7C930-B493-4828-8F5A-249B2B9D5C91",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "4CBEA994-124D-451D-9829-F1568EE946F4",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "ECD7C930-B493-4828-8F5A-249B2B9D5C91",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "ddr3_2gb_x16_sdram"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "4CBEA994-124D-451D-9829-F1568EE946F4",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "4CBEA994-124D-451D-9829-F1568EE946F4",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "memory"
+            }
+        },
+        {
+            "id": "21A217C1-89FC-4E4F-9468-A88D50F7306B",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "FBGA96",
+                "PART_NUMBER": "CDN-MEM-0031"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "ECD7C930-B493-4828-8F5A-249B2B9D5C91",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "C2EFA2A1-5675-4AAA-B557-49931732ED8B",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

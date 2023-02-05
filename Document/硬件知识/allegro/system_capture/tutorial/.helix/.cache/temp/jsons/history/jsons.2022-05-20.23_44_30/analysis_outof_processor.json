@@ -1,0 +1,477 @@
+{
+  "objects": [
+    {
+      "id": "86381F07-41EE-47D4-81F6-307ABE0A8B66",
+      "type": "schematic_model",
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "1B6E3434-AA04-4CBF-B875-F7CBA0E431DE",
+              "type": "library",
+              "vault": "design"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "29D3A389-481E-4468-8D18-8D7E85AF654A",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "RES"
+      }
+    },
+    {
+      "id": "29D3A389-481E-4468-8D18-8D7E85AF654A",
+      "type": "cell_model",
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "1B6E3434-AA04-4CBF-B875-F7CBA0E431DE",
+              "type": "library",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "Model Name": "res"
+      }
+    },
+    {
+      "id": "1B6E3434-AA04-4CBF-B875-F7CBA0E431DE",
+      "type": "library",
+      "relations": {},
+      "vault": "design",
+      "properties": {
+        "Library Name": "passives"
+      }
+    },
+    {
+      "id": "EAD0B974-2A7D-4DC1-A6B0-967D7E09D5F6",
+      "type": "part",
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "86381F07-41EE-47D4-81F6-307ABE0A8B66",
+              "type": "schematic_model",
+              "vault": "design"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "29D3A389-481E-4468-8D18-8D7E85AF654A",
+              "type": "cell_model",
+              "vault": "design"
+            }
+          }
+        ]
+      },
+      "vault": "design",
+      "properties": {
+        "PART_NUMBER": "CDN-RES-0290",
+        "VALUE": "1.1k",
+        "WATTAGE": "0.125W",
+        "PACK_TYPE": "0805",
+        "TOLERANCE": "1%"
+      },
+      "meta": [
+        {
+          "name": "cpath",
+          "value": "",
+          "data": [
+            {
+              "name": "symbol",
+              "value": "sym_1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "resolutions": [
+    {
+      "differences": {
+        "relations": [
+          "different",
+          "not_applicable",
+          "not_applicable"
+        ],
+        "properties": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "update_design_from_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "update_design_from_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "c0688fc9-41dd-43c9-9a38-120a667f29b2",
+      "tag": [
+        "ref_schematic_model_RES",
+        "ref_partid_45d1d635-8b1f-44a4-925a-ccca68aaef0e"
+      ],
+      "type": "part",
+      "objectid": "EAD0B974-2A7D-4DC1-A6B0-967D7E09D5F6",
+      "referenceid": "45d1d635-8b1f-44a4-925a-ccca68aaef0e",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {
+        "relations": [
+          "different",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "update_design_from_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "update_design_from_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "2183b05a-9e21-44c2-a0e4-2a65fe9c2b09",
+      "tag": [
+        "ref_schematic_model_RES"
+      ],
+      "type": "schematic_model",
+      "objectid": "86381F07-41EE-47D4-81F6-307ABE0A8B66",
+      "referenceid": "a05651dc-6fc4-4c81-afa5-c066bfa2414f",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {
+        "relations": [
+          "identical",
+          "not_applicable",
+          "not_applicable"
+        ]
+      },
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "16ce72fb-34c9-49f3-90b1-ffac6f0419f0",
+      "tag": [],
+      "type": "cell_model",
+      "objectid": "29D3A389-481E-4468-8D18-8D7E85AF654A",
+      "referenceid": "aeef7495-1463-4e62-adae-d9e860dfa9db",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    },
+    {
+      "differences": {},
+      "action": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "useraction": [
+        "identical_design_ref",
+        "update_cache_from_ref"
+      ],
+      "id": "00d1a839-2a59-44e5-aadd-8476a55055ff",
+      "tag": [],
+      "type": "library",
+      "objectid": "1B6E3434-AA04-4CBF-B875-F7CBA0E431DE",
+      "referenceid": "136ff7d7-4b73-4466-bafa-5e48a87d3807",
+      "cacheid": "",
+      "status": [
+        "cache_operation_success"
+      ]
+    }
+  ],
+  "reference": [
+    {
+      "id": "45d1d635-8b1f-44a4-925a-ccca68aaef0e",
+      "type": "part",
+      "vault": "server",
+      "attributes": {
+        "Part Number": "CDN-RES-0290"
+      },
+      "properties": {
+        "DESCRIPTION": "Precision Thick Film Chip Resistor 1.1k 150V 0.125W 1%",
+        "DIST": "FLAT",
+        "HEIGHT": "0.6mm",
+        "JEDEC_TYPE": "RESC2012N",
+        "MANUFACTURER": "Panasonic",
+        "MAX_TEMP": "155",
+        "MPN": "ERJ6ENF1101X",
+        "NEGTOL": "0.5%",
+        "PACK_TYPE": "0805",
+        "PART_NUMBER": "CDN-RES-0290",
+        "POSTOL": "0.5%",
+        "POWER": "0.125W",
+        "PTF_SUBTYPE": "!",
+        "ROHS": "UNKNOWN",
+        "SLOPE": "RSMAX",
+        "STATUS": "",
+        "TC1": "100",
+        "TC2": "RTMPQ",
+        "TOLERANCE": "1%",
+        "TOL_ON_OFF": "ON",
+        "VALUE": "1.1k",
+        "VOLTAGE": "150V",
+        "WATTAGE": "0.125W"
+      },
+      "relations": {
+        "schematic": [
+          {
+            "related": {
+              "id": "a05651dc-6fc4-4c81-afa5-c066bfa2414f",
+              "type": "schematic_model",
+              "vault": "server"
+            }
+          }
+        ],
+        "cell": [
+          {
+            "related": {
+              "id": "aeef7495-1463-4e62-adae-d9e860dfa9db",
+              "type": "cell_model",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "a05651dc-6fc4-4c81-afa5-c066bfa2414f",
+      "type": "schematic_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "RES"
+      },
+      "header": [
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "VOLTAGE",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "TC2",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "TC1",
+          "type": "Injected"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "WATTAGE",
+          "type": "Key",
+          "order": "3"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "TOLERANCE",
+          "type": "Key",
+          "order": "4"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "DIST",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "NEGTOL",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "POWER",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MPN",
+          "type": "Injected"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "VALUE",
+          "type": "Key",
+          "order": "2"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "PTF_SUBTYPE",
+          "type": "Subtype"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "HEIGHT",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MANUFACTURER",
+          "type": "Injected"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PACK_TYPE",
+          "type": "Key",
+          "order": "5"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "ROHS",
+          "type": "Injected"
+        },
+        {
+          "annotation": "Yes",
+          "visibility": "Value",
+          "name": "PART_NUMBER",
+          "type": "Key",
+          "order": "1"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "STATUS",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "JEDEC_TYPE",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "MAX_TEMP",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "DESCRIPTION",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "TOL_ON_OFF",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "SLOPE",
+          "type": "Injected"
+        },
+        {
+          "annotation": "No",
+          "visibility": "Invisible",
+          "name": "POSTOL",
+          "type": "Injected"
+        }
+      ],
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "136ff7d7-4b73-4466-bafa-5e48a87d3807",
+              "type": "library",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "aeef7495-1463-4e62-adae-d9e860dfa9db",
+      "type": "cell_model",
+      "vault": "server",
+      "attributes": {
+        "Model Name": "res"
+      },
+      "symbols": {
+        "sym_1": "L -50 0 -100 0 -1 0\nL 50 0 100 0 -1 0\nL -20 -20 -40 20 -1 0\nL 20 -20 40 20 -1 0\nL 0 20 20 -20 -1 0\nL -20 -20 0 20 -1 0\nL -40 20 -50 0 -1 0\nL 50 0 40 20 -1 0\nC -100 0 \"A\" -125 0 0 1 29 0 R\nX \"$PN\" \"#\" -70 1 0.00 0.00 29 0 0 2 0 0 0 0 0\nC 100 0 \"B\" 110 0 0 1 29 0 L\nX \"$PN\" \"#\" 70 1 0.00 0.00 29 0 0 0 0 0 0 0 0\nP \"CDS_LMAN_SYM_OUTLINE\" \"-50,50,50,-50\" 0 0 0.00 0.00 22 0 0 0 0 0 0 0 0\nP \"$LOCATION\" \"?\" 0 30 0.00 0.00 48 0 0 1 0 0 1 0 8\nP \"VALUE\" \"?\" -80 -50 0.00 0.00 29 0 0 2 0 0 1 0 0\nP \"WATTAGE\" \"?\" 80 -50 0.00 0.00 29 0 0 0 0 0 1 0 0\nP \"TOLERANCE\" \"?\" 0 -50 0.00 0.00 29 0 0 1 0 0 1 0 0\nP \"PART_NUMBER\" \"?\" 0 -130 0.00 0.00 29 0 0 1 0 0 0 0 0\nP \"PACK_TYPE\" \"?\" 0 -150 0.00 0.00 29 0 0 1 0 0 0 0 0\nP \"PATH\" \"?\" 0 0 0.00 0.00 29 0 0 1 0 0 0 0 0\n",
+        "sym_2": "L 0 -100 0 -50 -1 0\nL 0 100 0 50 -1 0\nL 20 20 -20 40 -1 0\nL -20 0 20 20 -1 0\nL 20 -20 -20 -40 -1 0\nL 20 -20 -20 0 -1 0\nL 0 50 -20 40 -1 0\nL -20 -40 0 -50 -1 0\nC 0 -100 \"B\" -25 -100 0 1 29 0 R\nX \"$PN\" \"#\" 10 -80 0.00 0.00 29 0 0 0 0 0 0 0 0\nC 0 100 \"A\" -25 100 0 1 29 0 R\nX \"$PN\" \"#\" 10 60 0.00 0.00 29 0 0 0 0 0 0 0 0\nP \"CDS_LMAN_SYM_OUTLINE\" \"-50,50,50,-50\" 0 0 0.00 0.00 22 0 0 0 0 0 0 0 0\nP \"$LOCATION\" \"?\" 50 40 0.00 0.00 48 0 0 0 0 0 1 0 8\nP \"VALUE\" \"?\" 50 10 0.00 0.00 29 0 0 0 0 0 1 0 0\nP \"WATTAGE\" \"?\" 50 -20 0.00 0.00 29 0 0 0 0 0 1 0 0\nP \"TOLERANCE\" \"?\" 50 -50 0.00 0.00 29 0 0 0 0 0 1 0 0\nP \"PART_NUMBER\" \"?\" 50 -80 0.00 0.00 29 0 0 1 0 0 0 0 0\nP \"PACK_TYPE\" \"?\" 0 -120 0.00 0.00 29 0 0 1 0 0 0 0 0\nP \"PATH\" \"?\" 0 0 0.00 0.00 29 0 0 1 0 0 0 0 0\n"
+      },
+      "relations": {
+        "library": [
+          {
+            "related": {
+              "id": "e7d28b63-8ce3-4dbb-93c6-cec00aa351e1",
+              "type": "library",
+              "vault": "server"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "136ff7d7-4b73-4466-bafa-5e48a87d3807",
+      "type": "library",
+      "vault": "server",
+      "attributes": {
+        "Library Name": "passives"
+      }
+    },
+    {
+      "id": "e7d28b63-8ce3-4dbb-93c6-cec00aa351e1",
+      "type": "library",
+      "vault": "server",
+      "attributes": {
+        "Library Name": "passives"
+      }
+    }
+  ],
+  "cache": [],
+  "finalanalysis": {
+    "conflictMessage": "",
+    "conflict": "valid"
+  }
+}

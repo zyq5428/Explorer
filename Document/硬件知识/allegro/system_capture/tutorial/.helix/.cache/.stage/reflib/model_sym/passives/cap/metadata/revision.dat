@@ -1,0 +1,254 @@
+(Cell	cap
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	1.1.5)
+
+		(ModificationStatus	NULL)
+
+		(Status	Modified)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	10/16/08,13:52:48)
+
+			(User	jburch)
+
+			(Path	adw_std_parts_lib.cap)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	12/11/12,09:46:11)
+
+			(User	chimike)
+
+			(Path	passives.cap)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	1.0.5)
+
+				(ModificationStatus	NULL)
+
+				(Status	Modified)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	)
+
+					(User	)
+
+					(Path	)
+
+				)
+
+			)
+
+			(Symbols	2
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000776f6e3d)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Modified)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/16/08,13:52:48)
+
+							(User	jburch)
+
+							(Path	adw_std_parts_lib.cap)
+
+						)
+
+					)
+
+				)
+
+				(Symbol	sym_2
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	000000008ec96f7f)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.0.4)
+
+						(ModificationStatus	NULL)
+
+						(Status	Modified)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/16/08,13:52:48)
+
+							(User	jburch)
+
+							(Path	adw_std_parts_lib.cap)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c0003e0)
+
+		)
+
+		(View	Chips
+
+			(Checksum	0000000002bfa539)
+
+			(Primitives	1
+
+				(Primitive	CAP
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	1.1.0)
+
+						(ModificationStatus	NULL)
+
+						(Status	Baselined)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	10/16/08,13:52:48)
+
+							(User	jburch)
+
+							(Path	adw_std_parts_lib.cap)
+
+						)
+
+						(LastModifyInfo	
+
+							(Time	12/11/12,09:46:11)
+
+							(User	chimike)
+
+							(Path	passives.cap)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	CAP
+
+							(PackType	CAP)
+
+							(PackType	CAP_0603)
+
+							(PackType	CAP_0805)
+
+							(PackType	CAP_1206)
+
+							(PackType	CAP_2220)
+
+							(PackType	CAP_1210)
+
+						)
+
+					)
+
+					(Packages	6
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+									(Linkage	Symbol
+
+										(Name	sym_2)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001e2f03e3)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S027 (v16-6-112BZ))
+
+		(License	PCB_librarian_expert)
+
+	)
+
+	(Checksum	000000001c9b03aa)
+
+)
+

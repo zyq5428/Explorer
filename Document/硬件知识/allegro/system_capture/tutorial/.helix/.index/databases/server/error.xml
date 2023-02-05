@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding="UTF-8" ?>
+<!-- Generated on Sun May 22 11:16:31 CST 2022 --> 
+<AllData source="adw">
+  <!-- start interfaces and objects for metadata -->
+  <!-- a list of objects for various master tables like Part and Model Classifications -->
+  <MetaData>
+   <Interfaces>
+   </Interfaces>
+
+    <!-- start objects for metadata -->
+    <Objects>
+    </Objects>
+    <!-- end objects for metadata -->
+    <!-- start relationships for metadata -->
+    <Relationships>
+    </Relationships>
+    <!-- end relationships for metadata -->
+  </MetaData>
+  <!-- start part information objects -->
+  <PartsData>
+
+    <!-- start part information objects -->
+    <Objects>
+    </Objects>
+    <!-- end part information objects -->
+    <!-- start relationships for part info -->
+    <Relationships>
+    </Relationships>
+    <!-- end relationships for part info -->
+  </PartsData>
+  <!-- end part information objects -->
+</AllData>

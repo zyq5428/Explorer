@@ -1,0 +1,106 @@
+{
+resolve : { mode : 'mode_cache_wins'},
+process : {mode: 'add'}
+}{
+    "objects": [
+        {
+            "id": "86381F07-41EE-47D4-81F6-307ABE0A8B66",
+            "type": "schematic_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "RES"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "29D3A389-481E-4468-8D18-8D7E85AF654A",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "library": [
+                    {
+                        "related": {
+                            "id": "1B6E3434-AA04-4CBF-B875-F7CBA0E431DE",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "29D3A389-481E-4468-8D18-8D7E85AF654A",
+            "type": "cell_model",
+            "vault": "design",
+            "properties": {
+                "Model Name": "res"
+            },
+            "relations": {
+                "library": [
+                    {
+                        "related": {
+                            "id": "1B6E3434-AA04-4CBF-B875-F7CBA0E431DE",
+                            "type": "library",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "1B6E3434-AA04-4CBF-B875-F7CBA0E431DE",
+            "type": "library",
+            "vault": "design",
+            "properties": {
+                "Library Name": "passives"
+            }
+        },
+        {
+            "id": "EAD0B974-2A7D-4DC1-A6B0-967D7E09D5F6",
+            "type": "part",
+            "vault": "design",
+            "properties": {
+                "PACK_TYPE": "0805",
+                "PART_NUMBER": "CDN-RES-0290",
+                "TOLERANCE": "1%",
+                "VALUE": "1.1k",
+                "WATTAGE": "0.125W"
+            },
+            "relations": {
+                "cell": [
+                    {
+                        "related": {
+                            "id": "29D3A389-481E-4468-8D18-8D7E85AF654A",
+                            "type": "cell_model",
+                            "vault": "design"
+                        }
+                    }
+                ],
+                "schematic": [
+                    {
+                        "related": {
+                            "id": "86381F07-41EE-47D4-81F6-307ABE0A8B66",
+                            "type": "schematic_model",
+                            "vault": "design"
+                        }
+                    }
+                ]
+            },
+            "meta": [
+                {
+                    "name": "cpath",
+                    "value": "",
+                    "data": [
+                        {
+                            "name": "symbol",
+                            "value": "sym_1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

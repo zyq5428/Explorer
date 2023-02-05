@@ -1,0 +1,194 @@
+(Cell	tpd4eusb30
+
+	(RevisionInfoBlock	
+
+		(Baselined	0)
+
+		(Revision	0.0.3)
+
+		(ModificationStatus	NULL)
+
+		(Status	Created)
+
+		(ErrorStatus	0)
+
+		(CreateInfo	
+
+			(Time	09/09/13,18:39:30)
+
+			(User	horner)
+
+			(Path	ic.tpd4eusb30)
+
+		)
+
+		(LastModifyInfo	
+
+			(Time	09/09/13,18:41:38)
+
+			(User	horner)
+
+			(Path	ic.tpd4eusb30)
+
+		)
+
+	)
+
+	(Views	
+
+		(View	Symbol
+
+			(RevisionInfoBlock	
+
+				(Baselined	0)
+
+				(Revision	0.0.3)
+
+				(ModificationStatus	NULL)
+
+				(Status	Created)
+
+				(ErrorStatus	0)
+
+				(CreateInfo	
+
+					(Time	09/09/13,18:39:30)
+
+					(User	horner)
+
+					(Path	ic.tpd4eusb30)
+
+				)
+
+			)
+
+			(Symbols	1
+
+				(Symbol	sym_1
+
+					(Symbol_Type	Normal)
+
+					(Max_Size	0)
+
+					(Checksum	00000000276fa29a)
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.2)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/09/13,18:40:13)
+
+							(User	horner)
+
+							(Path	ic.tpd4eusb30)
+
+						)
+
+					)
+
+				)
+
+			)
+
+			(Checksum	000000001c1003b3)
+
+		)
+
+		(View	Chips
+
+			(Checksum	00000000fb8c8fb5)
+
+			(Primitives	1
+
+				(Primitive	TPD4EUSB30
+
+					(RevisionInfoBlock	
+
+						(Baselined	0)
+
+						(Revision	0.0.1)
+
+						(ModificationStatus	NULL)
+
+						(Status	Created)
+
+						(ErrorStatus	0)
+
+						(CreateInfo	
+
+							(Time	09/09/13,18:39:30)
+
+							(User	horner)
+
+							(Path	ic.tpd4eusb30)
+
+						)
+
+					)
+
+					(LogicalPhysicalPartRelation	
+
+						(LogicalPart	TPD4EUSB30
+
+							(PackType	TPD4EUSB30)
+
+						)
+
+					)
+
+					(Packages	1
+
+						(FunctionGroups	1
+
+							(FunctionGroup	1[1]
+
+								(Linkages	
+
+									(Linkage	Symbol
+
+										(Name	sym_1)
+
+									)
+
+								)
+
+							)
+
+						)
+
+					)
+
+				)
+
+			)
+
+		)
+
+		(Checksum	000000001b480360)
+
+	)
+
+	(VersionInfoBlock	
+
+		(ToolName	PDV)
+
+		(Version	16.6-S013 (v16-6-112AL))
+
+		(License	Concept_HDL_studio)
+
+	)
+
+	(Checksum	000000001b4b0349)
+
+)
+
