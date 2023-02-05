@@ -482,3 +482,9 @@ Password for 'https://zyq5428@github.com':
 
 ![remote_push](./assets/remote_push.png)
 
+## 常见问题解决
+
+> Bug现象：
+> fatal: unable to access 'https://github.com/zyq5428/Explorer.git/': schannel: failed to receive handshake, SSL/TLS connection failed
+> Bug解决方案：
+> git config --global http.sslBackend schannel
