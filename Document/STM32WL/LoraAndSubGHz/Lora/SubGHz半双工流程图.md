@@ -2,8 +2,6 @@
 > https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/diagrams
 > https://github.com/mermaid-js/mermaid/blob/develop/README.zh-CN.md
 
-
-
 ```mermaid
 flowchart TB
     state((radio_event))
@@ -42,13 +40,10 @@ flowchart TB
     tx_timeout_count --> |No| tx_timeout_count++(tx_timeout_count++)
     tx_timeout_count++ --> send_last_data(send_last_data)
 
-    rx --> get_lora_rx_data{get_lora_rx_data?}
-    get_lora_rx_data --> |Yes| address_select{address_select?}
+    rx --> get_lora_rx_data_type(get_lora_rx_data_type)
+    get_lora_rx_data_type --> get_lora_rx_data{get_lora_rx_data?}
+    get_lora_rx_data --> |Yes| rx_data_process
     get_lora_rx_data --> |No| radio_rx
-    address_select --> |isMyAddress| rx_data_process(rx_data_process)
-    address_select --> |isBroadcastAddress| rx_data_process(rx_data_process)
-    address_select --> |AddressError| transfer_enable(transfer_enable)
-    transfer_enable --> transfer_process((transfer_process))
     rx_data_process --> data_type_select{data_type_select?}
     data_type_select --> |DATA| send_to_uart(send_to_uart)
     data_type_select --> |CFG| configure_lora(configure_lora)
@@ -64,8 +59,11 @@ flowchart TB
     is_acess_address --> |Yes| put_rx_rb_success{put_rx_rb_success?}
     put_rx_rb_success --> |Yes| state_is_rx(state_is_rx)
     put_rx_rb_success --> |No| send_ack(send_ack)
-    is_acess_address --> |No| state_is_rxerror(state_is_rxerror)
-    state_is_rx --> state
+    is_acess_address --> |No| transfer_enable{transfer_enable?}
+    transfer_enable --> |Yes| transfer_process((transfer_process))
+    transfer_enable --> |No| state_is_rxerror(state_is_rxerror)
+    state_is_rx --> send_rx_msg(send_rx_msg)
+    send_rx_msg --> state
     state_is_rxerror --> state
 ```
 
