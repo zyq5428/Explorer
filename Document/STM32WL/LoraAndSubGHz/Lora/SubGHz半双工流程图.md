@@ -48,6 +48,7 @@ flowchart TB
     data_type_select --> |DATA| send_to_uart(send_to_uart)
     data_type_select --> |CFG| configure_lora(configure_lora)
     data_type_select --> |ACK| ack_process(ack_process)
+    data_type_select --> |TRS| transfer_process((transfer_process))
     send_to_uart --> uart_rb_isFull{uart_rb_isFull?}
     uart_rb_isFull --> |Yes| send_ack(send_ack)
     uart_rb_isFull --> |No| send_uart_msg(send_uart_msg)
@@ -57,11 +58,12 @@ flowchart TB
 
     OnRxDone(OnRxDone) --> is_acess_address{is_acess_address}
     is_acess_address --> |Yes| put_rx_rb_success{put_rx_rb_success?}
-    put_rx_rb_success --> |Yes| state_is_rx(state_is_rx)
-    put_rx_rb_success --> |No| send_ack(send_ack)
     is_acess_address --> |No| transfer_enable{transfer_enable?}
-    transfer_enable --> |Yes| transfer_process((transfer_process))
+    transfer_enable --> |Yes| set_type_trs(set_type_trs)
+    set_type_trs(set_type_trs) --> put_rx_rb_success
     transfer_enable --> |No| state_is_rxerror(state_is_rxerror)
+    put_rx_rb_success --> |Yes| state_is_rx(state_is_rx)
+    put_rx_rb_success --> |No| state_is_rxerror
     state_is_rx --> send_rx_msg(send_rx_msg)
     send_rx_msg --> state
     state_is_rxerror --> state
