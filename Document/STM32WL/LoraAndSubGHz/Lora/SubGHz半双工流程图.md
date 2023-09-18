@@ -29,10 +29,8 @@ flowchart TB
     rx_timeout_count++ --> |No| send_last_data
 
     tx --> ack_check_enable{ack_check_enable?}
-    ack_check_enable --> |Yes| pre_tx_isACK{pre_tx_isACK?}
+    ack_check_enable --> |Yes| radio_rx
     ack_check_enable --> |No| lora_send_data
-    pre_tx_isACK --> |Yes| radio_rx
-    pre_tx_isACK --> |No| lora_send_data
 
     txtimeout --> tx_timeout_count{tx_timeout_count == 3}
     tx_timeout_count --> |Yes| set_last_tx_isFail_and_clear(set_last_tx_isFail_and_clear)
