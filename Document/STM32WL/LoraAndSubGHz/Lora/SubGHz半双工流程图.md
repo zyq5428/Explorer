@@ -23,18 +23,22 @@ flowchart TB
     msg_data_type --> |CFG| lora_cfg_process((lora_cfg_process))
     get_data_state --> |!RT_EOK| radio_rx(radio_rx)
 
-    tx_nack_process --> rx_timeout_count{rx_timeout_count == 3}
+    tx_nack_process --> rx_timeout_count{rx_timeout_count == 2}
     rx_timeout_count --> |Yes| giveup_data_pkt_and_clear
     rx_timeout_count --> |No| rx_timeout_count++(rx_timeout_count++)
     rx_timeout_count++ --> |No| send_last_data
 
     tx --> ack_check_enable{ack_check_enable?}
-    ack_check_enable --> |Yes| radio_rx
+    ack_check_enable --> tx_type_isack{tx_type_isack?}
+    tx_type_isack --> |Yes| set_last_tx_isOK(set_last_tx_isOK)
+    tx_type_isack --> |No| set_last_tx_isNOK(set_last_tx_isNOK)
+    set_last_tx_isOK --> radio_rx
+    set_last_tx_isNOK --> radio_rx
     ack_check_enable --> |No| lora_send_data
 
-    txtimeout --> tx_timeout_count{tx_timeout_count == 3}
-    tx_timeout_count --> |Yes| set_last_tx_isFail_and_clear(set_last_tx_isFail_and_clear)
-    set_last_tx_isFail_and_clear --> radio_rx
+    txtimeout --> tx_timeout_count{tx_timeout_count == 2}
+    tx_timeout_count --> |Yes| set_last_tx_isNOK_and_clear(set_last_tx_isNOK_and_clear)
+    set_last_tx_isNOK_and_clear --> radio_rx
     tx_timeout_count --> |No| tx_timeout_count++(tx_timeout_count++)
     tx_timeout_count++ --> send_last_data(send_last_data)
 
@@ -50,7 +54,13 @@ flowchart TB
     send_to_uart --> uart_rb_isFull{uart_rb_isFull?}
     uart_rb_isFull --> |Yes| send_ack(send_ack)
     uart_rb_isFull --> |No| send_uart_msg(send_uart_msg)
-    send_uart_msg --> radio_rx
+    send_uart_msg --> send_ack
+    ack_process --> ack_ok{ack_ok?}
+    ack_ok --> |Yes| set_last_tx_isOK2(set_last_tx_isOK)
+    set_last_tx_isOK2 --> lora_send_data
+    ack_ok --> |No| set_last_tx_isNOK2(set_last_tx_isNOK)
+    set_last_tx_isNOK2 --> radio_rx
+    send_ack --> radio_rx
 
     rxerror --> rxtimeout
 
@@ -66,4 +76,5 @@ flowchart TB
     send_rx_msg --> state
     state_is_rxerror --> state
 ```
+
 
