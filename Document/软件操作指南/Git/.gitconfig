@@ -1,0 +1,28 @@
+[credential "http://120.25.240.33:3000"]
+	provider = generic
+[http]
+	postBuffer = 1572864000
+	sslVerify = false
+[user]
+	email = 594270026@qq.com
+	name = zyq5428
+[credential]
+	helper = store
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[commit]
+	template = ~/.gitmessage
+[gui]
+	recentrepo = D:/Git/Explorer
+[safe]
+	directory = D:/RT-ThreadStudio/workspace/STM32WLE5CBU6_RT-Thread
+[core]
+	autocrlf = true
+[difftool "sourcetree"]
+	cmd = "'' "
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
