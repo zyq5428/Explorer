@@ -2,12 +2,12 @@
 
 ## 操作环境
 
-    我的操作环境是
-    * Windows 10 专业版
-    * 潘多拉 STM32L475 开发板
-    * RT-Thread Studio 版本: 2.2.9
-    * STM32L4SDK 0.2.4版本(2023-09-07)
-    * RT-thread latest版本
+    我的操作环境是：
+    * Windows 10 专业版
+    * STM32F429IDISCOVERY Discovery kit B01 开发板
+    * RT-Thread Studio 版本: 2.2.9
+    * RT-thread latest版本(操作时间2025-10-19)
+![STM32F429IDISCOVERY-Discovery-kit-B01-开发板](./assets/STM32F429IDISCOVERY-Discovery-kit-B01-开发板.png)
 
 目前我实现了lvgl官方示例的使用，现在我希望实现一个简单功能：通过一个线程定时切换led状态，然后lvgl的按钮接收状态，并在一个按钮上显示ON或者OFF
 ## 创建RT-Thread项目
@@ -37,10 +37,11 @@
 ## 首次调试
 
     对项目进行重新构建，会发现官方模板无法正确编译，下面一一进行报错分析及解决。
+![首次编译报错](./assets/首次编译报错.png)
 
-### FPU报错
+### 找不到rtthread.h
 
-> 报错提示：#error "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+> 报错提示：../drivers/board.c:11:22: fatal error: rtthread.h: No such file or directory
 > 问题分析：查询STM32WLE5手册，会发现该芯片是无FPU版本：
 ![STM32WLE5CBU6芯片框图](./assets/STM32WLE5CBU6芯片框图.png)
 > 解决方案：在工程设置中关闭FPU功能，即可编译通过：
