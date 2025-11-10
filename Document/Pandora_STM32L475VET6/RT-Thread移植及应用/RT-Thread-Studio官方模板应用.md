@@ -3,11 +3,11 @@
 ## 操作环境
 
     我的操作环境是
-    * Windows 10 专业版
-    * 潘多拉 STM32L475 开发板
-    * RT-Thread Studio 版本: 2.2.9
-    * STM32L4SDK 0.2.4版本(2023-09-07)
-    * RT-thread latest版本
+    * Windows 10 专业版
+    * 潘多拉 STM32L475 开发板
+    * RT-Thread Studio 版本: 2.2.9
+    * STM32L4SDK 0.2.4版本(2023-09-07)
+    * RT-thread latest版本
 
 目前我实现了lvgl官方示例的使用，现在我希望实现一个简单功能：通过一个线程定时切换led状态，然后lvgl的按钮接收状态，并在一个按钮上显示ON或者OFF
 ## 创建RT-Thread项目
